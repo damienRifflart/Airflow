@@ -4,27 +4,65 @@ import { Chip } from "@heroui/react";
 import { RawWidget } from "@/components/Metar_Taf/RawWidget";
 import { SpecificWidget } from "@/components/Metar_Taf/SpecificWidget";
 import { Clock, Wind, Eye, Thermometer, Gauge, Cloud } from 'lucide-react';
+import type { Airport } from "../../../types/airport";
+import type { Metar } from "../../../types/metar";
+import { useEffect, useState } from "react";
 
-export function Metar() {
-  return (
-    <div className="rounded-md bg-[var(--card)] border border-border mb-10 p-6 space-y-6 w-[50%]">
+interface MetarProps {
+  airport: Airport;
+}
 
-        <div className="flex justify-between items-center">
-            <h3 className="text-2xl font-semibold tracking-wider">METAR</h3>
-            <Chip color="accent" variant="soft" className="rounded-md px-5">
-                <Chip.Label className="text-lg">Airport</Chip.Label>
-            </Chip>
+export function Metar({airport}: MetarProps) {
+    const [metar, setMetar] = useState<Metar | null>(null)
+
+    useEffect(() => {
+        async function fetchMetar() {
+            try {
+                const response = await fetch(
+                    `http://localhost:8000/metar/${airport.icao}`
+                )
+                const data: Metar[] = await response.json()
+                setMetar(data[0])
+                console.log(data[0])
+            } catch (error) {
+                console.error("Error when fetching Metar", error)
+            }
+        }
+
+        if (airport?.icao) {
+            fetchMetar()
+        }
+    }, [airport])
+
+    const getDate = (metar: Metar): [string, string] => {
+        const date = new Date(metar.reportTime);
+        const month = date.toLocaleString("en-US", {month: "short", timeZone: "UTC"});
+        const dayString = `${month} ${date.getUTCDate()}, ${date.getUTCFullYear()}`;
+        const hourString = `${date.getUTCHours().toString().padStart(2, "0")}h${date.getUTCMinutes().toString().padStart(2, "0")} UTC`;
+        return [dayString, hourString];
+    };
+
+    return (
+        <div className="rounded-md bg-[var(--card)] border border-border mb-10 p-6 space-y-6 w-[50%]">
+
+            <div className="flex justify-between items-center">
+                <h3 className="text-2xl font-semibold tracking-wider">METAR</h3>
+                <Chip color="accent" variant="soft" className="rounded-md px-5">
+                    <Chip.Label className="text-lg">{metar?.icaoId}</Chip.Label>
+                </Chip>
+            </div>
+
+            <div className="grid grid-cols-3 gap-4">
+                <RawWidget title={"RAW"} description={metar?.rawOb} />
+                <SpecificWidget icon={Clock} title={"TIME"} description={metar ? `${getDate(metar)[0]}` : "Undefined"} detail={metar ? `${getDate(metar)[1]}` : "Undefined"}/>
+                <SpecificWidget icon={Wind} title={"WIND"} description={`${metar?.wdir}° at ${metar?.wspd} kt`}
+                    detail={metar?.wgst != null ? `Gusts to ${metar.wgst} kt` : ""}/>
+                <SpecificWidget icon={Eye} title={"VISIBILITY"} description={`${metar?.visib} km`} detail={""}/>
+                <SpecificWidget icon={Thermometer} title={"TEMPERATURE"} description={`${metar?.temp}°C`} detail={`Dewpoint: ${metar?.dewp}°C`}/>
+                <SpecificWidget icon={Gauge} title={"PRESSURE"} description={`${metar?.altim} hpa`} detail={""}/>
+                <SpecificWidget icon={Cloud} title={"CLOUD"}
+                    description={metar?.clouds ?.map(c => `${c.cover} at ${c.base} ft`).join("\n") || "No clouds"} detail={""}/>
+            </div>
         </div>
-
-        <div className="grid grid-cols-3 gap-4">
-            <RawWidget title={"RAW"} description={"KJFK 251200Z 28012G20KT 10SM FEW025 SCT250 22/13 A2995 RMK AO2 SLP142 T02220133"} />
-            <SpecificWidget icon={Clock} title={"TIME"} description={"Feb 26, 2026"} detail={"18h00 UTC"}/>
-            <SpecificWidget icon={Wind} title={"WIND"} description={"280° at 12 kt"} detail={"Gusts to 20 kt"}/>
-            <SpecificWidget icon={Eye} title={"VISIBILITY"} description={"10 km"} detail={""}/>
-            <SpecificWidget icon={Thermometer} title={"TEMPERATURE"} description={"22°C"} detail={"Dewpoint: 13°C"}/>
-            <SpecificWidget icon={Gauge} title={"PRESSURE"} description={"1014 hPa"} detail={""}/>
-            <SpecificWidget icon={Cloud} title={"WIND"} description={"FEW at 2,500 ft \n SCT at 25,000 ft"} detail={""}/>
-        </div>
-    </div>
-  );
+    );
 }

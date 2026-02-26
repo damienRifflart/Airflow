@@ -3,7 +3,7 @@
 import { Chip } from "@heroui/react";
 import { RawWidget } from "@/components/Metar_Taf/RawWidget";
 import { GeneralWidget } from "@/components/Metar_Taf/GeneralWidget";
-import { Clock, Wind, Eye, Thermometer, Gauge, Cloud } from 'lucide-react';
+import { Clock } from 'lucide-react';
 
 export function Taf() {
   return (

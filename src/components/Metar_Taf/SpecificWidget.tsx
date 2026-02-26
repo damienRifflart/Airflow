@@ -18,7 +18,7 @@ export function SpecificWidget({ icon: Icon, title, description, detail }: Speci
       </div>
       
       <div className="flex flex-col">
-        <h3 className="text-lg">{description}</h3>
+        <h3 className="text-lg whitespace-pre-line">{description}</h3>
         <h2 className="text-muted-foreground text-md">{detail}</h2>
       </div>
     </div>

@@ -2,8 +2,14 @@
 
 import { AirflowLogo } from "@/components/Navbar/Logo"
 import SelectAirport from "@/components/Navbar/SelectAirport"
+import type { Airport } from "../../../types/airport";
 
-export function Navbar() {
+interface NavbarProps {
+  airport: Airport;
+  setAirport: (airport: string) => void;
+}
+
+export function Navbar({ airport, setAirport}: NavbarProps) {
     return(
         <header className="flex flex-row justify-between p-10 w-full h-[6rem] bg-[var(--card)] border border-border items-center mb-10">
             <div className="flex flex-row gap-3 justify-center items-center">
@@ -18,7 +24,7 @@ export function Navbar() {
                 </div>
             </div>
 
-            <SelectAirport />
+            <SelectAirport airport={airport} setAirport={setAirport} />
         </header>
     )
 }

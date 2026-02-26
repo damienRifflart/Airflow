@@ -5,7 +5,12 @@ import { Autocomplete, EmptyState, ListBox, SearchField, Tag, TagGroup } from "@
 import airportData from "@/assets/large_airports_list/large_airports";
 import type { Airport } from "../../../types/airport";
 
-export default function SelectAirport() {
+interface SelectAirportProps {
+  airport: Airport;
+  setAirport: (airport: Airport) => void;
+}
+
+export default function SelectAirport({ airport, setAirport}: SelectAirportProps) {
   const [query, setQuery] = useState("");
 
   const filteredAirports = useMemo(() => {
@@ -29,6 +34,7 @@ export default function SelectAirport() {
 
     const icao = state.selectedItems[0].key;
     const airport = (airportData as Airport[]).find(a => a.icao === icao);
+    if (airport) setAirport(airport);
 
     if (!airport) return defaultChildren;
 
@@ -55,11 +61,11 @@ export default function SelectAirport() {
           <Autocomplete.Indicator />
         </Autocomplete.Trigger>
 
-        <Autocomplete.Popover>
+        <Autocomplete.Popover className="rounded-md">
           <Autocomplete.Filter filter={() => true}>
             
             <SearchField autoFocus name="search" variant="secondary">
-              <SearchField.Group>
+              <SearchField.Group className="rounded-md">
                 <SearchField.SearchIcon />
                 <SearchField.Input
                   placeholder="Type city, airport name or ICAO"
