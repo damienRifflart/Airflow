@@ -1,10 +1,11 @@
 "use client"
+
 import { AirflowLogo } from "@/components/Navbar/Logo"
 import SelectAirport from "@/components/Navbar/SelectAirport"
 
 export function Navbar() {
     return(
-        <header className="flex flex-row justify-between p-4 w-full h-[6rem] bg-[var(--card)] border border-border items-center">
+        <header className="flex flex-row justify-between p-10 w-full h-[6rem] bg-[var(--card)] border border-border items-center mb-10">
             <div className="flex flex-row gap-3 justify-center items-center">
                 <div className="w-11 h-11 bg-[rgba(147,149,211,0.1)] rounded-lg flex items-center justify-center">
                     <AirflowLogo />

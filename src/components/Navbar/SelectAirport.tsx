@@ -35,7 +35,7 @@ export default function SelectAirport() {
     return (
       <TagGroup size="lg">
         <TagGroup.List>
-          <Tag>{airport.name}</Tag>
+          <Tag className="rounded-md">{airport.name}</Tag>
         </TagGroup.List>
       </TagGroup>
     );
@@ -48,7 +48,7 @@ export default function SelectAirport() {
         placeholder="Search airport, city or ICAO" 
         selectionMode="single" 
       >
-        <Autocomplete.Trigger>
+        <Autocomplete.Trigger className="rounded-md">
           <Autocomplete.Value>
             {renderSelectedValue}
           </Autocomplete.Value>
@@ -78,6 +78,7 @@ export default function SelectAirport() {
                   key={airport.icao}
                   id={airport.icao}
                   textValue={`${airport.name} ${airport.city} ${airport.icao}`}
+                  className="rounded-md"
                 >
                   <div className="flex flex-col">
                     <span className="font-medium">{airport.name} ({airport.icao})</span>

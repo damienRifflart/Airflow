@@ -6,23 +6,19 @@
 .dark,
 [data-theme="dark"] {
   color-scheme: dark;
-  --accent: #9395D3;
+  --accent: #5F62B7;
   --accent-foreground: #ffffff;
-  --primary: #9395D3;
-  --primary-foreground: #ffffff;
   --background: #0A0C0E;
   --background-foreground: #ffffff;
   --card: #060709;
   --card-foreground: #ffffff;
   --border: rgba(147, 149, 211, 0.2);
+  --muted-foreground: #9ca3af;
 }
 
 @layer utilities {
   .bg-accent {
     background-color: var(--accent);
-  }
-  .bg-primary {
-    background-color: var(--primary);
   }
   .bg-background {
     background-color: var(--background);
@@ -33,9 +29,6 @@
   .text-accent-foreground {
     color: var(--accent-foreground);
   }
-  .text-primary-foreground {
-    color: var(--primary-foreground);
-  }
   .text-background-foreground {
     color: var(--background-foreground);
   }
@@ -44,5 +37,8 @@
   }
   .border-default {
     border-color: var(--border);
+  }
+  .text-muted-foreground {
+    color: var(--muted-foreground)
   }
 }
