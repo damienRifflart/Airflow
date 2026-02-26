@@ -1,0 +1,5942 @@
+[
+  {
+    "icao": "AGGH",
+    "name": "Honiara International Airport",
+    "city": "Honiara"
+  },
+  {
+    "icao": "AYNZ",
+    "name": "Nadzab Tomodachi International Airport",
+    "city": "Lae"
+  },
+  {
+    "icao": "AYPY",
+    "name": "Port Moresby Jacksons International Airport",
+    "city": "Port Moresby"
+  },
+  {
+    "icao": "BGGH",
+    "name": "Nuuk International Airport",
+    "city": "Nuuk"
+  },
+  {
+    "icao": "BGSF",
+    "name": "Kangerlussuaq International Airport",
+    "city": "Kangerlussuaq"
+  },
+  {
+    "icao": "BGTL",
+    "name": "Pituffik Space Base",
+    "city": "Pituffik"
+  },
+  {
+    "icao": "BIAR",
+    "name": "Akureyri International Airport",
+    "city": "Akureyri"
+  },
+  {
+    "icao": "BIKF",
+    "name": "Keflavik International Airport",
+    "city": "Reykjavík"
+  },
+  {
+    "icao": "",
+    "name": "Tourou International Airport",
+    "city": "Parakou"
+  },
+  {
+    "icao": "BKPR",
+    "name": "Priština Adem Jashari International Airport",
+    "city": "Prishtina"
+  },
+  {
+    "icao": "CYEG",
+    "name": "Edmonton International Airport",
+    "city": "Edmonton"
+  },
+  {
+    "icao": "CYHZ",
+    "name": "Halifax / Stanfield International Airport",
+    "city": "Halifax"
+  },
+  {
+    "icao": "CYLW",
+    "name": "Kelowna International Airport",
+    "city": "Kelowna"
+  },
+  {
+    "icao": "CYOW",
+    "name": "Ottawa Macdonald-Cartier International Airport",
+    "city": "Ottawa"
+  },
+  {
+    "icao": "CYQB",
+    "name": "Quebec Jean Lesage International Airport",
+    "city": "Quebec"
+  },
+  {
+    "icao": "CYUL",
+    "name": "Montreal / Pierre Elliott Trudeau International Airport",
+    "city": "Montréal"
+  },
+  {
+    "icao": "CYVR",
+    "name": "Vancouver International Airport",
+    "city": "Vancouver"
+  },
+  {
+    "icao": "CYWG",
+    "name": "Winnipeg / James Armstrong Richardson International Airport",
+    "city": "Winnipeg"
+  },
+  {
+    "icao": "CYXE",
+    "name": "Saskatoon John G. Diefenbaker International Airport",
+    "city": "Saskatoon"
+  },
+  {
+    "icao": "CYYC",
+    "name": "Calgary International Airport",
+    "city": "Calgary"
+  },
+  {
+    "icao": "CYYJ",
+    "name": "Victoria International Airport",
+    "city": "Victoria"
+  },
+  {
+    "icao": "CYYT",
+    "name": "St. John's International Airport",
+    "city": "St. John's"
+  },
+  {
+    "icao": "CYYZ",
+    "name": "Toronto Pearson International Airport",
+    "city": "Toronto"
+  },
+  {
+    "icao": "DAAE",
+    "name": "Soummam–Abane Ramdane Airport",
+    "city": "Béjaïa"
+  },
+  {
+    "icao": "DAAG",
+    "name": "Houari Boumediene Airport",
+    "city": "Algiers"
+  },
+  {
+    "icao": "DAAJ",
+    "name": "Tiska Djanet Airport",
+    "city": "Djanet"
+  },
+  {
+    "icao": "DAAT",
+    "name": "Aguenar – Hadj Bey Akhamok Airport",
+    "city": "Tamanrasset"
+  },
+  {
+    "icao": "DAAV",
+    "name": "Jijel Ferhat Abbas Airport",
+    "city": "Tahir"
+  },
+  {
+    "icao": "DABB",
+    "name": "Annaba Rabah Bitat Airport",
+    "city": "Annaba"
+  },
+  {
+    "icao": "DABC",
+    "name": "Mohamed Boudiaf International Airport",
+    "city": "Constantine"
+  },
+  {
+    "icao": "DABT",
+    "name": "Batna Mostefa Ben Boulaid Airport",
+    "city": "Batna"
+  },
+  {
+    "icao": "DAOI",
+    "name": "Chlef Aboubakr Belkaid International Airport",
+    "city": "Chlef"
+  },
+  {
+    "icao": "DAON",
+    "name": "Zenata – Messali El Hadj Airport",
+    "city": "Zenata"
+  },
+  {
+    "icao": "DAOO",
+    "name": "Oran Es-Sénia (Ahmed Ben Bella) International Airport",
+    "city": "Es-Sénia"
+  },
+  {
+    "icao": "DAUB",
+    "name": "Biskra - Mohamed Khider Airport",
+    "city": "Biskra"
+  },
+  {
+    "icao": "DBBB",
+    "name": "Cotonou Cadjehoun International Airport",
+    "city": "Cotonou"
+  },
+  {
+    "icao": "DFFD",
+    "name": "Ouagadougou Thomas Sankara International Airport",
+    "city": "Ouagadougou"
+  },
+  {
+    "icao": "DFOO",
+    "name": "Bobo Dioulasso Airport",
+    "city": "Bobo Dioulasso"
+  },
+  {
+    "icao": "DGAA",
+    "name": "Kotoka International Airport",
+    "city": "Accra"
+  },
+  {
+    "icao": "DGLE",
+    "name": "Yakubu Tali International Airport",
+    "city": "Tamale"
+  },
+  {
+    "icao": "DGSI",
+    "name": "Prempeh I International Airport",
+    "city": "Kumasi"
+  },
+  {
+    "icao": "DIAP",
+    "name": "Félix-Houphouët-Boigny International Airport",
+    "city": "Abidjan"
+  },
+  {
+    "icao": "DIYO",
+    "name": "Yamoussoukro International Airport",
+    "city": "Yamoussoukro"
+  },
+  {
+    "icao": "DNAA",
+    "name": "Nnamdi Azikiwe International Airport",
+    "city": "Abuja"
+  },
+  {
+    "icao": "DNAS",
+    "name": "Asaba International Airport",
+    "city": "Asaba"
+  },
+  {
+    "icao": "DNBC",
+    "name": "Sir Abubakar Tafawa Balewa Bauchi State International Airport",
+    "city": "Bauchi"
+  },
+  {
+    "icao": "DNEN",
+    "name": "Akanu Ibiam International Airport",
+    "city": "Enegu"
+  },
+  {
+    "icao": "DNIL",
+    "name": "General Tunde Idiagbon International Airport",
+    "city": "Ilorin/Ogbomosho"
+  },
+  {
+    "icao": "DNKA",
+    "name": "Kaduna International Airport",
+    "city": "Kaduna"
+  },
+  {
+    "icao": "DNKN",
+    "name": "Mallam Aminu Kano International Airport",
+    "city": "Kano"
+  },
+  {
+    "icao": "DNMA",
+    "name": "Maiduguri International Airport",
+    "city": "Maiduguri"
+  },
+  {
+    "icao": "DNMM",
+    "name": "Murtala Muhammed International Airport",
+    "city": "Lagos"
+  },
+  {
+    "icao": "DNPO",
+    "name": "Port Harcourt International Airport",
+    "city": "Port Harcourt"
+  },
+  {
+    "icao": "DNSO",
+    "name": "Sadiq Abubakar III International Airport",
+    "city": "Sokoto"
+  },
+  {
+    "icao": "DRRN",
+    "name": "Diori Hamani International Airport",
+    "city": "Niamey"
+  },
+  {
+    "icao": "DTTA",
+    "name": "Tunis Carthage International Airport",
+    "city": "Tunis"
+  },
+  {
+    "icao": "DTTJ",
+    "name": "Djerba Zarzis International Airport",
+    "city": "Mellita"
+  },
+  {
+    "icao": "DTTX",
+    "name": "Sfax Thyna International Airport",
+    "city": "Sfax"
+  },
+  {
+    "icao": "DXNG",
+    "name": "Niamtougou International Airport",
+    "city": "Niamtougou"
+  },
+  {
+    "icao": "DXXX",
+    "name": "Lomé–Tokoin International Airport",
+    "city": "Lomé"
+  },
+  {
+    "icao": "EBBR",
+    "name": "Brussels Airport",
+    "city": "Zaventem"
+  },
+  {
+    "icao": "EBCI",
+    "name": "Brussels South Charleroi Airport",
+    "city": "Charleroi"
+  },
+  {
+    "icao": "EBOS",
+    "name": "Ostend-Bruges International Airport",
+    "city": "Oostende"
+  },
+  {
+    "icao": "EDDB",
+    "name": "Berlin Brandenburg Airport",
+    "city": "Berlin"
+  },
+  {
+    "icao": "EDDC",
+    "name": "Dresden Airport",
+    "city": "Dresden"
+  },
+  {
+    "icao": "EDDE",
+    "name": "Erfurt-Weimar Airport",
+    "city": "Erfurt"
+  },
+  {
+    "icao": "EDDF",
+    "name": "Frankfurt Main Airport",
+    "city": "Frankfurt am Main"
+  },
+  {
+    "icao": "EDDG",
+    "name": "Münster Osnabrück Airport",
+    "city": "Greven"
+  },
+  {
+    "icao": "EDDH",
+    "name": "Hamburg Helmut Schmidt Airport",
+    "city": "Hamburg"
+  },
+  {
+    "icao": "EDDK",
+    "name": "Cologne Bonn Airport",
+    "city": "Köln (Cologne)"
+  },
+  {
+    "icao": "EDDL",
+    "name": "Düsseldorf Airport",
+    "city": "Düsseldorf"
+  },
+  {
+    "icao": "EDDM",
+    "name": "Munich Airport",
+    "city": "Munich"
+  },
+  {
+    "icao": "EDDN",
+    "name": "Nuremberg Airport",
+    "city": "Nuremberg"
+  },
+  {
+    "icao": "EDDP",
+    "name": "Leipzig/Halle Airport",
+    "city": "Schkeuditz"
+  },
+  {
+    "icao": "EDDR",
+    "name": "Saarbrücken Airport",
+    "city": "Saarbrücken"
+  },
+  {
+    "icao": "EDDS",
+    "name": "Stuttgart Airport",
+    "city": "Stuttgart"
+  },
+  {
+    "icao": "EDDV",
+    "name": "Hannover Airport",
+    "city": "Hannover"
+  },
+  {
+    "icao": "EDDW",
+    "name": "Bremen Airport",
+    "city": "Bremen"
+  },
+  {
+    "icao": "EDFH",
+    "name": "Frankfurt-Hahn Airport",
+    "city": "Frankfurt am Main (Lautzenhausen)"
+  },
+  {
+    "icao": "EDJA",
+    "name": "Memmingen Allgau Airport",
+    "city": "Memmingen"
+  },
+  {
+    "icao": "EDLP",
+    "name": "Paderborn Lippstadt Airport",
+    "city": "Büren"
+  },
+  {
+    "icao": "EDLV",
+    "name": "Weeze (Niederrhein) Airport",
+    "city": "Weeze"
+  },
+  {
+    "icao": "EDLW",
+    "name": "Dortmund Airport",
+    "city": "Dortmund"
+  },
+  {
+    "icao": "EDNY",
+    "name": "Bodensee Airport Friedrichshafen",
+    "city": "Friedrichshafen"
+  },
+  {
+    "icao": "EDSB",
+    "name": "Karlsruhe Baden-Baden Airport",
+    "city": "Rheinmünster"
+  },
+  {
+    "icao": "EDVK",
+    "name": "Kassel Airport",
+    "city": "Calden"
+  },
+  {
+    "icao": "HEBR",
+    "name": "Berenice International Airport / Banas Cape Air Base",
+    "city": "Berenice Troglodytica"
+  },
+  {
+    "icao": "EETN",
+    "name": "Lennart Meri Tallinn Airport",
+    "city": "Tallinn"
+  },
+  {
+    "icao": "EFHK",
+    "name": "Helsinki Vantaa Airport",
+    "city": "Helsinki (Vantaa)"
+  },
+  {
+    "icao": "EFIV",
+    "name": "Ivalo Airport",
+    "city": "Ivalo"
+  },
+  {
+    "icao": "EFKT",
+    "name": "Kittilä International Airport",
+    "city": "Kittilä"
+  },
+  {
+    "icao": "EFKU",
+    "name": "Kuopio Airport",
+    "city": "Kuopio / Siilinjärvi"
+  },
+  {
+    "icao": "EFLP",
+    "name": "Lappeenranta Airport",
+    "city": "Lappeenranta"
+  },
+  {
+    "icao": "EFMA",
+    "name": "Mariehamn Airport",
+    "city": "Mariehamn"
+  },
+  {
+    "icao": "EFOU",
+    "name": "Oulu Airport",
+    "city": "Oulu / Oulunsalo"
+  },
+  {
+    "icao": "EFRO",
+    "name": "Rovaniemi Airport",
+    "city": "Rovaniemi"
+  },
+  {
+    "icao": "EFTP",
+    "name": "Tampere-Pirkkala Airport",
+    "city": "Tampere / Pirkkala"
+  },
+  {
+    "icao": "EFTU",
+    "name": "Turku Airport",
+    "city": "Turku"
+  },
+  {
+    "icao": "EFVA",
+    "name": "Vaasa Airport",
+    "city": "Vaasa"
+  },
+  {
+    "icao": "EGAA",
+    "name": "Belfast International Airport",
+    "city": "Belfast"
+  },
+  {
+    "icao": "EGBB",
+    "name": "Birmingham Airport",
+    "city": "Birmingham, West Midlands"
+  },
+  {
+    "icao": "EGCC",
+    "name": "Manchester Airport",
+    "city": "Manchester, Greater Manchester"
+  },
+  {
+    "icao": "EGFF",
+    "name": "Cardiff International Airport",
+    "city": "Cardiff"
+  },
+  {
+    "icao": "EGGD",
+    "name": "Bristol Airport",
+    "city": "Bristol"
+  },
+  {
+    "icao": "EGGP",
+    "name": "Liverpool John Lennon Airport",
+    "city": "Liverpool"
+  },
+  {
+    "icao": "EGGW",
+    "name": "London Luton Airport",
+    "city": "Luton, Luton"
+  },
+  {
+    "icao": "EGKK",
+    "name": "London Gatwick Airport",
+    "city": "London"
+  },
+  {
+    "icao": "EGLL",
+    "name": "London Heathrow Airport",
+    "city": "London"
+  },
+  {
+    "icao": "EGNM",
+    "name": "Leeds Bradford Airport",
+    "city": "Leeds, West Yorkshire"
+  },
+  {
+    "icao": "EGNS",
+    "name": "Isle of Man Airport",
+    "city": "Castletown"
+  },
+  {
+    "icao": "EGNT",
+    "name": "Newcastle International Airport",
+    "city": "Newcastle upon Tyne, Tyne and Wear"
+  },
+  {
+    "icao": "EGNX",
+    "name": "East Midlands Airport",
+    "city": "Nottingham, Leicestershire"
+  },
+  {
+    "icao": "EGPD",
+    "name": "Aberdeen International Airport",
+    "city": "Aberdeen"
+  },
+  {
+    "icao": "EGPF",
+    "name": "Glasgow Airport",
+    "city": "Glasgow"
+  },
+  {
+    "icao": "EGPH",
+    "name": "Edinburgh Airport",
+    "city": "Edinburgh"
+  },
+  {
+    "icao": "EGPK",
+    "name": "Glasgow Prestwick Airport",
+    "city": "Prestwick, South Ayrshire"
+  },
+  {
+    "icao": "EGSS",
+    "name": "London Stansted Airport",
+    "city": "London, Essex"
+  },
+  {
+    "icao": "EGYP",
+    "name": "Mount Pleasant Airport / RAF Mount Pleasant",
+    "city": "Mount Pleasant"
+  },
+  {
+    "icao": "EHAM",
+    "name": "Amsterdam Airport Schiphol",
+    "city": "Amsterdam"
+  },
+  {
+    "icao": "EHBK",
+    "name": "Maastricht Aachen Airport",
+    "city": "Maastricht"
+  },
+  {
+    "icao": "EHEH",
+    "name": "Eindhoven Airport",
+    "city": "Eindhoven"
+  },
+  {
+    "icao": "EHGG",
+    "name": "Groningen Airport Eelde",
+    "city": "Groningen"
+  },
+  {
+    "icao": "EHRD",
+    "name": "Rotterdam The Hague Airport",
+    "city": "Rotterdam"
+  },
+  {
+    "icao": "EICK",
+    "name": "Cork International Airport",
+    "city": "Cork"
+  },
+  {
+    "icao": "EIDW",
+    "name": "Dublin Airport",
+    "city": "Dublin"
+  },
+  {
+    "icao": "EIKN",
+    "name": "Ireland West Airport Knock",
+    "city": "Charlestown"
+  },
+  {
+    "icao": "EINN",
+    "name": "Shannon Airport",
+    "city": "Shannon"
+  },
+  {
+    "icao": "EKAH",
+    "name": "Aarhus Airport",
+    "city": "Aarhus"
+  },
+  {
+    "icao": "EKBI",
+    "name": "Billund Airport",
+    "city": "Billund"
+  },
+  {
+    "icao": "EKCH",
+    "name": "Copenhagen Kastrup Airport",
+    "city": "Copenhagen"
+  },
+  {
+    "icao": "EKOD",
+    "name": "Odense Hans Christian Andersen Airport",
+    "city": "Odense"
+  },
+  {
+    "icao": "EKVG",
+    "name": "Vágar Airport",
+    "city": "Vágar"
+  },
+  {
+    "icao": "EKYT",
+    "name": "Aalborg Airport",
+    "city": "Aalborg"
+  },
+  {
+    "icao": "ELLX",
+    "name": "Luxembourg-Findel International Airport",
+    "city": "Luxembourg"
+  },
+  {
+    "icao": "ENAL",
+    "name": "Ålesund Airport",
+    "city": "Ålesund"
+  },
+  {
+    "icao": "ENBO",
+    "name": "Bodø Airport",
+    "city": "Bodø"
+  },
+  {
+    "icao": "ENBR",
+    "name": "Bergen Airport, Flesland",
+    "city": "Bergen"
+  },
+  {
+    "icao": "ENCN",
+    "name": "Kristiansand Airport",
+    "city": "Kristiansand(Kjevik)"
+  },
+  {
+    "icao": "ENEV",
+    "name": "Harstad/Narvik Airport",
+    "city": "Evenes"
+  },
+  {
+    "icao": "ENGM",
+    "name": "Oslo-Gardermoen International Airport",
+    "city": "Oslo (Gardermoen)"
+  },
+  {
+    "icao": "ENTC",
+    "name": "Tromsø Airport",
+    "city": "Tromsø"
+  },
+  {
+    "icao": "ENTO",
+    "name": "Sandefjord Airport, Torp",
+    "city": "Sandefjord(Torp)"
+  },
+  {
+    "icao": "ENVA",
+    "name": "Trondheim Airport, Værnes",
+    "city": "Trondheim"
+  },
+  {
+    "icao": "ENZV",
+    "name": "Stavanger Airport, Sola",
+    "city": "Stavanger"
+  },
+  {
+    "icao": "EPGD",
+    "name": "Gdańsk Lech Wałęsa Airport",
+    "city": "Gdańsk"
+  },
+  {
+    "icao": "EPKK",
+    "name": "Kraków John Paul II International Airport",
+    "city": "Balice"
+  },
+  {
+    "icao": "EPKT",
+    "name": "Katowice Wojciech Korfanty International Airport",
+    "city": "Katowice"
+  },
+  {
+    "icao": "EPLB",
+    "name": "Lublin Airport",
+    "city": "Lublin"
+  },
+  {
+    "icao": "EPLL",
+    "name": "Łódź Władysław Reymont Airport",
+    "city": "Łódź"
+  },
+  {
+    "icao": "EPMO",
+    "name": "Warsaw Modlin Airport",
+    "city": "Nowy Dwór Mazowiecki"
+  },
+  {
+    "icao": "EPPO",
+    "name": "Poznań-Ławica Airport",
+    "city": "Poznań"
+  },
+  {
+    "icao": "EPRZ",
+    "name": "Rzeszów-Jasionka Airport",
+    "city": "Jasionka"
+  },
+  {
+    "icao": "EPSC",
+    "name": "Solidarity Szczecin–Goleniów Airport",
+    "city": "Szczecin(Glewice)"
+  },
+  {
+    "icao": "EPWA",
+    "name": "Warsaw Chopin Airport",
+    "city": "Warsaw"
+  },
+  {
+    "icao": "EPWR",
+    "name": "Copernicus Wrocław Airport",
+    "city": "Wrocław"
+  },
+  {
+    "icao": "ESGG",
+    "name": "Göteborg Landvetter Airport",
+    "city": "Göteborg"
+  },
+  {
+    "icao": "ESKN",
+    "name": "Stockholm Skavsta Airport",
+    "city": "Nyköping"
+  },
+  {
+    "icao": "",
+    "name": "Scandinavian Mountains Airport",
+    "city": "Malung-Sälen"
+  },
+  {
+    "icao": "ESMS",
+    "name": "Malmö Sturup Airport",
+    "city": "Malmö"
+  },
+  {
+    "icao": "ESNQ",
+    "name": "Kiruna Airport",
+    "city": "Kiruna"
+  },
+  {
+    "icao": "ESNU",
+    "name": "Umeå Airport",
+    "city": "Umeå"
+  },
+  {
+    "icao": "ESNZ",
+    "name": "Åre Östersund Airport",
+    "city": "Östersund"
+  },
+  {
+    "icao": "ESOW",
+    "name": "Stockholm Västerås Airport",
+    "city": "Stockholm / Västerås"
+  },
+  {
+    "icao": "ESPA",
+    "name": "Luleå Airport",
+    "city": "Luleå"
+  },
+  {
+    "icao": "ESSA",
+    "name": "Stockholm-Arlanda Airport",
+    "city": "Stockholm"
+  },
+  {
+    "icao": "ESSL",
+    "name": "Linköping City Airport",
+    "city": "Linköping"
+  },
+  {
+    "icao": "ESSV",
+    "name": "Visby Airport",
+    "city": "Visby"
+  },
+  {
+    "icao": "EVLA",
+    "name": "Liepāja International Airport",
+    "city": "Liepāja"
+  },
+  {
+    "icao": "EVRA",
+    "name": "Riga International Airport",
+    "city": "Riga"
+  },
+  {
+    "icao": "EYKA",
+    "name": "Kaunas International Airport",
+    "city": "Kaunas"
+  },
+  {
+    "icao": "EYPA",
+    "name": "Palanga International Airport",
+    "city": "Palanga"
+  },
+  {
+    "icao": "EYVI",
+    "name": "Vilnius International Airport",
+    "city": "Vilnius"
+  },
+  {
+    "icao": "FABL",
+    "name": "Bram Fischer International Airport",
+    "city": "Bloemfontein"
+  },
+  {
+    "icao": "FACT",
+    "name": "Cape Town International Airport",
+    "city": "Cape Town"
+  },
+  {
+    "icao": "FAEL",
+    "name": "King Phalo Airport",
+    "city": "East London"
+  },
+  {
+    "icao": "FAGG",
+    "name": "George Airport",
+    "city": "George"
+  },
+  {
+    "icao": "FAKM",
+    "name": "Kimberley Airport",
+    "city": "Kimberley"
+  },
+  {
+    "icao": "FAKN",
+    "name": "Kruger Mpumalanga International Airport",
+    "city": "Mbombela"
+  },
+  {
+    "icao": "FALA",
+    "name": "Lanseria International Airport",
+    "city": "Johannesburg"
+  },
+  {
+    "icao": "FALE",
+    "name": "King Shaka International Airport",
+    "city": "Durban"
+  },
+  {
+    "icao": "FAOR",
+    "name": "O.R. Tambo International Airport",
+    "city": "Johannesburg"
+  },
+  {
+    "icao": "FAPE",
+    "name": "Chief Dawid Stuurman International Airport",
+    "city": "Gqeberha (Port Elizabeth)"
+  },
+  {
+    "icao": "FAPP",
+    "name": "Polokwane International Airport",
+    "city": "Polokwane"
+  },
+  {
+    "icao": "FBPM",
+    "name": "Phillip Gaonwe Matante International Airport",
+    "city": "Francistown"
+  },
+  {
+    "icao": "FBKE",
+    "name": "Kasane International Airport",
+    "city": "Kasane"
+  },
+  {
+    "icao": "FBMN",
+    "name": "Maun International Airport",
+    "city": "Maun"
+  },
+  {
+    "icao": "FBSK",
+    "name": "Sir Seretse Khama International Airport",
+    "city": "Gaborone"
+  },
+  {
+    "icao": "FCBB",
+    "name": "Maya-Maya International Airport",
+    "city": "Brazzaville"
+  },
+  {
+    "icao": "FCPP",
+    "name": "Antonio Agostinho-Neto International Airport",
+    "city": "Pointe Noire"
+  },
+  {
+    "icao": "FDMS",
+    "name": "Matsapha International Airport",
+    "city": "Manzini"
+  },
+  {
+    "icao": "FDSK",
+    "name": "King Mswati III International Airport",
+    "city": "Mpaka"
+  },
+  {
+    "icao": "FEFF",
+    "name": "Bangui M'Poko International Airport",
+    "city": "Bangui"
+  },
+  {
+    "icao": "FGBT",
+    "name": "Bata International Airport",
+    "city": "Bata"
+  },
+  {
+    "icao": "FGMY",
+    "name": "President Obiang Nguema International Airport",
+    "city": "Mengomeyén"
+  },
+  {
+    "icao": "FGSL",
+    "name": "Malabo International Airport",
+    "city": "Malabo"
+  },
+  {
+    "icao": "FIMP",
+    "name": "Sir Seewoosagur Ramgoolam International Airport",
+    "city": "Plaine Magnien"
+  },
+  {
+    "icao": "FKKD",
+    "name": "Douala International Airport",
+    "city": "Douala"
+  },
+  {
+    "icao": "FKKR",
+    "name": "Garoua International Airport",
+    "city": "Garoua"
+  },
+  {
+    "icao": "FKYS",
+    "name": "Yaoundé Nsimalen International Airport",
+    "city": "Yaoundé"
+  },
+  {
+    "icao": "FLHN",
+    "name": "Harry Mwanga Nkumbula International Airport",
+    "city": "Livingstone"
+  },
+  {
+    "icao": "FLKK",
+    "name": "Kenneth Kaunda International Airport",
+    "city": "Lusaka"
+  },
+  {
+    "icao": "FLMF",
+    "name": "Mfuwe International Airport",
+    "city": "Mfuwe"
+  },
+  {
+    "icao": "FLSK",
+    "name": "Simon Mwansa Kapwepwe International Airport",
+    "city": "Ndola"
+  },
+  {
+    "icao": "FMCH",
+    "name": "Prince Said Ibrahim International Airport",
+    "city": "Moroni"
+  },
+  {
+    "icao": "FMCZ",
+    "name": "Dzaoudzi Pamandzi International Airport",
+    "city": "Dzaoudzi"
+  },
+  {
+    "icao": "FMEE",
+    "name": "Roland Garros Airport",
+    "city": "Sainte-Marie"
+  },
+  {
+    "icao": "FMEP",
+    "name": "Saint-Pierre Pierrefonds Airport",
+    "city": "Saint-Pierre"
+  },
+  {
+    "icao": "FMMI",
+    "name": "Ivato International Airport",
+    "city": "Antananarivo"
+  },
+  {
+    "icao": "FMMT",
+    "name": "Toamasina Ambalamanasy Airport",
+    "city": "Toamasina"
+  },
+  {
+    "icao": "FMNM",
+    "name": "Amborovy Airport",
+    "city": "Mahajanga"
+  },
+  {
+    "icao": "FNBJ",
+    "name": "Dr. Antonio Agostinho Neto International Airport",
+    "city": "Luanda (Ícolo e Bengo)"
+  },
+  {
+    "icao": "FNLU",
+    "name": "Quatro de Fevereiro International Airport",
+    "city": "Luanda"
+  },
+  {
+    "icao": "FOOG",
+    "name": "Port Gentil International Airport",
+    "city": "Port Gentil"
+  },
+  {
+    "icao": "FOOL",
+    "name": "Libreville Leon M'ba International Airport",
+    "city": "Libreville"
+  },
+  {
+    "icao": "FOON",
+    "name": "M'Vengue El Hadj Omar Bongo Ondimba International Airport",
+    "city": "Franceville"
+  },
+  {
+    "icao": "FPST",
+    "name": "São Tomé International Airport",
+    "city": "São Tomé"
+  },
+  {
+    "icao": "FQBR",
+    "name": "Beira International Airport",
+    "city": "Beira"
+  },
+  {
+    "icao": "FQMA",
+    "name": "Maputo Airport",
+    "city": "Maputo"
+  },
+  {
+    "icao": "FQNP",
+    "name": "Nampula Airport",
+    "city": "Nampula"
+  },
+  {
+    "icao": "FQTT",
+    "name": "Tete Airport",
+    "city": "Tete"
+  },
+  {
+    "icao": "FSIA",
+    "name": "Seychelles International Airport",
+    "city": "Victoria"
+  },
+  {
+    "icao": "FTTJ",
+    "name": "N'Djamena International Airport",
+    "city": "N'Djamena"
+  },
+  {
+    "icao": "FVJN",
+    "name": "Joshua Mqabuko Nkomo International Airport",
+    "city": "Bulawayo"
+  },
+  {
+    "icao": "FVFA",
+    "name": "Victoria Falls International Airport",
+    "city": "Victoria Falls"
+  },
+  {
+    "icao": "",
+    "name": "Robert Gabriel Mugabe International Airport",
+    "city": "Harare"
+  },
+  {
+    "icao": "FWCL",
+    "name": "Chileka International Airport",
+    "city": "Blantyre"
+  },
+  {
+    "icao": "FWKI",
+    "name": "Kamuzu International Airport",
+    "city": "Lumbadzi"
+  },
+  {
+    "icao": "FXMM",
+    "name": "Moshoeshoe I International Airport",
+    "city": "Maseru(Mazenod)"
+  },
+  {
+    "icao": "FYWB",
+    "name": "Walvis Bay International Airport",
+    "city": "Walvis Bay(Rooikop)"
+  },
+  {
+    "icao": "FYWH",
+    "name": "Hosea Kutako International Airport",
+    "city": "Windhoek"
+  },
+  {
+    "icao": "FZAA",
+    "name": "Ndjili International Airport",
+    "city": "Kinshasa"
+  },
+  {
+    "icao": "FZIC",
+    "name": "Bangoka International Airport",
+    "city": "Kisangani"
+  },
+  {
+    "icao": "FZNA",
+    "name": "Goma International Airport",
+    "city": "Goma"
+  },
+  {
+    "icao": "FZQA",
+    "name": "Lubumbashi International Airport",
+    "city": "Lubumbashi"
+  },
+  {
+    "icao": "GABS",
+    "name": "Modibo Keita International Airport",
+    "city": "Bamako"
+  },
+  {
+    "icao": "GATB",
+    "name": "Tombouktou Airport",
+    "city": "Timbuktu"
+  },
+  {
+    "icao": "GBYD",
+    "name": "Banjul International Airport",
+    "city": "Yundum"
+  },
+  {
+    "icao": "GCFV",
+    "name": "Fuerteventura Airport",
+    "city": "El Matorral"
+  },
+  {
+    "icao": "GCLP",
+    "name": "Gran Canaria Airport",
+    "city": "Gran Canaria Island"
+  },
+  {
+    "icao": "GCRR",
+    "name": "César Manrique-Lanzarote Airport",
+    "city": "San Bartolomé"
+  },
+  {
+    "icao": "GCTS",
+    "name": "Tenerife Sur Airport",
+    "city": "Tenerife"
+  },
+  {
+    "icao": "GCXO",
+    "name": "Tenerife Norte-Ciudad de La Laguna Airport",
+    "city": "Tenerife"
+  },
+  {
+    "icao": "GFLL",
+    "name": "Lungi International Airport",
+    "city": "Freetown (Lungi-Town)"
+  },
+  {
+    "icao": "GGOV",
+    "name": "Osvaldo Vieira International Airport",
+    "city": "Bissau"
+  },
+  {
+    "icao": "GLRB",
+    "name": "Roberts International Airport",
+    "city": "Monrovia"
+  },
+  {
+    "icao": "GMAD",
+    "name": "Al Massira Airport",
+    "city": "Agadir (Temsia)"
+  },
+  {
+    "icao": "GMAZ",
+    "name": "Zagora Airport",
+    "city": "Zagora"
+  },
+  {
+    "icao": "GMFF",
+    "name": "Fes Saïss International Airport",
+    "city": "Saïss"
+  },
+  {
+    "icao": "GMFO",
+    "name": "Oujda Angads Airport",
+    "city": "Ahl Angad"
+  },
+  {
+    "icao": "GMMA",
+    "name": "Smara Airport",
+    "city": "Smara"
+  },
+  {
+    "icao": "GMMD",
+    "name": "Beni Mellal Airport",
+    "city": "Oulad Yaich"
+  },
+  {
+    "icao": "GMME",
+    "name": "Rabat-Salé Airport",
+    "city": "Rabat"
+  },
+  {
+    "icao": "GMMH",
+    "name": "Dakhla Airport",
+    "city": "Dakhla"
+  },
+  {
+    "icao": "GMML",
+    "name": "Laayoune Hassan I International Airport",
+    "city": "El Aaiún"
+  },
+  {
+    "icao": "GMMN",
+    "name": "Mohammed V International Airport",
+    "city": "Casablanca"
+  },
+  {
+    "icao": "GMMW",
+    "name": "Nador Al Aaroui International Airport",
+    "city": "Al Aaroui"
+  },
+  {
+    "icao": "GMMX",
+    "name": "Marrakesh Menara Airport",
+    "city": "Marrakesh"
+  },
+  {
+    "icao": "GMMZ",
+    "name": "Ouarzazate International Airport",
+    "city": "Ouarzazate"
+  },
+  {
+    "icao": "GMTN",
+    "name": "Sania Ramel Airport",
+    "city": "Tétouan"
+  },
+  {
+    "icao": "GMTT",
+    "name": "Tangier Ibn Battuta Airport",
+    "city": "Tangier"
+  },
+  {
+    "icao": "GOBD",
+    "name": "Blaise Diagne International Airport",
+    "city": "Dakar"
+  },
+  {
+    "icao": "GOOY",
+    "name": "Léopold Sédar Senghor International Airport",
+    "city": "Dakar"
+  },
+  {
+    "icao": "GQNO",
+    "name": "Nouakchott–Oumtounsy International Airport",
+    "city": "Nouakchott"
+  },
+  {
+    "icao": "GQPA",
+    "name": "Atar International Airport",
+    "city": "Atar"
+  },
+  {
+    "icao": "GQPP",
+    "name": "Nouadhibou International Airport",
+    "city": "Nouadhibou"
+  },
+  {
+    "icao": "GUCY",
+    "name": "Ahmed Sékou Touré International Airport",
+    "city": "Conakry"
+  },
+  {
+    "icao": "GVAC",
+    "name": "Amílcar Cabral International Airport",
+    "city": "Espargos"
+  },
+  {
+    "icao": "GVBA",
+    "name": "Aristides Pereira International Airport",
+    "city": "Rabil"
+  },
+  {
+    "icao": "GVNP",
+    "name": "Nelson Mandela International Airport",
+    "city": "Praia"
+  },
+  {
+    "icao": "GVSV",
+    "name": "Cesaria Evora International Airport",
+    "city": "São Pedro"
+  },
+  {
+    "icao": "HAAB",
+    "name": "Addis Ababa Bole International Airport",
+    "city": "Addis Ababa"
+  },
+  {
+    "icao": "HADR",
+    "name": "Aba Tenna Dejazmach Yilma International Airport",
+    "city": "Dire Dawa"
+  },
+  {
+    "icao": "HAJJ",
+    "name": "Gerad Wilwal International Airport",
+    "city": "Jijiga"
+  },
+  {
+    "icao": "HALA",
+    "name": "Hawassa International Airport",
+    "city": "Hawassa"
+  },
+  {
+    "icao": "HBBA",
+    "name": "Bujumbura Melchior Ndadaye International Airport",
+    "city": "Bujumbura"
+  },
+  {
+    "icao": "HCMF",
+    "name": "Bender Qassim International Airport",
+    "city": "Bosaso"
+  },
+  {
+    "icao": "HCMH",
+    "name": "Egal International Airport",
+    "city": "Hargeisa"
+  },
+  {
+    "icao": "HCMM",
+    "name": "Aden Adde International Airport",
+    "city": "Mogadishu"
+  },
+  {
+    "icao": "HDAM",
+    "name": "Djibouti-Ambouli Airport",
+    "city": "Djibouti City"
+  },
+  {
+    "icao": "",
+    "name": "Bardawil International Airport",
+    "city": "El Hassana"
+  },
+  {
+    "icao": "HEAL",
+    "name": "El Alamein International Airport",
+    "city": "El Alamein"
+  },
+  {
+    "icao": "HEAR",
+    "name": "El Arish International Airport",
+    "city": "El Arish"
+  },
+  {
+    "icao": "HEAT",
+    "name": "Asyut International Airport",
+    "city": "Asyut"
+  },
+  {
+    "icao": "HEAX",
+    "name": "Alexandria International Airport",
+    "city": "Alexandria"
+  },
+  {
+    "icao": "HEBL",
+    "name": "Abu Simbel Airport",
+    "city": "Abu Simbel"
+  },
+  {
+    "icao": "HECA",
+    "name": "Cairo International Airport",
+    "city": "Cairo"
+  },
+  {
+    "icao": "HECP",
+    "name": "Capital International Airport",
+    "city": "New Cairo"
+  },
+  {
+    "icao": "HEGN",
+    "name": "Hurghada International Airport",
+    "city": "Hurghada"
+  },
+  {
+    "icao": "HELX",
+    "name": "Luxor International Airport",
+    "city": "Luxor"
+  },
+  {
+    "icao": "HEMA",
+    "name": "Marsa Alam International Airport",
+    "city": "Marsa Alam"
+  },
+  {
+    "icao": "HEMM",
+    "name": "Mersa Matruh International Airport",
+    "city": "Marsa Matruh"
+  },
+  {
+    "icao": "HEPS",
+    "name": "Port Said International Airport",
+    "city": "Port Said"
+  },
+  {
+    "icao": "HESC",
+    "name": "Saint Catherine International Airport",
+    "city": "Saint Catherine"
+  },
+  {
+    "icao": "HESG",
+    "name": "Sohag International Airport",
+    "city": "Suhaj"
+  },
+  {
+    "icao": "HESH",
+    "name": "Sharm El Sheikh International Airport",
+    "city": "Sharm El Sheikh"
+  },
+  {
+    "icao": "HESN",
+    "name": "Aswan International Airport",
+    "city": "Aswan"
+  },
+  {
+    "icao": "HESX",
+    "name": "Sphinx International Airport",
+    "city": "Al Jiza"
+  },
+  {
+    "icao": "HETB",
+    "name": "Taba International Airport",
+    "city": "Taba"
+  },
+  {
+    "icao": "HHAS",
+    "name": "Asmara International Airport",
+    "city": "Asmara"
+  },
+  {
+    "icao": "HHSB",
+    "name": "Assab International Airport",
+    "city": "Assab"
+  },
+  {
+    "icao": "HJJJ",
+    "name": "Juba International Airport",
+    "city": "Juba"
+  },
+  {
+    "icao": "HKEL",
+    "name": "Eldoret International Airport",
+    "city": "Eldoret"
+  },
+  {
+    "icao": "HKJK",
+    "name": "Jomo Kenyatta International Airport",
+    "city": "Nairobi"
+  },
+  {
+    "icao": "HKKI",
+    "name": "Kisumu International Airport",
+    "city": "Kisumu"
+  },
+  {
+    "icao": "HKMO",
+    "name": "Moi International Airport",
+    "city": "Mombasa"
+  },
+  {
+    "icao": "HLGD",
+    "name": "Sirt International Airport / Ghardabiya Airbase",
+    "city": "Sirt"
+  },
+  {
+    "icao": "HLLB",
+    "name": "Benina International Airport",
+    "city": "Benina"
+  },
+  {
+    "icao": "HLLM",
+    "name": "Mitiga International Airport",
+    "city": "Tripoli"
+  },
+  {
+    "icao": "HLLQ",
+    "name": "Al Abraq International Airport",
+    "city": "Al Albraq"
+  },
+  {
+    "icao": "HRYR",
+    "name": "Kigali International Airport",
+    "city": "Kigali"
+  },
+  {
+    "icao": "HSPN",
+    "name": "Port Sudan New International Airport",
+    "city": "Port Sudan"
+  },
+  {
+    "icao": "HSSK",
+    "name": "Khartoum International Airport",
+    "city": "Khartoum"
+  },
+  {
+    "icao": "HTDA",
+    "name": "Julius Nyerere International Airport",
+    "city": "Dar es Salaam"
+  },
+  {
+    "icao": "HTKJ",
+    "name": "Kilimanjaro International Airport",
+    "city": "Arusha"
+  },
+  {
+    "icao": "HTMW",
+    "name": "Mwanza International Airport",
+    "city": "Mwanza"
+  },
+  {
+    "icao": "HTZA",
+    "name": "Abeid Amani Karume International Airport",
+    "city": "Zanzibar"
+  },
+  {
+    "icao": "HUEN",
+    "name": "Entebbe International Airport",
+    "city": "Entebbe"
+  },
+  {
+    "icao": "WARD",
+    "name": "Dhoho International Airport",
+    "city": "Kediri"
+  },
+  {
+    "icao": "VANM",
+    "name": "Navi Mumbai International Airport",
+    "city": "Navi Mumbai"
+  },
+  {
+    "icao": "VIND",
+    "name": "Noida International Airport",
+    "city": "Gautam Buddha Nagar"
+  },
+  {
+    "icao": "KABQ",
+    "name": "Albuquerque International Sunport",
+    "city": "Albuquerque"
+  },
+  {
+    "icao": "KALB",
+    "name": "Albany International Airport",
+    "city": "Albany"
+  },
+  {
+    "icao": "KATL",
+    "name": "Hartsfield Jackson Atlanta International Airport",
+    "city": "Atlanta"
+  },
+  {
+    "icao": "KAUS",
+    "name": "Austin Bergstrom International Airport",
+    "city": "Austin"
+  },
+  {
+    "icao": "KBDL",
+    "name": "Bradley International Airport",
+    "city": "Hartford"
+  },
+  {
+    "icao": "KBHM",
+    "name": "Birmingham-Shuttlesworth International Airport",
+    "city": "Birmingham"
+  },
+  {
+    "icao": "KBNA",
+    "name": "Nashville International Airport",
+    "city": "Nashville"
+  },
+  {
+    "icao": "KBOI",
+    "name": "Boise Air Terminal/Gowen Field",
+    "city": "Boise"
+  },
+  {
+    "icao": "KBOS",
+    "name": "Boston Logan International Airport",
+    "city": "Boston"
+  },
+  {
+    "icao": "KBUF",
+    "name": "Buffalo Niagara International Airport",
+    "city": "Buffalo"
+  },
+  {
+    "icao": "KBUR",
+    "name": "Hollywood Burbank Airport",
+    "city": "Burbank"
+  },
+  {
+    "icao": "KBWI",
+    "name": "Baltimore/Washington International Thurgood Marshall Airport",
+    "city": "Baltimore"
+  },
+  {
+    "icao": "KCHS",
+    "name": "Charleston International Airport",
+    "city": "Charleston"
+  },
+  {
+    "icao": "KCLE",
+    "name": "Cleveland Hopkins International Airport",
+    "city": "Cleveland"
+  },
+  {
+    "icao": "KCLT",
+    "name": "Charlotte Douglas International Airport",
+    "city": "Charlotte"
+  },
+  {
+    "icao": "KCMH",
+    "name": "John Glenn Columbus International Airport",
+    "city": "Columbus"
+  },
+  {
+    "icao": "KCOS",
+    "name": "City of Colorado Springs Municipal Airport",
+    "city": "Colorado Springs"
+  },
+  {
+    "icao": "KCVG",
+    "name": "Cincinnati Northern Kentucky International Airport",
+    "city": "Cincinnati / Covington"
+  },
+  {
+    "icao": "KDAL",
+    "name": "Dallas Love Field",
+    "city": "Dallas"
+  },
+  {
+    "icao": "KDCA",
+    "name": "Ronald Reagan Washington National Airport",
+    "city": "Washington"
+  },
+  {
+    "icao": "KDEN",
+    "name": "Denver International Airport",
+    "city": "Denver"
+  },
+  {
+    "icao": "KDFW",
+    "name": "Dallas Fort Worth International Airport",
+    "city": "Dallas-Fort Worth"
+  },
+  {
+    "icao": "KDSM",
+    "name": "Des Moines International Airport",
+    "city": "Des Moines"
+  },
+  {
+    "icao": "KDTW",
+    "name": "Detroit Metropolitan Wayne County Airport",
+    "city": "Detroit"
+  },
+  {
+    "icao": "KELP",
+    "name": "El Paso International Airport",
+    "city": "El Paso"
+  },
+  {
+    "icao": "KEWR",
+    "name": "Newark Liberty International Airport",
+    "city": "Newark"
+  },
+  {
+    "icao": "KFAT",
+    "name": "Fresno Yosemite International Airport",
+    "city": "Fresno"
+  },
+  {
+    "icao": "KFLL",
+    "name": "Fort Lauderdale Hollywood International Airport",
+    "city": "Fort Lauderdale"
+  },
+  {
+    "icao": "KGEG",
+    "name": "Spokane International Airport",
+    "city": "Spokane"
+  },
+  {
+    "icao": "KGRR",
+    "name": "Gerald R. Ford International Airport",
+    "city": "Grand Rapids"
+  },
+  {
+    "icao": "KGSO",
+    "name": "Piedmont Triad International Airport",
+    "city": "Greensboro"
+  },
+  {
+    "icao": "",
+    "name": "Dara Sakor International Airport",
+    "city": "Ta Noun"
+  },
+  {
+    "icao": "VDTI",
+    "name": "Techo International Airport",
+    "city": "Phnom Penh (Boeng Khyang)"
+  },
+  {
+    "icao": "KHOU",
+    "name": "William P. Hobby Airport",
+    "city": "Houston"
+  },
+  {
+    "icao": "KIAD",
+    "name": "Washington Dulles International Airport",
+    "city": "Dulles"
+  },
+  {
+    "icao": "KIAH",
+    "name": "George Bush Intercontinental Airport",
+    "city": "Houston"
+  },
+  {
+    "icao": "KIND",
+    "name": "Indianapolis International Airport",
+    "city": "Indianapolis"
+  },
+  {
+    "icao": "KJAX",
+    "name": "Jacksonville International Airport",
+    "city": "Jacksonville"
+  },
+  {
+    "icao": "KJFK",
+    "name": "John F. Kennedy International Airport",
+    "city": "New York"
+  },
+  {
+    "icao": "KLAS",
+    "name": "Harry Reid International Airport",
+    "city": "Las Vegas"
+  },
+  {
+    "icao": "KLAX",
+    "name": "Los Angeles International Airport",
+    "city": "Los Angeles"
+  },
+  {
+    "icao": "KLGA",
+    "name": "LaGuardia Airport",
+    "city": "New York"
+  },
+  {
+    "icao": "KLGB",
+    "name": "Long Beach International Airport",
+    "city": "Long Beach"
+  },
+  {
+    "icao": "KMCI",
+    "name": "Kansas City International Airport",
+    "city": "Kansas City"
+  },
+  {
+    "icao": "KMCO",
+    "name": "Orlando International Airport",
+    "city": "Orlando"
+  },
+  {
+    "icao": "KMDW",
+    "name": "Chicago Midway International Airport",
+    "city": "Chicago"
+  },
+  {
+    "icao": "KMEM",
+    "name": "Memphis International Airport",
+    "city": "Memphis"
+  },
+  {
+    "icao": "KMIA",
+    "name": "Miami International Airport",
+    "city": "Miami"
+  },
+  {
+    "icao": "KMKE",
+    "name": "General Mitchell International Airport",
+    "city": "Milwaukee"
+  },
+  {
+    "icao": "KMSP",
+    "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+    "city": "Minneapolis"
+  },
+  {
+    "icao": "KMSY",
+    "name": "Louis Armstrong New Orleans International Airport",
+    "city": "New Orleans"
+  },
+  {
+    "icao": "KMYR",
+    "name": "Myrtle Beach International Airport",
+    "city": "Myrtle Beach"
+  },
+  {
+    "icao": "KOAK",
+    "name": "San Francisco Bay Oakland International Airport",
+    "city": "Oakland"
+  },
+  {
+    "icao": "KOKC",
+    "name": "OKC Will Rogers World Airport",
+    "city": "Oklahoma City"
+  },
+  {
+    "icao": "KOMA",
+    "name": "Eppley Airfield",
+    "city": "Omaha"
+  },
+  {
+    "icao": "KONT",
+    "name": "Ontario International Airport",
+    "city": "Ontario"
+  },
+  {
+    "icao": "KORD",
+    "name": "Chicago O'Hare International Airport",
+    "city": "Chicago"
+  },
+  {
+    "icao": "KORF",
+    "name": "Norfolk International Airport",
+    "city": "Norfolk"
+  },
+  {
+    "icao": "KPBI",
+    "name": "Palm Beach International Airport",
+    "city": "West Palm Beach"
+  },
+  {
+    "icao": "KPDX",
+    "name": "Portland International Airport",
+    "city": "Portland"
+  },
+  {
+    "icao": "KPHL",
+    "name": "Philadelphia International Airport",
+    "city": "Philadelphia"
+  },
+  {
+    "icao": "KPHX",
+    "name": "Phoenix Sky Harbor International Airport",
+    "city": "Phoenix"
+  },
+  {
+    "icao": "KPIE",
+    "name": "St. Petersburg Clearwater International Airport",
+    "city": "Pinellas Park"
+  },
+  {
+    "icao": "KPIT",
+    "name": "Pittsburgh International Airport",
+    "city": "Pittsburgh"
+  },
+  {
+    "icao": "KPNS",
+    "name": "Pensacola International Airport",
+    "city": "Pensacola"
+  },
+  {
+    "icao": "KPSP",
+    "name": "Palm Springs International Airport",
+    "city": "Palm Springs"
+  },
+  {
+    "icao": "KPVD",
+    "name": "Rhode Island T. F. Green International Airport",
+    "city": "Providence/Warwick"
+  },
+  {
+    "icao": "KPWM",
+    "name": "Portland International Jetport",
+    "city": "Portland"
+  },
+  {
+    "icao": "KRDU",
+    "name": "Raleigh-Durham International Airport",
+    "city": "Raleigh/Durham"
+  },
+  {
+    "icao": "KRIC",
+    "name": "Richmond International Airport",
+    "city": "Richmond"
+  },
+  {
+    "icao": "KRNO",
+    "name": "Reno Tahoe International Airport",
+    "city": "Reno"
+  },
+  {
+    "icao": "KROC",
+    "name": "Frederick Douglass Greater Rochester International Airport",
+    "city": "Rochester"
+  },
+  {
+    "icao": "KRSW",
+    "name": "Southwest Florida International Airport",
+    "city": "Fort Myers"
+  },
+  {
+    "icao": "KSAN",
+    "name": "San Diego International Airport",
+    "city": "San Diego"
+  },
+  {
+    "icao": "KSAT",
+    "name": "San Antonio International Airport",
+    "city": "San Antonio"
+  },
+  {
+    "icao": "KSAV",
+    "name": "Savannah Hilton Head International Airport",
+    "city": "Savannah"
+  },
+  {
+    "icao": "KSBD",
+    "name": "San Bernardino International Airport",
+    "city": "San Bernardino"
+  },
+  {
+    "icao": "KSDF",
+    "name": "Louisville Muhammad Ali International Airport",
+    "city": "Louisville"
+  },
+  {
+    "icao": "KSEA",
+    "name": "Seattle–Tacoma International Airport",
+    "city": "Seattle"
+  },
+  {
+    "icao": "KSFB",
+    "name": "Orlando Sanford International Airport",
+    "city": "Orlando"
+  },
+  {
+    "icao": "KSFO",
+    "name": "San Francisco International Airport",
+    "city": "San Francisco"
+  },
+  {
+    "icao": "KSJC",
+    "name": "Norman Y. Mineta San Jose International Airport",
+    "city": "San Jose"
+  },
+  {
+    "icao": "KSLC",
+    "name": "Salt Lake City International Airport",
+    "city": "Salt Lake City"
+  },
+  {
+    "icao": "KSMF",
+    "name": "Sacramento International Airport",
+    "city": "Sacramento"
+  },
+  {
+    "icao": "KSNA",
+    "name": "John Wayne Orange County International Airport",
+    "city": "Santa Ana"
+  },
+  {
+    "icao": "KSRQ",
+    "name": "Sarasota Bradenton International Airport",
+    "city": "Sarasota/Bradenton"
+  },
+  {
+    "icao": "KSTL",
+    "name": "St. Louis Lambert International Airport",
+    "city": "St Louis"
+  },
+  {
+    "icao": "KSYR",
+    "name": "Syracuse Hancock International Airport",
+    "city": "Syracuse"
+  },
+  {
+    "icao": "KTPA",
+    "name": "Tampa International Airport",
+    "city": "Tampa"
+  },
+  {
+    "icao": "KTUL",
+    "name": "Tulsa International Airport",
+    "city": "Tulsa"
+  },
+  {
+    "icao": "KTUS",
+    "name": "Tucson International Airport",
+    "city": "Tucson"
+  },
+  {
+    "icao": "KTYS",
+    "name": "McGhee Tyson Airport",
+    "city": "Knoxville/Maryville"
+  },
+  {
+    "icao": "KVNY",
+    "name": "Van Nuys Airport",
+    "city": "Van Nuys"
+  },
+  {
+    "icao": "LATI",
+    "name": "Tirana International Airport Mother Teresa",
+    "city": "Rinas"
+  },
+  {
+    "icao": "LBBG",
+    "name": "Burgas Airport",
+    "city": "Burgas"
+  },
+  {
+    "icao": "LBPD",
+    "name": "Plovdiv International Airport",
+    "city": "Plovdiv"
+  },
+  {
+    "icao": "LBSF",
+    "name": "Sofia Airport",
+    "city": "Sofia"
+  },
+  {
+    "icao": "LBWN",
+    "name": "Varna Airport",
+    "city": "Varna"
+  },
+  {
+    "icao": "LCEN",
+    "name": "Ercan International Airport",
+    "city": "Tymbou (Kirklar)"
+  },
+  {
+    "icao": "LCLK",
+    "name": "Larnaca International Airport",
+    "city": "Larnaca"
+  },
+  {
+    "icao": "LCPH",
+    "name": "Paphos International Airport",
+    "city": "Paphos"
+  },
+  {
+    "icao": "LDDU",
+    "name": "Dubrovnik Ruđer Bošković Airport",
+    "city": "Dubrovnik"
+  },
+  {
+    "icao": "LDPL",
+    "name": "Pula Airport",
+    "city": "Pula"
+  },
+  {
+    "icao": "LDRI",
+    "name": "Rijeka Airport",
+    "city": "Rijeka(Omišalj)"
+  },
+  {
+    "icao": "LDSP",
+    "name": "Split Saint Jerome Airport",
+    "city": "Split"
+  },
+  {
+    "icao": "LDZA",
+    "name": "Zagreb Franjo Tuđman International Airport",
+    "city": "Velika Gorica"
+  },
+  {
+    "icao": "LDZD",
+    "name": "Zadar Airport",
+    "city": "Zadar"
+  },
+  {
+    "icao": "LEAL",
+    "name": "Alicante-Elche Miguel Hernández Airport",
+    "city": "Alicante"
+  },
+  {
+    "icao": "LEAS",
+    "name": "Asturias Airport",
+    "city": "Ranón"
+  },
+  {
+    "icao": "LEBB",
+    "name": "Bilbao Airport",
+    "city": "Bilbao"
+  },
+  {
+    "icao": "LEBL",
+    "name": "Josep Tarradellas Barcelona-El Prat Airport",
+    "city": "Barcelona"
+  },
+  {
+    "icao": "LEGE",
+    "name": "Girona-Costa Brava Airport",
+    "city": "Girona"
+  },
+  {
+    "icao": "LEIB",
+    "name": "Ibiza Airport",
+    "city": "Ibiza (Eivissa)"
+  },
+  {
+    "icao": "LELN",
+    "name": "León Int'l Airport",
+    "city": "La Virgen Del Camino"
+  },
+  {
+    "icao": "LEMD",
+    "name": "Adolfo Suárez Madrid–Barajas Airport",
+    "city": "Madrid"
+  },
+  {
+    "icao": "LEMG",
+    "name": "Málaga-Costa del Sol Airport",
+    "city": "Málaga"
+  },
+  {
+    "icao": "LEMI",
+    "name": "Region of Murcia International Airport",
+    "city": "Corvera"
+  },
+  {
+    "icao": "LEPA",
+    "name": "Palma de Mallorca Airport",
+    "city": "Palma de Mallorca"
+  },
+  {
+    "icao": "LERS",
+    "name": "Reus Airport",
+    "city": "Reus"
+  },
+  {
+    "icao": "LEST",
+    "name": "Santiago-Rosalía de Castro Airport",
+    "city": "Santiago de Compostela"
+  },
+  {
+    "icao": "LEVC",
+    "name": "Valencia Airport",
+    "city": "Valencia"
+  },
+  {
+    "icao": "LEZG",
+    "name": "Zaragoza Airport",
+    "city": "Zaragoza"
+  },
+  {
+    "icao": "LEZL",
+    "name": "Seville Airport",
+    "city": "Seville"
+  },
+  {
+    "icao": "LFBD",
+    "name": "Bordeaux–Mérignac Airport",
+    "city": "Bordeaux"
+  },
+  {
+    "icao": "LFBO",
+    "name": "Toulouse-Blagnac Airport",
+    "city": "Toulouse/Blagnac"
+  },
+  {
+    "icao": "LFKB",
+    "name": "Bastia-Poretta International airport",
+    "city": "Bastia"
+  },
+  {
+    "icao": "LFKF",
+    "name": "Figari Sud-Corse Airport",
+    "city": "Figari"
+  },
+  {
+    "icao": "LFLC",
+    "name": "Clermont-Ferrand Auvergne airport",
+    "city": "Clermont-Ferrand"
+  },
+  {
+    "icao": "LFLL",
+    "name": "Lyon Saint-Exupéry Airport",
+    "city": "Colombier-Saugnieu, Rhône"
+  },
+  {
+    "icao": "LFML",
+    "name": "Marseille Provence Airport",
+    "city": "Marignane, Bouches-du-Rhône"
+  },
+  {
+    "icao": "LFMN",
+    "name": "Nice-Côte d'Azur Airport",
+    "city": "Nice, Alpes-Maritimes"
+  },
+  {
+    "icao": "LFOB",
+    "name": "Beauvais-Tillé airport",
+    "city": "Beauvais"
+  },
+  {
+    "icao": "LFPB",
+    "name": "Paris-Le Bourget International Airport",
+    "city": "Paris"
+  },
+  {
+    "icao": "LFPG",
+    "name": "Charles de Gaulle International Airport",
+    "city": "Paris (Roissy-en-France, Val-d'Oise)"
+  },
+  {
+    "icao": "LFPO",
+    "name": "Paris-Orly Airport",
+    "city": "Paris (Orly, Val-de-Marne)"
+  },
+  {
+    "icao": "LFQQ",
+    "name": "Lille Airport",
+    "city": "Lesquin"
+  },
+  {
+    "icao": "LFRB",
+    "name": "Brest Bretagne airport",
+    "city": "Brest"
+  },
+  {
+    "icao": "LFSB",
+    "name": "EuroAirport Basel–Mulhouse–Freiburg",
+    "city": "Bâle / Mulhouse"
+  },
+  {
+    "icao": "LFST",
+    "name": "Strasbourg Airport",
+    "city": "Strasbourg"
+  },
+  {
+    "icao": "LGAV",
+    "name": "Athens Eleftherios Venizelos International Airport",
+    "city": "Spata-Artemida"
+  },
+  {
+    "icao": "LGIR",
+    "name": "Heraklion International Nikos Kazantzakis Airport",
+    "city": "Heraklion"
+  },
+  {
+    "icao": "LGKO",
+    "name": "Kos International Airport \"Ippokratis\"",
+    "city": "Kos Island"
+  },
+  {
+    "icao": "LGKR",
+    "name": "Corfu Ioannis Kapodistrias International Airport",
+    "city": "Kerkyra (Corfu)"
+  },
+  {
+    "icao": "LGKV",
+    "name": "Kavala Alexander the Great International Airport",
+    "city": "Kavala"
+  },
+  {
+    "icao": "LGRP",
+    "name": "Rhodes International Airport \"Diagoras\"",
+    "city": "Rhodes"
+  },
+  {
+    "icao": "LGSA",
+    "name": "Chania International Airport",
+    "city": "Souda"
+  },
+  {
+    "icao": "LGSR",
+    "name": "Santorini International Airport",
+    "city": "Santorini Island"
+  },
+  {
+    "icao": "LGTS",
+    "name": "Thessaloniki Macedonia International Airport",
+    "city": "Thessaloniki"
+  },
+  {
+    "icao": "LHBP",
+    "name": "Budapest Liszt Ferenc International Airport",
+    "city": "Budapest"
+  },
+  {
+    "icao": "LHDC",
+    "name": "Debrecen International Airport",
+    "city": "Debrecen"
+  },
+  {
+    "icao": "LHPP",
+    "name": "Pécs-Pogány International Airport",
+    "city": "Pécs"
+  },
+  {
+    "icao": "LIBD",
+    "name": "Bari Karol Wojtyła International Airport",
+    "city": "Bari"
+  },
+  {
+    "icao": "LIBP",
+    "name": "Abruzzo Airport",
+    "city": "Pescara"
+  },
+  {
+    "icao": "LIBR",
+    "name": "Brindisi Airport",
+    "city": "Brindisi"
+  },
+  {
+    "icao": "LICA",
+    "name": "Lamezia Terme Sant'Eufemia International Airport",
+    "city": "Lamezia Terme (CZ)"
+  },
+  {
+    "icao": "LICC",
+    "name": "Catania-Fontanarossa Airport",
+    "city": "Catania"
+  },
+  {
+    "icao": "LICJ",
+    "name": "Falcone–Borsellino Airport",
+    "city": "Palermo"
+  },
+  {
+    "icao": "LIEE",
+    "name": "Cagliari Elmas Airport",
+    "city": "Cagliari"
+  },
+  {
+    "icao": "LIEO",
+    "name": "Olbia Costa Smeralda Airport",
+    "city": "Olbia (SS)"
+  },
+  {
+    "icao": "LIMC",
+    "name": "Milan Malpensa International Airport",
+    "city": "Ferno (VA)"
+  },
+  {
+    "icao": "LIME",
+    "name": "Il Caravaggio International Airport",
+    "city": "Orio al Serio (BG)"
+  },
+  {
+    "icao": "LIMF",
+    "name": "Turin Airport",
+    "city": "Caselle Torinese (TO)"
+  },
+  {
+    "icao": "LIMJ",
+    "name": "Genoa Cristoforo Colombo Airport",
+    "city": "Genova (GE)"
+  },
+  {
+    "icao": "LIML",
+    "name": "Milano Linate Airport",
+    "city": "Segrate (MI)"
+  },
+  {
+    "icao": "LIPE",
+    "name": "Bologna Guglielmo Marconi Airport",
+    "city": "Bologna"
+  },
+  {
+    "icao": "LIPH",
+    "name": "Treviso Airport",
+    "city": "Treviso (TV)"
+  },
+  {
+    "icao": "LIPQ",
+    "name": "Trieste Airport",
+    "city": "Ronchi dei Legionari/Trieste"
+  },
+  {
+    "icao": "LIPR",
+    "name": "Federico Fellini International Airport",
+    "city": "Rimini (RN)"
+  },
+  {
+    "icao": "LIPX",
+    "name": "Verona Villafranca Valerio Catullo Airport",
+    "city": "Caselle (VR)"
+  },
+  {
+    "icao": "LIPZ",
+    "name": "Venice Marco Polo Airport",
+    "city": "Venezia (VE)"
+  },
+  {
+    "icao": "LIRA",
+    "name": "Ciampino–G. B. Pastine International Airport",
+    "city": "Rome"
+  },
+  {
+    "icao": "LIRF",
+    "name": "Rome–Fiumicino Leonardo da Vinci International Airport",
+    "city": "Rome"
+  },
+  {
+    "icao": "LIRN",
+    "name": "Naples International Airport",
+    "city": "Napoli"
+  },
+  {
+    "icao": "LIRP",
+    "name": "Pisa International Airport",
+    "city": "Pisa (PI)"
+  },
+  {
+    "icao": "LIRQ",
+    "name": "Florence Airport, Peretola",
+    "city": "Firenze (FI)"
+  },
+  {
+    "icao": "LIRZ",
+    "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
+    "city": "Perugia (PG)"
+  },
+  {
+    "icao": "LJLJ",
+    "name": "Ljubljana Jože Pučnik Airport",
+    "city": "Zgornji Brnik"
+  },
+  {
+    "icao": "LKCS",
+    "name": "České Budějovice South Bohemian Airport",
+    "city": "České Budějovice"
+  },
+  {
+    "icao": "LKKV",
+    "name": "Karlovy Vary Airport",
+    "city": "Karlovy Vary"
+  },
+  {
+    "icao": "LKMT",
+    "name": "Leoš Janáček Airport Ostrava",
+    "city": "Mošnov"
+  },
+  {
+    "icao": "LKPD",
+    "name": "Pardubice Airport",
+    "city": "Pardubice"
+  },
+  {
+    "icao": "LKPR",
+    "name": "Václav Havel Airport Prague",
+    "city": "Prague"
+  },
+  {
+    "icao": "LLBG",
+    "name": "Ben Gurion International Airport",
+    "city": "Tel Aviv"
+  },
+  {
+    "icao": "LLER",
+    "name": "Ramon International Airport",
+    "city": "Eilat"
+  },
+  {
+    "icao": "LMML",
+    "name": "Malta International Airport",
+    "city": "Valletta"
+  },
+  {
+    "icao": "LOWG",
+    "name": "Graz Airport",
+    "city": "Feldkirchen bei Graz"
+  },
+  {
+    "icao": "LOWI",
+    "name": "Innsbruck Airport",
+    "city": "Innsbruck"
+  },
+  {
+    "icao": "LOWK",
+    "name": "Klagenfurt Airport",
+    "city": "Klagenfurt am Wörthersee"
+  },
+  {
+    "icao": "LOWL",
+    "name": "Linz-Hörsching Airport",
+    "city": "Linz"
+  },
+  {
+    "icao": "LOWS",
+    "name": "Salzburg Airport",
+    "city": "Salzburg"
+  },
+  {
+    "icao": "LOWW",
+    "name": "Vienna International Airport",
+    "city": "Vienna"
+  },
+  {
+    "icao": "LPFR",
+    "name": "Faro - Gago Coutinho International Airport",
+    "city": "Faro"
+  },
+  {
+    "icao": "LPMA",
+    "name": "Cristiano Ronaldo International Airport",
+    "city": "Funchal"
+  },
+  {
+    "icao": "LPPD",
+    "name": "João Paulo II Airport",
+    "city": "Ponta Delgada"
+  },
+  {
+    "icao": "LPPR",
+    "name": "Francisco de Sá Carneiro Airport",
+    "city": "Porto"
+  },
+  {
+    "icao": "LPPT",
+    "name": "Lisbon Humberto Delgado Airport",
+    "city": "Lisbon"
+  },
+  {
+    "icao": "LQBK",
+    "name": "Banja Luka International Airport",
+    "city": "Mahovljani"
+  },
+  {
+    "icao": "LQMO",
+    "name": "Mostar International Airport",
+    "city": "Mostar"
+  },
+  {
+    "icao": "LQSA",
+    "name": "Sarajevo International Airport",
+    "city": "Sarajevo"
+  },
+  {
+    "icao": "LQTZ",
+    "name": "Tuzla International Airport",
+    "city": "Dubrave Gornje"
+  },
+  {
+    "icao": "LRBC",
+    "name": "Bacău George Enescu International  Airport",
+    "city": "Bacău"
+  },
+  {
+    "icao": "LRBS",
+    "name": "Bucharest Băneasa Aurel Vlaicu International Airport",
+    "city": "Bucharest"
+  },
+  {
+    "icao": "LRBV",
+    "name": "Brașov-Ghimbav International Airport",
+    "city": "Brașov (Ghimbav)"
+  },
+  {
+    "icao": "LRCK",
+    "name": "Mihail Kogălniceanu International Airport",
+    "city": "Constanța"
+  },
+  {
+    "icao": "LRCL",
+    "name": "Avram Iancu Cluj International Airport",
+    "city": "Cluj-Napoca"
+  },
+  {
+    "icao": "LRCV",
+    "name": "Craiova International Airport",
+    "city": "Craiova"
+  },
+  {
+    "icao": "LRIA",
+    "name": "Iaşi International Airport",
+    "city": "Iaşi"
+  },
+  {
+    "icao": "LROD",
+    "name": "Oradea International Airport",
+    "city": "Oradea"
+  },
+  {
+    "icao": "LROP",
+    "name": "Bucharest Henri Coandă International Airport",
+    "city": "Otopeni"
+  },
+  {
+    "icao": "LRSB",
+    "name": "Sibiu International Airport",
+    "city": "Sibiu"
+  },
+  {
+    "icao": "LRSV",
+    "name": "Suceava Ștefan cel Mare International Airport",
+    "city": "Suceava"
+  },
+  {
+    "icao": "LRTR",
+    "name": "Timișoara Traian Vuia International Airport",
+    "city": "Timişoara"
+  },
+  {
+    "icao": "LSGG",
+    "name": "Geneva Cointrin International Airport",
+    "city": "Geneva"
+  },
+  {
+    "icao": "LSZH",
+    "name": "Zürich Airport",
+    "city": "Zurich"
+  },
+  {
+    "icao": "LTAC",
+    "name": "Esenboğa International Airport",
+    "city": "Ankara"
+  },
+  {
+    "icao": "LTAF",
+    "name": "Adana Şakirpaşa Airport",
+    "city": "Seyhan"
+  },
+  {
+    "icao": "LTAI",
+    "name": "Antalya International Airport",
+    "city": "Antalya"
+  },
+  {
+    "icao": "LTAJ",
+    "name": "Gaziantep Oğuzeli International Airport",
+    "city": "Gaziantep"
+  },
+  {
+    "icao": "LTAN",
+    "name": "Konya Airport",
+    "city": "Konya"
+  },
+  {
+    "icao": "LTAU",
+    "name": "Kayseri Erkilet International Airport",
+    "city": "Kayseri"
+  },
+  {
+    "icao": "LTAZ",
+    "name": "Nevşehir Kapadokya Airport",
+    "city": "Nevşehir"
+  },
+  {
+    "icao": "LTBA",
+    "name": "İstanbul Atatürk Airport",
+    "city": "Istanbul(Bakırköy)"
+  },
+  {
+    "icao": "LTBJ",
+    "name": "Adnan Menderes International Airport",
+    "city": "Gaziemir"
+  },
+  {
+    "icao": "LTBS",
+    "name": "Dalaman International Airport",
+    "city": "Dalaman"
+  },
+  {
+    "icao": "LTBY",
+    "name": "Hasan Polatkan Airport",
+    "city": "Eskişehir"
+  },
+  {
+    "icao": "LTCS",
+    "name": "Şanlıurfa GAP Airport",
+    "city": "Şanlıurfa"
+  },
+  {
+    "icao": "LTDB",
+    "name": "Çukurova International Airport",
+    "city": "Tarsus"
+  },
+  {
+    "icao": "LTFD",
+    "name": "Balıkesir Koca Seyit Airport",
+    "city": "Edremit"
+  },
+  {
+    "icao": "LTFE",
+    "name": "Milas Bodrum International Airport",
+    "city": "Bodrum"
+  },
+  {
+    "icao": "LTFJ",
+    "name": "Istanbul Sabiha Gökçen International Airport",
+    "city": "Pendik, Istanbul"
+  },
+  {
+    "icao": "LTFM",
+    "name": "İstanbul Airport",
+    "city": "Istanbul"
+  },
+  {
+    "icao": "LTFO",
+    "name": "Rize–Artvin Airport",
+    "city": "Rize"
+  },
+  {
+    "icao": "LUKK",
+    "name": "Chişinău International Airport",
+    "city": "Chişinău"
+  },
+  {
+    "icao": "LWOH",
+    "name": "Ohrid St. Paul the Apostle Airport",
+    "city": "Ohrid"
+  },
+  {
+    "icao": "LWSK",
+    "name": "Skopje International Airport",
+    "city": "Ilinden"
+  },
+  {
+    "icao": "LXGB",
+    "name": "Gibraltar Airport",
+    "city": "Gibraltar"
+  },
+  {
+    "icao": "LYBE",
+    "name": "Belgrade Nikola Tesla Airport",
+    "city": "Belgrade"
+  },
+  {
+    "icao": "LYNI",
+    "name": "Niš Constantine the Great Airport",
+    "city": "Niš"
+  },
+  {
+    "icao": "LYPG",
+    "name": "Podgorica Airport / Podgorica Golubovci Airbase",
+    "city": "Podgorica"
+  },
+  {
+    "icao": "LZIB",
+    "name": "M. R. Štefánik Airport",
+    "city": "Bratislava"
+  },
+  {
+    "icao": "MBPV",
+    "name": "Providenciales International Airport",
+    "city": "Providenciales"
+  },
+  {
+    "icao": "MDLR",
+    "name": "Casa De Campo International Airport",
+    "city": "La Romana"
+  },
+  {
+    "icao": "MDPC",
+    "name": "Punta Cana International Airport",
+    "city": "Punta Cana"
+  },
+  {
+    "icao": "MDSD",
+    "name": "Las Américas International Airport",
+    "city": "Santo Domingo"
+  },
+  {
+    "icao": "MDST",
+    "name": "Cibao International Airport",
+    "city": "Santiago"
+  },
+  {
+    "icao": "MGGT",
+    "name": "La Aurora International Airport",
+    "city": "Guatemala City"
+  },
+  {
+    "icao": "MHLM",
+    "name": "Ramón Villeda Morales International Airport",
+    "city": "San Pedro Sula"
+  },
+  {
+    "icao": "MHRO",
+    "name": "Juan Manuel Gálvez International Airport",
+    "city": "Coxen Hole"
+  },
+  {
+    "icao": "MHPR",
+    "name": "Palmerola International Airport",
+    "city": "Palmerola"
+  },
+  {
+    "icao": "MKJP",
+    "name": "Norman Manley International Airport",
+    "city": "Kingston"
+  },
+  {
+    "icao": "MKJS",
+    "name": "Sangster International Airport",
+    "city": "Montego Bay"
+  },
+  {
+    "icao": "MMAA",
+    "name": "General Juan N. Álvarez International Airport",
+    "city": "Acapulco"
+  },
+  {
+    "icao": "MMAS",
+    "name": "Aguascalientes International Airport",
+    "city": "Aguascalientes"
+  },
+  {
+    "icao": "MMBT",
+    "name": "Bahías de Huatulco International Airport",
+    "city": "Huatulco"
+  },
+  {
+    "icao": "MMCL",
+    "name": "Bachigualato Federal International Airport",
+    "city": "Culiacán"
+  },
+  {
+    "icao": "MMCS",
+    "name": "Abraham González International Airport",
+    "city": "Ciudad Juárez"
+  },
+  {
+    "icao": "MMCU",
+    "name": "General Roberto Fierro Villalobos International Airport",
+    "city": "Chihuahua"
+  },
+  {
+    "icao": "MMCZ",
+    "name": "Cozumel International Airport",
+    "city": "Cozumel"
+  },
+  {
+    "icao": "MMGL",
+    "name": "Guadalajara International Airport",
+    "city": "Guadalajara"
+  },
+  {
+    "icao": "MMHO",
+    "name": "General Ignacio L. Pesqueira International Airport",
+    "city": "Hermosillo"
+  },
+  {
+    "icao": "MMLO",
+    "name": "Guanajuato International Airport",
+    "city": "Silao"
+  },
+  {
+    "icao": "MMLT",
+    "name": "Loreto International Airport",
+    "city": "Loreto"
+  },
+  {
+    "icao": "MMMD",
+    "name": "Manuel Crescencio Rejón International Airport",
+    "city": "Mérida"
+  },
+  {
+    "icao": "MMMM",
+    "name": "General Francisco J. Mujica International Airport",
+    "city": "Morelia"
+  },
+  {
+    "icao": "MMMX",
+    "name": "Mexico City Benito Juárez International Airport",
+    "city": "Mexico City"
+  },
+  {
+    "icao": "MMMY",
+    "name": "Monterrey International Airport",
+    "city": "Monterrey"
+  },
+  {
+    "icao": "MMMZ",
+    "name": "General Rafael Buelna International Airport",
+    "city": "Mazatlàn"
+  },
+  {
+    "icao": "MMOX",
+    "name": "Xoxocotlán International Airport",
+    "city": "Oaxaca"
+  },
+  {
+    "icao": "MMPB",
+    "name": "Hermanos Serdán International Airport",
+    "city": "Puebla"
+  },
+  {
+    "icao": "MMPR",
+    "name": "Puerto Vallarta International Airport",
+    "city": "Puerto Vallarta"
+  },
+  {
+    "icao": "MMQT",
+    "name": "Querétaro Intercontinental Airport",
+    "city": "Querétaro"
+  },
+  {
+    "icao": "MMSD",
+    "name": "Los Cabos International Airport",
+    "city": "San José del Cabo"
+  },
+  {
+    "icao": "MMSM",
+    "name": "Felipe Ángeles International Airport",
+    "city": "Mexico City"
+  },
+  {
+    "icao": "MMTJ",
+    "name": "General Abelardo L. Rodriguez International Airport",
+    "city": "Tijuana"
+  },
+  {
+    "icao": "MMTL",
+    "name": "Felipe Carrillo Puerto International Airport Tulum",
+    "city": "Tulum"
+  },
+  {
+    "icao": "MMTO",
+    "name": "Adolfo López Mateos International Airport",
+    "city": "Toluca"
+  },
+  {
+    "icao": "MMUN",
+    "name": "Cancún International Airport",
+    "city": "Cancún"
+  },
+  {
+    "icao": "MMVA",
+    "name": "Carlos Rovirosa Pérez International Airport",
+    "city": "Villahermosa"
+  },
+  {
+    "icao": "MMVR",
+    "name": "General Heriberto Jara International Airport",
+    "city": "Veracruz"
+  },
+  {
+    "icao": "MMZH",
+    "name": "Ixtapa-Zihuatanejo International Airport",
+    "city": "Ixtapa"
+  },
+  {
+    "icao": "MNMG",
+    "name": "Augusto C. Sandino (Managua) International Airport",
+    "city": "Managua"
+  },
+  {
+    "icao": "MPTO",
+    "name": "Tocumen International Airport",
+    "city": "Tocumen"
+  },
+  {
+    "icao": "MRLB",
+    "name": "Daniel Oduber Quirós International Airport",
+    "city": "Liberia"
+  },
+  {
+    "icao": "MROC",
+    "name": "Juan Santamaría International Airport",
+    "city": "San José (Alajuela)"
+  },
+  {
+    "icao": "MSLP",
+    "name": "El Salvador International Airport Saint Óscar Arnulfo Romero y Galdámez",
+    "city": "San Salvador (San Luis Talpa)"
+  },
+  {
+    "icao": "MTCH",
+    "name": "Cap Haitien International Airport",
+    "city": "Cap Haitien"
+  },
+  {
+    "icao": "MTPP",
+    "name": "Toussaint Louverture International Airport",
+    "city": "Port-au-Prince"
+  },
+  {
+    "icao": "MUCM",
+    "name": "Ignacio Agramonte International Airport",
+    "city": "Camaguey"
+  },
+  {
+    "icao": "MUCU",
+    "name": "Antonio Maceo International Airport",
+    "city": "Santiago"
+  },
+  {
+    "icao": "MUHA",
+    "name": "José Martí International Airport",
+    "city": "Havana"
+  },
+  {
+    "icao": "MUHG",
+    "name": "Frank Pais International Airport",
+    "city": "Holguin"
+  },
+  {
+    "icao": "MUSC",
+    "name": "Abel Santamaria International Airport",
+    "city": "Santa Clara"
+  },
+  {
+    "icao": "MUVR",
+    "name": "Juan Gualberto Gomez International Airport",
+    "city": "Matanzas"
+  },
+  {
+    "icao": "MWCR",
+    "name": "Owen Roberts International Airport",
+    "city": "George Town"
+  },
+  {
+    "icao": "MYGF",
+    "name": "Grand Bahama International Airport",
+    "city": "Freeport"
+  },
+  {
+    "icao": "MYNN",
+    "name": "Lynden Pindling International Airport",
+    "city": "Nassau"
+  },
+  {
+    "icao": "MYSM",
+    "name": "San Salvador International Airport",
+    "city": "San Salvador"
+  },
+  {
+    "icao": "MZBZ",
+    "name": "Philip S. W. Goldson International Airport",
+    "city": "Belize City"
+  },
+  {
+    "icao": "NCRG",
+    "name": "Rarotonga International Airport",
+    "city": "Avarua"
+  },
+  {
+    "icao": "NFFN",
+    "name": "Nadi International Airport",
+    "city": "Nadi"
+  },
+  {
+    "icao": "NFNA",
+    "name": "Nausori International Airport",
+    "city": "Nausori"
+  },
+  {
+    "icao": "NFTF",
+    "name": "Fua'amotu International Airport",
+    "city": "Nuku'alofa"
+  },
+  {
+    "icao": "NFTV",
+    "name": "Vava'u International Airport",
+    "city": "Vava'u Island"
+  },
+  {
+    "icao": "DNBK",
+    "name": "Sir Ahmadu Bello International Airport",
+    "city": "Birinin Kebbi"
+  },
+  {
+    "icao": "NGTA",
+    "name": "Bonriki International Airport",
+    "city": "South Tarawa"
+  },
+  {
+    "icao": "NLWW",
+    "name": "Hihifo Airport",
+    "city": "Wallis Island"
+  },
+  {
+    "icao": "",
+    "name": "Pokhara International Airport",
+    "city": "Pokhara"
+  },
+  {
+    "icao": "NSFA",
+    "name": "Faleolo International Airport",
+    "city": "Apia"
+  },
+  {
+    "icao": "NSTU",
+    "name": "Pago Pago International Airport",
+    "city": "Pago Pago"
+  },
+  {
+    "icao": "NTAA",
+    "name": "Fa'a'ā International Airport",
+    "city": "Papeete"
+  },
+  {
+    "icao": "NVVV",
+    "name": "Bauerfield International Airport",
+    "city": "Port Vila"
+  },
+  {
+    "icao": "NWWW",
+    "name": "La Tontouta International Airport",
+    "city": "Nouméa (La Tontouta)"
+  },
+  {
+    "icao": "NZAA",
+    "name": "Auckland International Airport",
+    "city": "Auckland"
+  },
+  {
+    "icao": "NZCH",
+    "name": "Christchurch International Airport",
+    "city": "Christchurch"
+  },
+  {
+    "icao": "NZQN",
+    "name": "Queenstown Airport",
+    "city": "Queenstown"
+  },
+  {
+    "icao": "NZWN",
+    "name": "Wellington International Airport",
+    "city": "Wellington"
+  },
+  {
+    "icao": "OAHR",
+    "name": "Herat - Khwaja Abdullah Ansari International Airport",
+    "city": "Guzara"
+  },
+  {
+    "icao": "OAKB",
+    "name": "Kabul International Airport",
+    "city": "Kabul"
+  },
+  {
+    "icao": "OAKN",
+    "name": "Ahmad Shah Baba International Airport",
+    "city": "Kandahar"
+  },
+  {
+    "icao": "OAMS",
+    "name": "Mazar-i-Sharif International Airport",
+    "city": "Mazar-i-Sharif"
+  },
+  {
+    "icao": "OBBI",
+    "name": "Bahrain International Airport",
+    "city": "Manama"
+  },
+  {
+    "icao": "",
+    "name": "Corisco International Airport",
+    "city": "Corisco Island"
+  },
+  {
+    "icao": "OEAB",
+    "name": "Abha International Airport",
+    "city": "Abha"
+  },
+  {
+    "icao": "OEAH",
+    "name": "Al-Ahsa International Airport",
+    "city": "Hofuf"
+  },
+  {
+    "icao": "OEDF",
+    "name": "King Fahd International Airport",
+    "city": "Ad Dammam"
+  },
+  {
+    "icao": "OEDR",
+    "name": "King Abdulaziz Air Base",
+    "city": "Dhahran"
+  },
+  {
+    "icao": "OEGS",
+    "name": "Prince Naif bin Abdulaziz International Airport",
+    "city": "Qassim"
+  },
+  {
+    "icao": "OEJN",
+    "name": "King Abdulaziz International Airport",
+    "city": "Jeddah"
+  },
+  {
+    "icao": "OEMA",
+    "name": "Prince Mohammad Bin Abdulaziz Airport",
+    "city": "Medina"
+  },
+  {
+    "icao": "OENN",
+    "name": "Neom Bay Airport",
+    "city": "Sharma"
+  },
+  {
+    "icao": "OERK",
+    "name": "King Khalid International Airport",
+    "city": "Riyadh"
+  },
+  {
+    "icao": "OESK",
+    "name": "Al-Jawf International Airport",
+    "city": "Al-Jawf"
+  },
+  {
+    "icao": "OETB",
+    "name": "Prince Sultan bin Abdulaziz International Airport",
+    "city": "Tabuk"
+  },
+  {
+    "icao": "OETF",
+    "name": "Taif International Airport",
+    "city": "Taif"
+  },
+  {
+    "icao": "OEYN",
+    "name": "Prince Abdulmohsen Bin Abdulaziz International Airport",
+    "city": "Yanbu"
+  },
+  {
+    "icao": "OIAA",
+    "name": "Abadan Ayatollah Jami International Airport",
+    "city": "Abadan"
+  },
+  {
+    "icao": "OIAW",
+    "name": "Qasem Soleimani International Airport",
+    "city": "Ahvaz"
+  },
+  {
+    "icao": "OIBK",
+    "name": "Kish International Airport",
+    "city": "Kish Island"
+  },
+  {
+    "icao": "OIFM",
+    "name": "Isfahan Shahid Beheshti International Airport",
+    "city": "Isfahan"
+  },
+  {
+    "icao": "OIIE",
+    "name": "Imam Khomeini International Airport",
+    "city": "Tehran"
+  },
+  {
+    "icao": "OIII",
+    "name": "Mehrabad International Airport",
+    "city": "Tehran"
+  },
+  {
+    "icao": "OIIP",
+    "name": "Payam International Airport",
+    "city": "Karaj"
+  },
+  {
+    "icao": "OIKB",
+    "name": "Bandar Abbas International Airport",
+    "city": "Bandar Abbas"
+  },
+  {
+    "icao": "OIKK",
+    "name": "Ayatollah Hashemi Rafsanjani International Airport",
+    "city": "Kerman"
+  },
+  {
+    "icao": "OIKQ",
+    "name": "Qeshm International Airport",
+    "city": "Qeshm(Dayrestan)"
+  },
+  {
+    "icao": "OIMB",
+    "name": "Birjand International Airport",
+    "city": "Birjand"
+  },
+  {
+    "icao": "OIMM",
+    "name": "Mashhad International Airport",
+    "city": "Mashhad"
+  },
+  {
+    "icao": "OISS",
+    "name": "Shiraz Shahid Dastghaib International Airport",
+    "city": "Shiraz"
+  },
+  {
+    "icao": "OIZH",
+    "name": "Zahedan International Airport",
+    "city": "Zahedan"
+  },
+  {
+    "icao": "OJAI",
+    "name": "Queen Alia International Airport",
+    "city": "Amman"
+  },
+  {
+    "icao": "OJAM",
+    "name": "Marka International (Amman Civil) Airport",
+    "city": "Amman"
+  },
+  {
+    "icao": "OJAQ",
+    "name": "King Hussein International Airport",
+    "city": "Aqaba"
+  },
+  {
+    "icao": "OKKK",
+    "name": "Kuwait International Airport",
+    "city": "Kuwait City"
+  },
+  {
+    "icao": "OLBA",
+    "name": "Beirut Rafic Hariri International Airport",
+    "city": "Beirut"
+  },
+  {
+    "icao": "",
+    "name": "Duqm International Airport",
+    "city": "Duqm"
+  },
+  {
+    "icao": "OMAA",
+    "name": "Zayed International Airport",
+    "city": "Abu Dhabi"
+  },
+  {
+    "icao": "OMAD",
+    "name": "Al Bateen Executive Airport",
+    "city": "Abu Dhabi"
+  },
+  {
+    "icao": "OMAL",
+    "name": "Al Ain International Airport",
+    "city": "Al Ain"
+  },
+  {
+    "icao": "OMDB",
+    "name": "Dubai International Airport",
+    "city": "Dubai"
+  },
+  {
+    "icao": "OMDW",
+    "name": "Al Maktoum International Airport",
+    "city": "Dubai(Jebel Ali)"
+  },
+  {
+    "icao": "OMFJ",
+    "name": "Fujairah International Airport",
+    "city": "Fujairah"
+  },
+  {
+    "icao": "OMRK",
+    "name": "Ras Al Khaimah International Airport",
+    "city": "Ras Al Khaimah"
+  },
+  {
+    "icao": "OMSJ",
+    "name": "Sharjah International Airport",
+    "city": "Sharjah"
+  },
+  {
+    "icao": "OOMS",
+    "name": "Muscat International Airport",
+    "city": "Muscat/Seeb"
+  },
+  {
+    "icao": "OOSA",
+    "name": "Salalah International Airport",
+    "city": "Salalah"
+  },
+  {
+    "icao": "OOSH",
+    "name": "Suhar International Airport",
+    "city": "Suhar"
+  },
+  {
+    "icao": "OPFA",
+    "name": "Faisalabad International Airport",
+    "city": "Faisalabad"
+  },
+  {
+    "icao": "OPGW",
+    "name": "New Gwadar International Airport",
+    "city": "Gurandani"
+  },
+  {
+    "icao": "OPIS",
+    "name": "Islamabad International Airport",
+    "city": "Attock"
+  },
+  {
+    "icao": "OPKC",
+    "name": "Jinnah International Airport",
+    "city": "Karachi"
+  },
+  {
+    "icao": "OPLA",
+    "name": "Allama Iqbal International Airport",
+    "city": "Lahore"
+  },
+  {
+    "icao": "OPMT",
+    "name": "Multan International Airport",
+    "city": "Multan"
+  },
+  {
+    "icao": "OPPS",
+    "name": "Bacha Khan International Airport",
+    "city": "Peshawar"
+  },
+  {
+    "icao": "OPQT",
+    "name": "Quetta International Airport",
+    "city": "Quetta"
+  },
+  {
+    "icao": "OPSD",
+    "name": "Skardu International Airport",
+    "city": "Skardu"
+  },
+  {
+    "icao": "OPST",
+    "name": "Sialkot International Airport",
+    "city": "Sialkot"
+  },
+  {
+    "icao": "OPTU",
+    "name": "Turbat International Airport",
+    "city": "Turbat"
+  },
+  {
+    "icao": "ORBI",
+    "name": "Baghdad International Airport / New Al Muthana Air Base",
+    "city": "Baghdad"
+  },
+  {
+    "icao": "ORBM",
+    "name": "Mosul International Airport",
+    "city": "Mosul"
+  },
+  {
+    "icao": "ORER",
+    "name": "Erbil International Airport",
+    "city": "Arbil"
+  },
+  {
+    "icao": "ORKK",
+    "name": "Kirkuk International Airport",
+    "city": "Kirkuk"
+  },
+  {
+    "icao": "ORMM",
+    "name": "Basra International Airport",
+    "city": "Basra"
+  },
+  {
+    "icao": "ORNI",
+    "name": "Al Najaf International Airport",
+    "city": "Najaf"
+  },
+  {
+    "icao": "OSAP",
+    "name": "Aleppo International Airport",
+    "city": "Aleppo"
+  },
+  {
+    "icao": "OSDI",
+    "name": "Damascus International Airport",
+    "city": "Damascus"
+  },
+  {
+    "icao": "OTBD",
+    "name": "Doha International Airport",
+    "city": "Doha"
+  },
+  {
+    "icao": "OTHH",
+    "name": "Hamad International Airport",
+    "city": "Doha"
+  },
+  {
+    "icao": "OYAA",
+    "name": "Aden International Airport",
+    "city": "Aden"
+  },
+  {
+    "icao": "OYRN",
+    "name": "Riyan International Airport",
+    "city": "Mukalla(Riyan)"
+  },
+  {
+    "icao": "OYSN",
+    "name": "Sanaa International Airport",
+    "city": "Sanaa"
+  },
+  {
+    "icao": "OYSY",
+    "name": "Seiyun Hadhramaut International Airport",
+    "city": "Seiyun"
+  },
+  {
+    "icao": "PANC",
+    "name": "Ted Stevens Anchorage International Airport",
+    "city": "Anchorage"
+  },
+  {
+    "icao": "PGRO",
+    "name": "Rota International Airport",
+    "city": "Rota Island"
+  },
+  {
+    "icao": "PGUM",
+    "name": "Antonio B. Won Pat International Airport",
+    "city": "Hagåtña"
+  },
+  {
+    "icao": "PGWT",
+    "name": "Tinian International Airport",
+    "city": "Tinian Island"
+  },
+  {
+    "icao": "PHKO",
+    "name": "Ellison Onizuka Kona International Airport at Keāhole",
+    "city": "Kailua-Kona"
+  },
+  {
+    "icao": "PHLI",
+    "name": "Lihue Airport",
+    "city": "Lihue, Kauai"
+  },
+  {
+    "icao": "PHNL",
+    "name": "Daniel K. Inouye International Airport",
+    "city": "Honolulu, Oahu"
+  },
+  {
+    "icao": "PHOG",
+    "name": "Kahului International Airport",
+    "city": "Kahului"
+  },
+  {
+    "icao": "PKMJ",
+    "name": "Marshall Islands International Airport",
+    "city": "Majuro Atoll"
+  },
+  {
+    "icao": "PLCH",
+    "name": "Cassidy International Airport",
+    "city": "Kiritimati"
+  },
+  {
+    "icao": "PTKK",
+    "name": "Chuuk International Airport",
+    "city": "Weno Island"
+  },
+  {
+    "icao": "PTRO",
+    "name": "Roman Tmetuchl International Airport",
+    "city": "Babelthuap Island"
+  },
+  {
+    "icao": "PTSA",
+    "name": "Kosrae International Airport",
+    "city": "Okat"
+  },
+  {
+    "icao": "PTYA",
+    "name": "Yap International Airport",
+    "city": "Yap Island"
+  },
+  {
+    "icao": "RCKH",
+    "name": "Kaohsiung International Airport",
+    "city": "Kaohsiung (Xiaogang)"
+  },
+  {
+    "icao": "RCMQ",
+    "name": "Taichung International Airport / Ching Chuang Kang Air Base",
+    "city": "Taichung (Qingshui)"
+  },
+  {
+    "icao": "RCNN",
+    "name": "Tainan International Airport / Tainan Air Base",
+    "city": "Tainan (Rende)"
+  },
+  {
+    "icao": "RCQC",
+    "name": "Penghu Magong Airport",
+    "city": "Huxi"
+  },
+  {
+    "icao": "RCSS",
+    "name": "Taipei Songshan International Airport",
+    "city": "Taipei (Songshan)"
+  },
+  {
+    "icao": "RCTP",
+    "name": "Taiwan Taoyuan International Airport",
+    "city": "Taoyuan"
+  },
+  {
+    "icao": "RCYU",
+    "name": "Hualien Chiashan Airport",
+    "city": "Hualien City"
+  },
+  {
+    "icao": "RJAA",
+    "name": "Narita International Airport",
+    "city": "Narita"
+  },
+  {
+    "icao": "RJBB",
+    "name": "Kansai International Airport",
+    "city": "Osaka"
+  },
+  {
+    "icao": "RJBE",
+    "name": "Kobe Airport",
+    "city": "Kobe"
+  },
+  {
+    "icao": "RJCC",
+    "name": "New Chitose Airport",
+    "city": "Sapporo"
+  },
+  {
+    "icao": "RJCH",
+    "name": "Hakodate Airport",
+    "city": "Hakodate"
+  },
+  {
+    "icao": "RJFF",
+    "name": "Fukuoka Airport",
+    "city": "Fukuoka"
+  },
+  {
+    "icao": "RJFK",
+    "name": "Kagoshima Airport",
+    "city": "Kagoshima"
+  },
+  {
+    "icao": "RJFM",
+    "name": "Miyazaki Airport",
+    "city": "Miyazaki"
+  },
+  {
+    "icao": "RJFR",
+    "name": "Kitakyushu Airport",
+    "city": "Kitakyushu"
+  },
+  {
+    "icao": "RJFS",
+    "name": "Kyushu Saga International Airport",
+    "city": "Saga"
+  },
+  {
+    "icao": "RJFT",
+    "name": "Kumamoto Airport",
+    "city": "Kumamoto"
+  },
+  {
+    "icao": "RJFU",
+    "name": "Nagasaki Airport",
+    "city": "Nagasaki"
+  },
+  {
+    "icao": "RJGG",
+    "name": "Chubu Centrair International Airport",
+    "city": "Tokoname"
+  },
+  {
+    "icao": "RJNK",
+    "name": "Komatsu Airport / JASDF Komatsu Air Base",
+    "city": "Kanazawa"
+  },
+  {
+    "icao": "RJNS",
+    "name": "Mount Fuji Shizuoka Airport",
+    "city": "Makinohara / Shimada"
+  },
+  {
+    "icao": "RJOA",
+    "name": "Hiroshima Airport",
+    "city": "Hiroshima"
+  },
+  {
+    "icao": "RJOB",
+    "name": "Okayama Momotaro Airport",
+    "city": "Okayama"
+  },
+  {
+    "icao": "RJOK",
+    "name": "Kochi Ryoma Airport",
+    "city": "Nankoku"
+  },
+  {
+    "icao": "RJOM",
+    "name": "Matsuyama Airport",
+    "city": "Matsuyama"
+  },
+  {
+    "icao": "RJOO",
+    "name": "Osaka Itami International Airport",
+    "city": "Osaka"
+  },
+  {
+    "icao": "RJOS",
+    "name": "Tokushima Awaodori Airport / JMSDF Tokushima Air Base",
+    "city": "Tokushima"
+  },
+  {
+    "icao": "RJOT",
+    "name": "Takamatsu Airport",
+    "city": "Takamatsu"
+  },
+  {
+    "icao": "RJSA",
+    "name": "Aomori Airport",
+    "city": "Aomori"
+  },
+  {
+    "icao": "RJSN",
+    "name": "Niigata Airport",
+    "city": "Niigata"
+  },
+  {
+    "icao": "RJSS",
+    "name": "Sendai Airport",
+    "city": "Natori"
+  },
+  {
+    "icao": "RJTT",
+    "name": "Tokyo Haneda International Airport",
+    "city": "Tokyo"
+  },
+  {
+    "icao": "RKJB",
+    "name": "Muan International Airport",
+    "city": "Muan (Piseo-ri)"
+  },
+  {
+    "icao": "RKNY",
+    "name": "Yangyang International Airport",
+    "city": "Gonghang-ro"
+  },
+  {
+    "icao": "RKPC",
+    "name": "Jeju International Airport",
+    "city": "Jeju City"
+  },
+  {
+    "icao": "RKPK",
+    "name": "Gimhae International Airport",
+    "city": "Busan"
+  },
+  {
+    "icao": "RKSI",
+    "name": "Incheon International Airport",
+    "city": "Seoul"
+  },
+  {
+    "icao": "RKSS",
+    "name": "Gimpo International Airport",
+    "city": "Seoul"
+  },
+  {
+    "icao": "RKTN",
+    "name": "Daegu International Airport",
+    "city": "Daegu"
+  },
+  {
+    "icao": "RKTU",
+    "name": "Cheongju International Airport/Cheongju Air Base (K-59/G-513)",
+    "city": "Cheongju"
+  },
+  {
+    "icao": "ROAH",
+    "name": "Naha International Airport",
+    "city": "Naha"
+  },
+  {
+    "icao": "RODN",
+    "name": "Kadena Air Base",
+    "city": "Okinawa"
+  },
+  {
+    "icao": "RPLB",
+    "name": "Subic Bay International Airport / Naval Air Station Cubi Point",
+    "city": "Olongapo"
+  },
+  {
+    "icao": "RPLC",
+    "name": "Clark International Airport / Clark Air Base",
+    "city": "Mabalacat"
+  },
+  {
+    "icao": "RPLI",
+    "name": "Laoag International Airport",
+    "city": "Laoag City"
+  },
+  {
+    "icao": "RPLK",
+    "name": "Bicol International Airport",
+    "city": "Legazpi"
+  },
+  {
+    "icao": "RPLL",
+    "name": "Ninoy Aquino International Airport",
+    "city": "Manila (Pasay)"
+  },
+  {
+    "icao": "RPMD",
+    "name": "Francisco Bangoy International Airport",
+    "city": "Davao"
+  },
+  {
+    "icao": "RPMR",
+    "name": "General Santos International Airport",
+    "city": "General Santos"
+  },
+  {
+    "icao": "RPMY",
+    "name": "Laguindingan International Airport",
+    "city": "Laguindingan"
+  },
+  {
+    "icao": "RPMZ",
+    "name": "Zamboanga International Airport",
+    "city": "Zamboanga"
+  },
+  {
+    "icao": "RPVB",
+    "name": "Bacolod-Silay International Airport",
+    "city": "Bacolod City"
+  },
+  {
+    "icao": "RPVI",
+    "name": "Iloilo International Airport",
+    "city": "Cabatuan"
+  },
+  {
+    "icao": "RPVK",
+    "name": "Kalibo International Airport",
+    "city": "Kalibo"
+  },
+  {
+    "icao": "RPVM",
+    "name": "Mactan Cebu International Airport",
+    "city": "Cebu City/Lapu-Lapu City"
+  },
+  {
+    "icao": "RPVP",
+    "name": "Puerto Princesa International Airport / PAF Antonio Bautista Air Base",
+    "city": "Puerto Princesa"
+  },
+  {
+    "icao": "OERS",
+    "name": "Red Sea International Airport",
+    "city": "Hanak"
+  },
+  {
+    "icao": "",
+    "name": "Lipetsk Air Base",
+    "city": "Lipetsk"
+  },
+  {
+    "icao": "SAAR",
+    "name": "Rosario Islas Malvinas International Airport",
+    "city": "Rosario"
+  },
+  {
+    "icao": "SABE",
+    "name": "Aeroparque Jorge Newbery",
+    "city": "Buenos Aires"
+  },
+  {
+    "icao": "SACO",
+    "name": "Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport",
+    "city": "Cordoba"
+  },
+  {
+    "icao": "SAEZ",
+    "name": "Ezeiza International Airport - Ministro Pistarini",
+    "city": "Buenos Aires (Ezeiza)"
+  },
+  {
+    "icao": "SAME",
+    "name": "Governor Francisco Gabrielli International Airport",
+    "city": "Mendoza"
+  },
+  {
+    "icao": "SANT",
+    "name": "Teniente Benjamín Matienzo International Airport",
+    "city": "San Miguel de Tucumán"
+  },
+  {
+    "icao": "SARE",
+    "name": "Resistencia International Airport",
+    "city": "Resistencia"
+  },
+  {
+    "icao": "SASA",
+    "name": "Martín Miguel de Güemes International Airport",
+    "city": "Salta"
+  },
+  {
+    "icao": "SASJ",
+    "name": "Gobernador Horacio Guzman International Airport",
+    "city": "San Salvador de Jujuy"
+  },
+  {
+    "icao": "SAVC",
+    "name": "General Enrique Mosconi International Airport",
+    "city": "Comodoro Rivadavia"
+  },
+  {
+    "icao": "",
+    "name": "El Calafate - Commander Armando Tola International Airport",
+    "city": "El Calafate"
+  },
+  {
+    "icao": "SAWG",
+    "name": "Piloto Civil Norberto Fernández International Airport",
+    "city": "Rio Gallegos"
+  },
+  {
+    "icao": "SAZN",
+    "name": "Presidente Perón International Airport",
+    "city": "Neuquén"
+  },
+  {
+    "icao": "SAZS",
+    "name": "Teniente Luis Candelaria International Airport",
+    "city": "San Carlos de Bariloche"
+  },
+  {
+    "icao": "SBBE",
+    "name": "Val de Cans/Júlio Cezar Ribeiro International Airport",
+    "city": "Belém"
+  },
+  {
+    "icao": "SBBR",
+    "name": "Presidente Juscelino Kubitschek International Airport",
+    "city": "Brasília"
+  },
+  {
+    "icao": "SBBV",
+    "name": "Atlas Brasil Cantanhede International Airport",
+    "city": "Boa Vista"
+  },
+  {
+    "icao": "SBCF",
+    "name": "Tancredo Neves International Airport",
+    "city": "Belo Horizonte"
+  },
+  {
+    "icao": "SBCT",
+    "name": "Curitiba-Afonso Pena International Airport",
+    "city": "Curitiba"
+  },
+  {
+    "icao": "SBCY",
+    "name": "Várzea Grande–Marechal Rondon International Airport",
+    "city": "Cuiabá"
+  },
+  {
+    "icao": "SBEG",
+    "name": "Eduardo Gomes International Airport",
+    "city": "Manaus"
+  },
+  {
+    "icao": "SBFI",
+    "name": "Cataratas International Airport",
+    "city": "Foz do Iguaçu"
+  },
+  {
+    "icao": "SBFL",
+    "name": "Hercílio Luz International Airport",
+    "city": "Florianópolis"
+  },
+  {
+    "icao": "SBFZ",
+    "name": "Pinto Martins International Airport",
+    "city": "Fortaleza"
+  },
+  {
+    "icao": "SBGL",
+    "name": "Rio Galeão – Tom Jobim International Airport",
+    "city": "Rio De Janeiro"
+  },
+  {
+    "icao": "SBGO",
+    "name": "Santa Genoveva International Airport",
+    "city": "Goiânia"
+  },
+  {
+    "icao": "SBGR",
+    "name": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+    "city": "São Paulo"
+  },
+  {
+    "icao": "SBJP",
+    "name": "Presidente Castro Pinto International Airport",
+    "city": "João Pessoa"
+  },
+  {
+    "icao": "SBKP",
+    "name": "Viracopos International Airport",
+    "city": "Campinas"
+  },
+  {
+    "icao": "SBMO",
+    "name": "Zumbi dos Palmares International Airport",
+    "city": "Maceió"
+  },
+  {
+    "icao": "SBNF",
+    "name": "Ministro Victor Konder International Airport",
+    "city": "Navegantes"
+  },
+  {
+    "icao": "SBPA",
+    "name": "Porto Alegre-Salgado Filho International Airport",
+    "city": "Porto Alegre"
+  },
+  {
+    "icao": "SBPS",
+    "name": "Porto Seguro International Airport",
+    "city": "Porto Seguro"
+  },
+  {
+    "icao": "SBPV",
+    "name": "Governador Jorge Teixeira de Oliveira International Airport",
+    "city": "Porto Velho"
+  },
+  {
+    "icao": "SBRB",
+    "name": "Rio Branco-Plácido de Castro International Airport",
+    "city": "Rio Branco"
+  },
+  {
+    "icao": "SBRF",
+    "name": "Recife/Guararapes - Gilberto Freyre International Airport",
+    "city": "Recife"
+  },
+  {
+    "icao": "SBRJ",
+    "name": "Santos Dumont Airport",
+    "city": "Rio de Janeiro"
+  },
+  {
+    "icao": "",
+    "name": "Rio Grande do Norte/São Gonçalo do Amarante–Governador Aluízio Alves International Airport",
+    "city": "Natal"
+  },
+  {
+    "icao": "SBSL",
+    "name": "Marechal Cunha Machado International Airport",
+    "city": "São Luís"
+  },
+  {
+    "icao": "SBSP",
+    "name": "Congonhas–Deputado Freitas Nobre Airport",
+    "city": "São Paulo"
+  },
+  {
+    "icao": "SBSV",
+    "name": "Deputado Luiz Eduardo Magalhães International Airport",
+    "city": "Salvador"
+  },
+  {
+    "icao": "SBVT",
+    "name": "Eurico de Aguiar Salles International Airport",
+    "city": "Vitória"
+  },
+  {
+    "icao": "SCCI",
+    "name": "President Carlos Ibáñez International Airport",
+    "city": "Punta Arenas"
+  },
+  {
+    "icao": "SCEL",
+    "name": "Comodoro Arturo Merino Benítez International Airport",
+    "city": "Santiago"
+  },
+  {
+    "icao": "SCFA",
+    "name": "Andrés Sabella Gálvez International Airport",
+    "city": "Antofagasta"
+  },
+  {
+    "icao": "SCIE",
+    "name": "Carriel Sur International Airport",
+    "city": "Concepcion"
+  },
+  {
+    "icao": "SCIP",
+    "name": "Mataveri International Airport",
+    "city": "Isla De Pascua"
+  },
+  {
+    "icao": "SCQP",
+    "name": "La Araucanía International Airport",
+    "city": "Temuco"
+  },
+  {
+    "icao": "SCTE",
+    "name": "El Tepual International Airport",
+    "city": "Puerto Montt"
+  },
+  {
+    "icao": "SEGU",
+    "name": "José Joaquín de Olmedo International Airport",
+    "city": "Guayaquil"
+  },
+  {
+    "icao": "SEQM",
+    "name": "Mariscal Sucre International Airport",
+    "city": "Quito"
+  },
+  {
+    "icao": "SESA",
+    "name": "General Ulpiano Paez International Airport",
+    "city": "Salinas/La Libertad"
+  },
+  {
+    "icao": "SETN",
+    "name": "Carlos Concha Torres International Airport",
+    "city": "Tachina"
+  },
+  {
+    "icao": "SGAS",
+    "name": "Silvio Pettirossi International Airport",
+    "city": "Asunción"
+  },
+  {
+    "icao": "SGEN",
+    "name": "Teniente Ramon A. Ayub Gonzalez International Airport",
+    "city": "Encarnación"
+  },
+  {
+    "icao": "SGES",
+    "name": "Guaraní International Airport",
+    "city": "Ciudad del Este"
+  },
+  {
+    "icao": "SKBO",
+    "name": "El Dorado International Airport",
+    "city": "Bogota"
+  },
+  {
+    "icao": "SKBQ",
+    "name": "Ernesto Cortissoz International Airport",
+    "city": "Barranquilla"
+  },
+  {
+    "icao": "SKCG",
+    "name": "Rafael Nuñez International Airport",
+    "city": "Cartagena"
+  },
+  {
+    "icao": "SKCL",
+    "name": "Alfonso Bonilla Aragon International Airport",
+    "city": "Cali"
+  },
+  {
+    "icao": "SKRG",
+    "name": "Jose Maria Córdova International Airport",
+    "city": "Medellín"
+  },
+  {
+    "icao": "SKSP",
+    "name": "Gustavo Rojas Pinilla International Airport",
+    "city": "San Andrés"
+  },
+  {
+    "icao": "SLAL",
+    "name": "Alcantarí International Airport",
+    "city": "Sucre"
+  },
+  {
+    "icao": "SLCB",
+    "name": "Jorge Wilsterman International Airport",
+    "city": "Cochabamba"
+  },
+  {
+    "icao": "SLLP",
+    "name": "El Alto International Airport",
+    "city": "La Paz / El Alto"
+  },
+  {
+    "icao": "SLOR",
+    "name": "Juan Mendoza International Airport",
+    "city": "Oruro"
+  },
+  {
+    "icao": "SLVR",
+    "name": "Viru Viru International Airport",
+    "city": "Santa Cruz"
+  },
+  {
+    "icao": "SMJP",
+    "name": "Johan Adolf Pengel International Airport",
+    "city": "Paramaribo"
+  },
+  {
+    "icao": "SOCA",
+    "name": "Cayenne – Félix Eboué Airport",
+    "city": "Matoury"
+  },
+  {
+    "icao": "SPCL",
+    "name": "Cap FAP David Abenzur Rengifo International Airport",
+    "city": "Pucallpa"
+  },
+  {
+    "icao": "SPHI",
+    "name": "Capitán FAP José A. Quiñones González International Airport",
+    "city": "Chiclayo"
+  },
+  {
+    "icao": "SPJC",
+    "name": "Jorge Chávez International Airport",
+    "city": "Lima"
+  },
+  {
+    "icao": "SPJL",
+    "name": "Inca Manco Capac International Airport",
+    "city": "Juliaca"
+  },
+  {
+    "icao": "SPQT",
+    "name": "Coronel FAP Francisco Secada Vignetta International Airport",
+    "city": "Iquitos"
+  },
+  {
+    "icao": "SPQU",
+    "name": "Rodríguez Ballón International Airport",
+    "city": "Arequipa"
+  },
+  {
+    "icao": "SPRU",
+    "name": "Capitán FAP Carlos Martínez de Pinillos International Airport",
+    "city": "Trujillo"
+  },
+  {
+    "icao": "SPSO",
+    "name": "Captain Renán Elías Olivera International Airport",
+    "city": "Pisco"
+  },
+  {
+    "icao": "SPZO",
+    "name": "Alejandro Velasco Astete International Airport",
+    "city": "Cusco"
+  },
+  {
+    "icao": "SUMU",
+    "name": "Carrasco General Cesáreo L. Berisso International Airport",
+    "city": "Ciudad de la Costa"
+  },
+  {
+    "icao": "SVBC",
+    "name": "General José Antonio Anzoategui International Airport",
+    "city": "Barcelona"
+  },
+  {
+    "icao": "SVBM",
+    "name": "Jacinto Lara International Airport",
+    "city": "Barquisimeto"
+  },
+  {
+    "icao": "SVMC",
+    "name": "La Chinita International Airport",
+    "city": "Maracaibo"
+  },
+  {
+    "icao": "SVMG",
+    "name": "Del Caribe Santiago Mariño International Airport",
+    "city": "Isla Margarita"
+  },
+  {
+    "icao": "SVMI",
+    "name": "Maiquetía Simón Bolívar International Airport",
+    "city": "Maiquetía"
+  },
+  {
+    "icao": "SVPR",
+    "name": "General Manuel Carlos Piar International Airport",
+    "city": "Guyana City"
+  },
+  {
+    "icao": "SVVA",
+    "name": "Arturo Michelena International Airport",
+    "city": "Valencia"
+  },
+  {
+    "icao": "SYCJ",
+    "name": "Cheddi Jagan International Airport",
+    "city": "Georgetown"
+  },
+  {
+    "icao": "TAPA",
+    "name": "V. C. Bird International Airport",
+    "city": "Osbourn"
+  },
+  {
+    "icao": "TBPB",
+    "name": "Grantley Adams International Airport",
+    "city": "Bridgetown"
+  },
+  {
+    "icao": "TFFF",
+    "name": "Martinique Aimé Césaire International Airport",
+    "city": "Fort-de-France"
+  },
+  {
+    "icao": "TFFR",
+    "name": "Maryse Condé International Airport",
+    "city": "Pointe-à-Pitre"
+  },
+  {
+    "icao": "TGPY",
+    "name": "Maurice Bishop International Airport",
+    "city": "Saint George's"
+  },
+  {
+    "icao": "TIST",
+    "name": "Cyril E. King Airport",
+    "city": "Charlotte Amalie"
+  },
+  {
+    "icao": "TJSJ",
+    "name": "Luis Munoz Marin International Airport",
+    "city": "San Juan"
+  },
+  {
+    "icao": "TKPK",
+    "name": "Robert L. Bradshaw International Airport",
+    "city": "Basseterre"
+  },
+  {
+    "icao": "TLPL",
+    "name": "Hewanorra International Airport",
+    "city": "Vieux Fort"
+  },
+  {
+    "icao": "TNCA",
+    "name": "Queen Beatrix International Airport",
+    "city": "Oranjestad"
+  },
+  {
+    "icao": "TNCB",
+    "name": "Flamingo International Airport",
+    "city": "Kralendijk"
+  },
+  {
+    "icao": "TNCC",
+    "name": "Hato International Airport",
+    "city": "Willemstad"
+  },
+  {
+    "icao": "TNCM",
+    "name": "Princess Juliana International Airport",
+    "city": "Sint Maarten"
+  },
+  {
+    "icao": "TRPG",
+    "name": "John A. Osborne Airport",
+    "city": "Gerald's Park"
+  },
+  {
+    "icao": "TTCP",
+    "name": "A.N.R. Robinson International Airport",
+    "city": "Scarborough"
+  },
+  {
+    "icao": "TTPP",
+    "name": "Piarco International Airport",
+    "city": "Port of Spain"
+  },
+  {
+    "icao": "TUPJ",
+    "name": "Terrance B. Lettsome International Airport",
+    "city": "Beef Island"
+  },
+  {
+    "icao": "TVSA",
+    "name": "Argyle International Airport",
+    "city": "Kingstown"
+  },
+  {
+    "icao": "TXKF",
+    "name": "L.F. Wade International Airport",
+    "city": "Hamilton"
+  },
+  {
+    "icao": "UAAA",
+    "name": "Almaty International Airport",
+    "city": "Almaty"
+  },
+  {
+    "icao": "UACC",
+    "name": "Nursultan Nazarbayev International Airport",
+    "city": "Astana"
+  },
+  {
+    "icao": "UACK",
+    "name": "Kokshetau International Airport",
+    "city": "Kokshetau"
+  },
+  {
+    "icao": "UACP",
+    "name": "Petropavl International Airport",
+    "city": "Petropavl"
+  },
+  {
+    "icao": "UADD",
+    "name": "Taraz International Airport",
+    "city": "Taraz"
+  },
+  {
+    "icao": "UCFM",
+    "name": "Manas International Airport",
+    "city": "Bishkek"
+  },
+  {
+    "icao": "UCFO",
+    "name": "Osh International Airport",
+    "city": "Osh"
+  },
+  {
+    "icao": "UAII",
+    "name": "Shymkent International Airport",
+    "city": "Shymkent"
+  },
+  {
+    "icao": "UAIT",
+    "name": "Hazrat Sultan International Airport",
+    "city": "Turkıstan"
+  },
+  {
+    "icao": "UAKD",
+    "name": "Zhezkazgan National Airport",
+    "city": "Zhezkazgan"
+  },
+  {
+    "icao": "UAKK",
+    "name": "Sary-Arka Airport",
+    "city": "Karaganda"
+  },
+  {
+    "icao": "UAOL",
+    "name": "Baikonur Krayniy International Airport",
+    "city": "Baikonur"
+  },
+  {
+    "icao": "UAOO",
+    "name": "Korkyt Ata International Airport",
+    "city": "Kyzylorda"
+  },
+  {
+    "icao": "UARR",
+    "name": "Manshuk Mametova International Airport",
+    "city": "Uralsk"
+  },
+  {
+    "icao": "UASK",
+    "name": "Oskemen International Airport",
+    "city": "Ust-Kamenogorsk (Oskemen)"
+  },
+  {
+    "icao": "UASP",
+    "name": "Pavlodar International Airport",
+    "city": "Pavlodar"
+  },
+  {
+    "icao": "UASS",
+    "name": "Semei International Airport",
+    "city": "Semey"
+  },
+  {
+    "icao": "UATE",
+    "name": "Aktau International Airport",
+    "city": "Aktau"
+  },
+  {
+    "icao": "UATG",
+    "name": "Atyrau International Airport",
+    "city": "Atyrau"
+  },
+  {
+    "icao": "UATT",
+    "name": "Aktobe International Airport",
+    "city": "Aktobe"
+  },
+  {
+    "icao": "UAUU",
+    "name": "Kostanay International Airport",
+    "city": "Kostanay"
+  },
+  {
+    "icao": "UBBB",
+    "name": "Heydar Aliyev International Airport",
+    "city": "Baku"
+  },
+  {
+    "icao": "UBBG",
+    "name": "Ganja International Airport",
+    "city": "Ganja"
+  },
+  {
+    "icao": "UBBN",
+    "name": "Nakhchivan International Airport",
+    "city": "Nakhchivan"
+  },
+  {
+    "icao": "UCFL",
+    "name": "Issyk-Kul International Airport",
+    "city": "Tamchy"
+  },
+  {
+    "icao": "UDSG",
+    "name": "Shirak International Airport",
+    "city": "Gyumri"
+  },
+  {
+    "icao": "UDYZ",
+    "name": "Zvartnots International Airport",
+    "city": "Yerevan"
+  },
+  {
+    "icao": "UEEE",
+    "name": "Platon Oyunsky Yakutsk International Airport",
+    "city": "Yakutsk"
+  },
+  {
+    "icao": "UGKO",
+    "name": "David the Builder Kutaisi International Airport",
+    "city": "Kopitnari"
+  },
+  {
+    "icao": "UGSB",
+    "name": "Alexander Kartveli Batumi International Airport",
+    "city": "Batumi"
+  },
+  {
+    "icao": "UGTB",
+    "name": "Tbilisi International Airport",
+    "city": "Tbilisi"
+  },
+  {
+    "icao": "UHPP",
+    "name": "Yelizovo Airport",
+    "city": "Petropavlovsk-Kamchatsky"
+  },
+  {
+    "icao": "UHSS",
+    "name": "Yuzhno-Sakhalinsk International Airport",
+    "city": "Yuzhno-Sakhalinsk"
+  },
+  {
+    "icao": "UHWW",
+    "name": "Vladivostok International Airport",
+    "city": "Artyom"
+  },
+  {
+    "icao": "UIAA",
+    "name": "Chita-Kadala International Airport",
+    "city": "Chita"
+  },
+  {
+    "icao": "UIII",
+    "name": "Irkutsk International Airport",
+    "city": "Irkutsk"
+  },
+  {
+    "icao": "UIUU",
+    "name": "Baikal International Airport",
+    "city": "Ulan Ude"
+  },
+  {
+    "icao": "UKDE",
+    "name": "Zaporizhzhia International Airport",
+    "city": "Zaporizhia"
+  },
+  {
+    "icao": "UKFF",
+    "name": "Simferopol International Airport",
+    "city": "Simferopol"
+  },
+  {
+    "icao": "UKLL",
+    "name": "Lviv International Airport",
+    "city": "Lviv"
+  },
+  {
+    "icao": "UKLU",
+    "name": "Uzhhorod International Airport",
+    "city": "Uzhhorod"
+  },
+  {
+    "icao": "UKOO",
+    "name": "Odesa International Airport",
+    "city": "Odesa"
+  },
+  {
+    "icao": "ULLI",
+    "name": "Pulkovo Airport",
+    "city": "St. Petersburg"
+  },
+  {
+    "icao": "ULMM",
+    "name": "Emperor Nicholas II Murmansk Airport",
+    "city": "Murmansk"
+  },
+  {
+    "icao": "ULOO",
+    "name": "Princess Olga Pskov International Airport",
+    "city": "Pskov"
+  },
+  {
+    "icao": "UMBB",
+    "name": "Brest International Airport",
+    "city": "Brest"
+  },
+  {
+    "icao": "UMKK",
+    "name": "Khrabrovo Airport",
+    "city": "Kaliningrad"
+  },
+  {
+    "icao": "UMMS",
+    "name": "Minsk National Airport",
+    "city": "Minsk"
+  },
+  {
+    "icao": "UNAA",
+    "name": "Abakan International Airport",
+    "city": "Abakan"
+  },
+  {
+    "icao": "UNBB",
+    "name": "Barnaul Gherman Titov International Airport",
+    "city": "Barnaul"
+  },
+  {
+    "icao": "UNEE",
+    "name": "Alexei Leonov Kemerovo International Airport",
+    "city": "Kemerovo"
+  },
+  {
+    "icao": "UNKL",
+    "name": "Krasnoyarsk International Airport",
+    "city": "Krasnoyarsk"
+  },
+  {
+    "icao": "UNNT",
+    "name": "Novosibirsk Tolmachevo Airport",
+    "city": "Novosibirsk"
+  },
+  {
+    "icao": "UNOO",
+    "name": "Omsk Central Airport",
+    "city": "Omsk"
+  },
+  {
+    "icao": "UNTT",
+    "name": "Tomsk Kamov Airport",
+    "city": "Tomsk"
+  },
+  {
+    "icao": "UOOO",
+    "name": "Alykel International Airport",
+    "city": "Norilsk"
+  },
+  {
+    "icao": "URKK",
+    "name": "Krasnodar Pashkovsky International Airport",
+    "city": "Krasnodar"
+  },
+  {
+    "icao": "URMG",
+    "name": "Akhmat Kadyrov Grozny International Airport",
+    "city": "Grozny"
+  },
+  {
+    "icao": "URML",
+    "name": "Makhachkala Uytash International Airport",
+    "city": "Makhachkala"
+  },
+  {
+    "icao": "URMM",
+    "name": "Mineralnye Vody Airport",
+    "city": "Mineralnyye Vody"
+  },
+  {
+    "icao": "URRP",
+    "name": "Platov International Airport",
+    "city": "Rostov-on-Don"
+  },
+  {
+    "icao": "URSS",
+    "name": "Sochi International Airport",
+    "city": "Sochi"
+  },
+  {
+    "icao": "URWA",
+    "name": "Astrakhan Narimanovo Boris M. Kustodiev International Airport",
+    "city": "Astrakhan"
+  },
+  {
+    "icao": "URWW",
+    "name": "Volgograd International Airport",
+    "city": "Volgograd"
+  },
+  {
+    "icao": "USCC",
+    "name": "Kurchatov Chelyabinsk International Airport",
+    "city": "Chelyabinsk"
+  },
+  {
+    "icao": "USCM",
+    "name": "Magnitogorsk International Airport",
+    "city": "Magnitogorsk"
+  },
+  {
+    "icao": "USNN",
+    "name": "Nizhnevartovsk Airport",
+    "city": "Nizhnevartovsk"
+  },
+  {
+    "icao": "USPP",
+    "name": "Perm International Airport",
+    "city": "Perm"
+  },
+  {
+    "icao": "USRR",
+    "name": "Surgut International Airport",
+    "city": "Surgut"
+  },
+  {
+    "icao": "USSS",
+    "name": "Koltsovo Airport",
+    "city": "Yekaterinburg"
+  },
+  {
+    "icao": "USTR",
+    "name": "Roshchino International Airport",
+    "city": "Tyumen"
+  },
+  {
+    "icao": "UTAA",
+    "name": "Ashgabat International Airport",
+    "city": "Ashgabat"
+  },
+  {
+    "icao": "UTAV",
+    "name": "Türkmenabat International Airport",
+    "city": "Türkmenabat"
+  },
+  {
+    "icao": "UTDD",
+    "name": "Dushanbe International Airport",
+    "city": "Dushanbe"
+  },
+  {
+    "icao": "UTDL",
+    "name": "Khujand International Airport",
+    "city": "Khujand"
+  },
+  {
+    "icao": "UZFN",
+    "name": "Namangan International Airport",
+    "city": "Namangan"
+  },
+  {
+    "icao": "UZFA",
+    "name": "Andijan International Airport",
+    "city": "Andijan"
+  },
+  {
+    "icao": "UZNN",
+    "name": "Nukus International Airport",
+    "city": "Nukus"
+  },
+  {
+    "icao": "UZNU",
+    "name": "Urgench International Airport",
+    "city": "Urgench"
+  },
+  {
+    "icao": "UZSA",
+    "name": "Navoi International Airport",
+    "city": "Navoi"
+  },
+  {
+    "icao": "UZSB",
+    "name": "Bukhara International Airport",
+    "city": "Bukhara"
+  },
+  {
+    "icao": "UZSS",
+    "name": "Samarkand International Airport",
+    "city": "Samarkand"
+  },
+  {
+    "icao": "UZTT",
+    "name": "Tashkent International Airport",
+    "city": "Tashkent"
+  },
+  {
+    "icao": "UUBW",
+    "name": "Zhukovsky International Airport",
+    "city": "Moscow"
+  },
+  {
+    "icao": "UUDD",
+    "name": "Domodedovo International Airport",
+    "city": "Moscow"
+  },
+  {
+    "icao": "UUDL",
+    "name": "Golden Ring Yaroslavl International Airport",
+    "city": "Tunoshna"
+  },
+  {
+    "icao": "UUEE",
+    "name": "Sheremetyevo International Airport",
+    "city": "Moscow"
+  },
+  {
+    "icao": "UUOO",
+    "name": "Voronezh International Airport",
+    "city": "Voronezh"
+  },
+  {
+    "icao": "UUWW",
+    "name": "Vnukovo International Airport",
+    "city": "Moscow"
+  },
+  {
+    "icao": "UWGG",
+    "name": "Nizhny Novgorod / Strigino International Airport",
+    "city": "Nizhny Novgorod"
+  },
+  {
+    "icao": "UWKD",
+    "name": "Kazan International Airport",
+    "city": "Kazan"
+  },
+  {
+    "icao": "UWLL",
+    "name": "Ulyanovsk Baratayevka Airport",
+    "city": "Ulyanovsk"
+  },
+  {
+    "icao": "UWPS",
+    "name": "Saransk International Airport",
+    "city": "Saransk"
+  },
+  {
+    "icao": "UWSG",
+    "name": "Gagarin International Airport",
+    "city": "Saratov"
+  },
+  {
+    "icao": "UWUU",
+    "name": "Ufa International Airport",
+    "city": "Ufa"
+  },
+  {
+    "icao": "UWWW",
+    "name": "Kurumoch International Airport",
+    "city": "Samara"
+  },
+  {
+    "icao": "VAAH",
+    "name": "Sardar Vallabh Patel International Airport",
+    "city": "Ahmedabad"
+  },
+  {
+    "icao": "VABB",
+    "name": "Chhatrapati Shivaji Maharaj International Airport",
+    "city": "Mumbai"
+  },
+  {
+    "icao": "VABO",
+    "name": "Vadodara International Airport",
+    "city": "Vadodara"
+  },
+  {
+    "icao": "VABP",
+    "name": "Raja Bhoj International Airport",
+    "city": "Bhopal"
+  },
+  {
+    "icao": "VAHS",
+    "name": "Rajkot International Airport",
+    "city": "Rajkot"
+  },
+  {
+    "icao": "VAID",
+    "name": "Devi Ahilya Bai Holkar International Airport",
+    "city": "Indore"
+  },
+  {
+    "icao": "VANP",
+    "name": "Dr. Babasaheb Ambedkar International Airport",
+    "city": "Nagpur"
+  },
+  {
+    "icao": "VAOZ",
+    "name": "Nashik International Airport",
+    "city": "Nashik"
+  },
+  {
+    "icao": "VAPO",
+    "name": "Pune International Airport",
+    "city": "Pune"
+  },
+  {
+    "icao": "VASD",
+    "name": "Shirdi International Airport",
+    "city": "Kakadi"
+  },
+  {
+    "icao": "VASU",
+    "name": "Surat International Airport",
+    "city": "Surat"
+  },
+  {
+    "icao": "VCBI",
+    "name": "Bandaranaike International Colombo Airport",
+    "city": "Colombo"
+  },
+  {
+    "icao": "VCCC",
+    "name": "Colombo Ratmalana International Airport",
+    "city": "Colombo"
+  },
+  {
+    "icao": "VCCJ",
+    "name": "Jaffna International Airport",
+    "city": "Jaffna"
+  },
+  {
+    "icao": "VCRI",
+    "name": "Mattala Rajapaksa International Airport",
+    "city": "Mattala"
+  },
+  {
+    "icao": "VDPP",
+    "name": "Phnom Penh International Airport",
+    "city": "Phnom Penh (Pou Senchey)"
+  },
+  {
+    "icao": "VDSA",
+    "name": "Siem Reap-Angkor International Airport",
+    "city": "Siem Reap"
+  },
+  {
+    "icao": "VDSV",
+    "name": "Sihanouk International Airport",
+    "city": "Preah Sihanouk"
+  },
+  {
+    "icao": "VEBD",
+    "name": "Bagdogra Airport",
+    "city": "Siliguri"
+  },
+  {
+    "icao": "VEBN",
+    "name": "Lal Bahadur Shastri International Airport",
+    "city": "Varanasi"
+  },
+  {
+    "icao": "VEBS",
+    "name": "Biju Patnaik International Airport",
+    "city": "Bhubaneswar"
+  },
+  {
+    "icao": "VECC",
+    "name": "Netaji Subhash Chandra Bose International Airport",
+    "city": "Kolkata"
+  },
+  {
+    "icao": "VEGT",
+    "name": "Lokpriya Gopinath Bordoloi International Airport",
+    "city": "Guwahati"
+  },
+  {
+    "icao": "VEIM",
+    "name": "Bir Tikendrajit International Airport",
+    "city": "Imphal"
+  },
+  {
+    "icao": "VOVZ",
+    "name": "Visakhapatnam International Airport",
+    "city": "Visakhapatnam"
+  },
+  {
+    "icao": "VGEG",
+    "name": "Shah Amanat International Airport",
+    "city": "Chattogram (Chittagong)"
+  },
+  {
+    "icao": "VGHS",
+    "name": "Hazrat Shahjalal International Airport",
+    "city": "Dhaka"
+  },
+  {
+    "icao": "VGSY",
+    "name": "Osmany International Airport",
+    "city": "Sylhet"
+  },
+  {
+    "icao": "VHHH",
+    "name": "Hong Kong International Airport",
+    "city": "Hong Kong"
+  },
+  {
+    "icao": "VIAR",
+    "name": "Sri Guru Ram Das Ji International Airport",
+    "city": "Amritsar"
+  },
+  {
+    "icao": "VICG",
+    "name": "Shaheed Bhagat Singh International Airport",
+    "city": "Chandigarh"
+  },
+  {
+    "icao": "VIDP",
+    "name": "Indira Gandhi International Airport",
+    "city": "New Delhi"
+  },
+  {
+    "icao": "VIHR",
+    "name": "Maharaja Agrasen International Airport",
+    "city": "Hisar"
+  },
+  {
+    "icao": "VIHX",
+    "name": "Halwara International Airport",
+    "city": "Halwara"
+  },
+  {
+    "icao": "VIJP",
+    "name": "Jaipur International Airport",
+    "city": "Jaipur"
+  },
+  {
+    "icao": "VILK",
+    "name": "Chaudhary Charan Singh International Airport",
+    "city": "Lucknow"
+  },
+  {
+    "icao": "VISR",
+    "name": "Sheikh ul Alam International Airport",
+    "city": "Srinagar"
+  },
+  {
+    "icao": "VLLB",
+    "name": "Luang Phabang International Airport",
+    "city": "Luang Phabang"
+  },
+  {
+    "icao": "VLPS",
+    "name": "Pakse International Airport",
+    "city": "Pakse"
+  },
+  {
+    "icao": "VLVT",
+    "name": "Wattay International Airport",
+    "city": "Vientiane"
+  },
+  {
+    "icao": "VMMC",
+    "name": "Macau International Airport",
+    "city": "Nossa Senhora do Carmo"
+  },
+  {
+    "icao": "VVLT",
+    "name": "Long Thanh International Airport (Under Construction)",
+    "city": "Ho Chi Minh City (Long Thanh)"
+  },
+  {
+    "icao": "VNBW",
+    "name": "Gautam Buddha International Airport",
+    "city": "Siddharthanagar (Bhairahawa)"
+  },
+  {
+    "icao": "VNKT",
+    "name": "Tribhuvan International Airport",
+    "city": "Kathmandu"
+  },
+  {
+    "icao": "VOBL",
+    "name": "Kempegowda International Airport Bengaluru",
+    "city": "Bengaluru"
+  },
+  {
+    "icao": "VOBZ",
+    "name": "Vijayawada International Airport",
+    "city": "Vijayawada"
+  },
+  {
+    "icao": "VOCB",
+    "name": "Coimbatore International Airport",
+    "city": "Coimbatore"
+  },
+  {
+    "icao": "VOCI",
+    "name": "Cochin International Airport",
+    "city": "Kochi"
+  },
+  {
+    "icao": "VOCL",
+    "name": "Calicut International Airport",
+    "city": "Calicut"
+  },
+  {
+    "icao": "VOGA",
+    "name": "Manohar International Airport",
+    "city": "Mopa"
+  },
+  {
+    "icao": "VOGO",
+    "name": "Goa Dabolim International Airport",
+    "city": "Vasco da Gama"
+  },
+  {
+    "icao": "VOHS",
+    "name": "Rajiv Gandhi International Airport",
+    "city": "Hyderabad"
+  },
+  {
+    "icao": "VOKN",
+    "name": "Kannur International Airport",
+    "city": "Kannur"
+  },
+  {
+    "icao": "VOML",
+    "name": "Mangaluru International Airport",
+    "city": "Mangaluru"
+  },
+  {
+    "icao": "VOMM",
+    "name": "Chennai International Airport",
+    "city": "Chennai"
+  },
+  {
+    "icao": "VOPB",
+    "name": "Veer Savarkar International Airport / INS Utkrosh",
+    "city": "Port Blair"
+  },
+  {
+    "icao": "VOTP",
+    "name": "Tirupati International Airport",
+    "city": "Tirupati"
+  },
+  {
+    "icao": "VOTR",
+    "name": "Tiruchirappalli International Airport",
+    "city": "Tiruchirappalli"
+  },
+  {
+    "icao": "VOTV",
+    "name": "Thiruvananthapuram International Airport",
+    "city": "Thiruvananthapuram"
+  },
+  {
+    "icao": "VQPR",
+    "name": "Paro International Airport",
+    "city": "Paro"
+  },
+  {
+    "icao": "",
+    "name": "Maafaru International Airport",
+    "city": "Noonu Atoll"
+  },
+  {
+    "icao": "VRMG",
+    "name": "Gan International Airport",
+    "city": "Gan"
+  },
+  {
+    "icao": "VRMH",
+    "name": "Hanimaadhoo International Airport",
+    "city": "Haa Dhaalu Atoll"
+  },
+  {
+    "icao": "VRMM",
+    "name": "Velana International Airport",
+    "city": "Malé"
+  },
+  {
+    "icao": "VTBD",
+    "name": "Don Mueang International Airport",
+    "city": "Bangkok"
+  },
+  {
+    "icao": "VTBS",
+    "name": "Suvarnabhumi Airport",
+    "city": "Bangkok"
+  },
+  {
+    "icao": "VTBU",
+    "name": "U-Tapao–Rayong–Pattaya International Airport",
+    "city": "Rayong"
+  },
+  {
+    "icao": "VTCC",
+    "name": "Chiang Mai International Airport",
+    "city": "Chiang Mai"
+  },
+  {
+    "icao": "VTCT",
+    "name": "Mae Fah Luang - Chiang Rai International Airport",
+    "city": "Chiang Rai"
+  },
+  {
+    "icao": "VTSG",
+    "name": "Krabi International Airport",
+    "city": "Krabi"
+  },
+  {
+    "icao": "VTSM",
+    "name": "Samui International Airport",
+    "city": "Na Thon (Ko Samui Island)"
+  },
+  {
+    "icao": "VTSP",
+    "name": "Phuket International Airport",
+    "city": "Phuket"
+  },
+  {
+    "icao": "VTSS",
+    "name": "Hat Yai International Airport",
+    "city": "Hat Yai"
+  },
+  {
+    "icao": "VTUD",
+    "name": "Udon Thani International Airport",
+    "city": "Udon Thani"
+  },
+  {
+    "icao": "VVCI",
+    "name": "Cat Bi International Airport",
+    "city": "Haiphong (Hai An)"
+  },
+  {
+    "icao": "VVCR",
+    "name": "Cam Ranh International Airport / Cam Ranh Air Base",
+    "city": "Nha Trang/nha Trang aiurportCam Ranh"
+  },
+  {
+    "icao": "VVCT",
+    "name": "Can Tho International Airport",
+    "city": "Can Tho"
+  },
+  {
+    "icao": "VVDN",
+    "name": "Da Nang International Airport",
+    "city": "Da Nang"
+  },
+  {
+    "icao": "VVNB",
+    "name": "Noi Bai International Airport",
+    "city": "Hanoi (Soc Son)"
+  },
+  {
+    "icao": "VVPQ",
+    "name": "Phú Quốc International Airport",
+    "city": "Phu Quoc Island"
+  },
+  {
+    "icao": "VVTS",
+    "name": "Tan Son Nhat International Airport",
+    "city": "Ho Chi Minh City"
+  },
+  {
+    "icao": "VYMD",
+    "name": "Mandalay International Airport",
+    "city": "Mandalay"
+  },
+  {
+    "icao": "VYNT",
+    "name": "Nay Pyi Taw International Airport",
+    "city": "Naypyitaw"
+  },
+  {
+    "icao": "VYYY",
+    "name": "Yangon International Airport",
+    "city": "Yangon"
+  },
+  {
+    "icao": "WAAA",
+    "name": "Sultan Hasanuddin International Airport",
+    "city": "Makassar"
+  },
+  {
+    "icao": "WADD",
+    "name": "Denpasar I Gusti Ngurah Rai International Airport",
+    "city": "Kuta, Badung"
+  },
+  {
+    "icao": "WADL",
+    "name": "Lombok International Airport",
+    "city": "Mataram (Pujut, Lombok Tengah)"
+  },
+  {
+    "icao": "WAJJ",
+    "name": "Dortheys Hiyo Eluay International Airport",
+    "city": "Sentani"
+  },
+  {
+    "icao": "WALL",
+    "name": "Sultan Aji Muhammad Sulaiman Sepinggan International Airport",
+    "city": "Balikpapan"
+  },
+  {
+    "icao": "WAMM",
+    "name": "Sam Ratulangi International Airport",
+    "city": "Manado"
+  },
+  {
+    "icao": "WAOO",
+    "name": "Syamsudin Noor International Airport",
+    "city": "Banjarbaru"
+  },
+  {
+    "icao": "WAPP",
+    "name": "Pattimura International Airport",
+    "city": "Ambon"
+  },
+  {
+    "icao": "WAHH",
+    "name": "Adisutjipto International Airport",
+    "city": "Yogyakarta"
+  },
+  {
+    "icao": "WARR",
+    "name": "Juanda International Airport",
+    "city": "Surabaya"
+  },
+  {
+    "icao": "WAHS",
+    "name": "Jenderal Ahmad Yani Airport",
+    "city": "Semarang"
+  },
+  {
+    "icao": "WBGG",
+    "name": "Kuching International Airport",
+    "city": "Kuching"
+  },
+  {
+    "icao": "WBKK",
+    "name": "Kota Kinabalu International Airport",
+    "city": "Kota Kinabalu"
+  },
+  {
+    "icao": "WBSB",
+    "name": "Brunei International Airport",
+    "city": "Bandar Seri Begawan"
+  },
+  {
+    "icao": "WIDD",
+    "name": "Hang Nadim International Airport",
+    "city": "Batam"
+  },
+  {
+    "icao": "WIHH",
+    "name": "Halim Perdanakusuma International Airport",
+    "city": "Jakarta"
+  },
+  {
+    "icao": "WIII",
+    "name": "Soekarno-Hatta International Airport",
+    "city": "Jakarta"
+  },
+  {
+    "icao": "WIMM",
+    "name": "Kualanamu International Airport",
+    "city": "Beringin"
+  },
+  {
+    "icao": "WIOO",
+    "name": "Supadio International Airport",
+    "city": "Pontianak"
+  },
+  {
+    "icao": "WITT",
+    "name": "Sultan Iskandar Muda International Airport",
+    "city": "Banda Aceh"
+  },
+  {
+    "icao": "WMKI",
+    "name": "Sultan Azlan Shah Airport",
+    "city": "Ipoh"
+  },
+  {
+    "icao": "WMKJ",
+    "name": "Senai International Airport",
+    "city": "Johor Bahru"
+  },
+  {
+    "icao": "WMKK",
+    "name": "Kuala Lumpur International Airport",
+    "city": "Sepang"
+  },
+  {
+    "icao": "WMKP",
+    "name": "Penang International Airport",
+    "city": "Penang"
+  },
+  {
+    "icao": "WMSA",
+    "name": "Sultan Abdul Aziz Shah International Airport",
+    "city": "Subang"
+  },
+  {
+    "icao": "WPDL",
+    "name": "Presidente Nicolau Lobato International Airport",
+    "city": "Dili"
+  },
+  {
+    "icao": "WPOC",
+    "name": "Oecusse Route of the Sandalwood International Airport",
+    "city": "Oecussi-Ambeno"
+  },
+  {
+    "icao": "WSSS",
+    "name": "Singapore Changi Airport",
+    "city": "Singapore"
+  },
+  {
+    "icao": "YBBN",
+    "name": "Brisbane International Airport",
+    "city": "Brisbane"
+  },
+  {
+    "icao": "YBCG",
+    "name": "Gold Coast Airport",
+    "city": "Gold Coast"
+  },
+  {
+    "icao": "YBCS",
+    "name": "Cairns International Airport",
+    "city": "Cairns"
+  },
+  {
+    "icao": "YBRM",
+    "name": "Broome International Airport",
+    "city": "Broome"
+  },
+  {
+    "icao": "YBSU",
+    "name": "Sunshine Coast Airport",
+    "city": "Maroochydore"
+  },
+  {
+    "icao": "YBWW",
+    "name": "Toowoomba Wellcamp Airport",
+    "city": "Toowoomba"
+  },
+  {
+    "icao": "OYMK",
+    "name": "Mokha International Airport",
+    "city": "Mokha"
+  },
+  {
+    "icao": "YMAV",
+    "name": "Melbourne Avalon International Airport",
+    "city": "Geelong/Melbourne"
+  },
+  {
+    "icao": "YMHB",
+    "name": "Hobart International Airport",
+    "city": "Hobart (Cambridge)"
+  },
+  {
+    "icao": "YMML",
+    "name": "Melbourne Airport",
+    "city": "Melbourne"
+  },
+  {
+    "icao": "YPAD",
+    "name": "Adelaide International Airport",
+    "city": "Adelaide"
+  },
+  {
+    "icao": "YPCC",
+    "name": "Cocos (Keeling) Islands Airport",
+    "city": "West Island"
+  },
+  {
+    "icao": "YPDN",
+    "name": "Darwin International Airport / RAAF Darwin",
+    "city": "Darwin"
+  },
+  {
+    "icao": "YPPD",
+    "name": "Port Hedland International Airport",
+    "city": "Port Hedland"
+  },
+  {
+    "icao": "YPPH",
+    "name": "Perth International Airport",
+    "city": "Perth"
+  },
+  {
+    "icao": "YPXM",
+    "name": "Christmas Island International Airport",
+    "city": "Flying Fish Cove"
+  },
+  {
+    "icao": "YSSY",
+    "name": "Sydney Kingsford Smith International Airport",
+    "city": "Sydney (Mascot)"
+  },
+  {
+    "icao": "YWLM",
+    "name": "Newcastle Airport",
+    "city": "Williamtown"
+  },
+  {
+    "icao": "ZBAA",
+    "name": "Beijing Capital International Airport",
+    "city": "Beijing"
+  },
+  {
+    "icao": "ZBAD",
+    "name": "Beijing Daxing International Airport",
+    "city": "Beijing"
+  },
+  {
+    "icao": "ZBDS",
+    "name": "Ordos Ejin Horo International Airport",
+    "city": "Ordos"
+  },
+  {
+    "icao": "ZBDT",
+    "name": "Datong Yungang International Airport",
+    "city": "Datong"
+  },
+  {
+    "icao": "ZBHH",
+    "name": "Hohhot Baita International Airport",
+    "city": "Hohhot"
+  },
+  {
+    "icao": "ZBLA",
+    "name": "Hulunbuir Hailar Airport",
+    "city": "Hailar"
+  },
+  {
+    "icao": "ZBOW",
+    "name": "Baotou Donghe International Airport",
+    "city": "Baotou"
+  },
+  {
+    "icao": "ZBSJ",
+    "name": "Shijiazhuang Zhengding International Airport",
+    "city": "Shijiazhuang"
+  },
+  {
+    "icao": "ZBTJ",
+    "name": "Tianjin Binhai International Airport",
+    "city": "Tianjin"
+  },
+  {
+    "icao": "ZBYC",
+    "name": "Yuncheng Yanhu International Airport",
+    "city": "Yuncheng (Yanhu)"
+  },
+  {
+    "icao": "ZBYN",
+    "name": "Taiyuan Wusu International Airport",
+    "city": "Taiyuan"
+  },
+  {
+    "icao": "ZGDY",
+    "name": "Zhangjiajie Hehua International Airport",
+    "city": "Zhangjiajie (Yongding)"
+  },
+  {
+    "icao": "ZGGG",
+    "name": "Guangzhou Baiyun International Airport",
+    "city": "Guangzhou (Huadu)"
+  },
+  {
+    "icao": "ZGHA",
+    "name": "Changsha Huanghua International Airport",
+    "city": "Changsha (Changsha)"
+  },
+  {
+    "icao": "ZGKL",
+    "name": "Guilin Liangjiang International Airport",
+    "city": "Guilin (Lingui)"
+  },
+  {
+    "icao": "ZGNN",
+    "name": "Nanning Wuxu International Airport",
+    "city": "Nanning (Jiangnan)"
+  },
+  {
+    "icao": "ZGOW",
+    "name": "Jieyang Chaoshan International Airport",
+    "city": "Jieyang (Rongcheng)"
+  },
+  {
+    "icao": "ZGSD",
+    "name": "Zhuhai Jinwan Airport",
+    "city": "Zhuhai (Jinwan)"
+  },
+  {
+    "icao": "ZGSZ",
+    "name": "Shenzhen Bao'an International Airport",
+    "city": "Shenzhen"
+  },
+  {
+    "icao": "ZGZJ",
+    "name": "Zhanjiang Wuchuan International Airport",
+    "city": "Zhanjiang"
+  },
+  {
+    "icao": "ZHCC",
+    "name": "Zhengzhou Xinzheng International Airport",
+    "city": "Zhengzhou"
+  },
+  {
+    "icao": "ZHEC",
+    "name": "Ezhou Huahu International Airport",
+    "city": "Ezhou"
+  },
+  {
+    "icao": "ZHHH",
+    "name": "Wuhan Tianhe International Airport",
+    "city": "Wuhan (Huangpi)"
+  },
+  {
+    "icao": "ZHLY",
+    "name": "Luoyang Beijiao Airport",
+    "city": "Luoyang (Laocheng)"
+  },
+  {
+    "icao": "ZJHK",
+    "name": "Haikou Meilan International Airport",
+    "city": "Haikou (Meilan)"
+  },
+  {
+    "icao": "ZJSY",
+    "name": "Sanya Phoenix International Airport",
+    "city": "Sanya (Tianya)"
+  },
+  {
+    "icao": "ZKPY",
+    "name": "Pyongyang Sunan International Airport",
+    "city": "Pyongyang"
+  },
+  {
+    "icao": "ZLDH",
+    "name": "Dunhuang Mogao International Airport",
+    "city": "Dunhuang"
+  },
+  {
+    "icao": "ZLIC",
+    "name": "Yinchuan Hedong International Airport",
+    "city": "Yinchuan"
+  },
+  {
+    "icao": "ZLJQ",
+    "name": "Jiayuguan International Airport",
+    "city": "Jiayuguan"
+  },
+  {
+    "icao": "ZLLL",
+    "name": "Lanzhou Zhongchuan International Airport",
+    "city": "Lanzhou (Yongdeng)"
+  },
+  {
+    "icao": "ZLXN",
+    "name": "Xining Caojiabao International Airport",
+    "city": "Haidong (Huzhu Tu Autonomous County)"
+  },
+  {
+    "icao": "ZLXY",
+    "name": "Xi'an Xianyang International Airport",
+    "city": "Xianyang (Weicheng)"
+  },
+  {
+    "icao": "ZMCK",
+    "name": "Ulaanbaatar Chinggis Khaan International Airport",
+    "city": "Ulaanbaatar (Sergelen)"
+  },
+  {
+    "icao": "ZMUB",
+    "name": "Buyant-Ukhaa International Airport",
+    "city": "Ulaanbaatar"
+  },
+  {
+    "icao": "ZPJH",
+    "name": "Xishuangbanna Gasa International Airport",
+    "city": "Jinghong (Gasa)"
+  },
+  {
+    "icao": "ZPLJ",
+    "name": "Lijiang Sanyi International Airport",
+    "city": "Lijiang"
+  },
+  {
+    "icao": "ZPPP",
+    "name": "Kunming Changshui International Airport",
+    "city": "Kunming"
+  },
+  {
+    "icao": "ZSAM",
+    "name": "Xiamen Gaoqi International Airport",
+    "city": "Xiamen"
+  },
+  {
+    "icao": "ZSCN",
+    "name": "Nanchang Changbei International Airport",
+    "city": "Nanchang"
+  },
+  {
+    "icao": "ZSFZ",
+    "name": "Fuzhou Changle International Airport",
+    "city": "Fuzhou (Changle)"
+  },
+  {
+    "icao": "ZSHC",
+    "name": "Hangzhou Xiaoshan International Airport",
+    "city": "Hangzhou"
+  },
+  {
+    "icao": "ZSJN",
+    "name": "Jinan Yaoqiang International Airport",
+    "city": "Jinan (Licheng)"
+  },
+  {
+    "icao": "ZSLG",
+    "name": "Lianyungang Huaguoshan International Airport",
+    "city": "Lianyungang"
+  },
+  {
+    "icao": "ZSNB",
+    "name": "Ningbo Lishe International Airport",
+    "city": "Ningbo"
+  },
+  {
+    "icao": "ZSNJ",
+    "name": "Nanjing Lukou International Airport",
+    "city": "Nanjing"
+  },
+  {
+    "icao": "ZSOF",
+    "name": "Hefei Xinqiao International Airport",
+    "city": "Hefei"
+  },
+  {
+    "icao": "ZSPD",
+    "name": "Shanghai Pudong International Airport",
+    "city": "Shanghai (Pudong)"
+  },
+  {
+    "icao": "ZSQD",
+    "name": "Qingdao Jiaodong International Airport",
+    "city": "Qingdao (Jiaozhou)"
+  },
+  {
+    "icao": "ZSQZ",
+    "name": "Quanzhou Jinjiang International Airport",
+    "city": "Quanzhou"
+  },
+  {
+    "icao": "ZSSH",
+    "name": "Huai'an Lianshui Airport",
+    "city": "Huai'an"
+  },
+  {
+    "icao": "ZSSS",
+    "name": "Shanghai Hongqiao International Airport",
+    "city": "Shanghai (Minhang)"
+  },
+  {
+    "icao": "ZSTX",
+    "name": "Huangshan Tunxi International Airport",
+    "city": "Huangshan"
+  },
+  {
+    "icao": "ZSWX",
+    "name": "Sunan Shuofang International Airport",
+    "city": "Wuxi"
+  },
+  {
+    "icao": "ZSWZ",
+    "name": "Wenzhou Longwan International Airport",
+    "city": "Wenzhou (Longwan)"
+  },
+  {
+    "icao": "ZSYN",
+    "name": "Yancheng Nanyang International Airport",
+    "city": "Yancheng (Tinghu)"
+  },
+  {
+    "icao": "ZSYT",
+    "name": "Yantai Penglai International Airport",
+    "city": "Yantai"
+  },
+  {
+    "icao": "ZSYW",
+    "name": "Yiwu Airport",
+    "city": "Yiwu/Jinhua"
+  },
+  {
+    "icao": "ZSZS",
+    "name": "Zhoushan Putuoshan International Airport",
+    "city": "Zhoushan"
+  },
+  {
+    "icao": "ZUCK",
+    "name": "Chongqing Jiangbei International Airport",
+    "city": "Chongqing"
+  },
+  {
+    "icao": "ZUGY",
+    "name": "Guiyang Longdongbao International Airport",
+    "city": "Guiyang (Nanming)"
+  },
+  {
+    "icao": "ZULS",
+    "name": "Lhasa Gonggar International Airport",
+    "city": "Shannan (Gonggar)"
+  },
+  {
+    "icao": "ZURK",
+    "name": "Xigaze Peace Airport / Shigatse Air Base",
+    "city": "Xigazê (Samzhubzê)"
+  },
+  {
+    "icao": "ZUTF",
+    "name": "Chengdu Tianfu International Airport",
+    "city": "Chengdu (Jianyang)"
+  },
+  {
+    "icao": "ZUUU",
+    "name": "Chengdu Shuangliu International Airport",
+    "city": "Chengdu (Shuangliu)"
+  },
+  {
+    "icao": "ZWSH",
+    "name": "Kashgar Laining International Airport",
+    "city": "Kashgar"
+  },
+  {
+    "icao": "ZWWW",
+    "name": "Ürümqi Tianshan International Airport",
+    "city": "Ürümqi"
+  },
+  {
+    "icao": "ZYCC",
+    "name": "Changchun Longjia International Airport",
+    "city": "Changchun"
+  },
+  {
+    "icao": "ZYHB",
+    "name": "Harbin Taiping International Airport",
+    "city": "Harbin"
+  },
+  {
+    "icao": "ZYQQ",
+    "name": "Qiqihar Sanjiazi Airport",
+    "city": "Qiqihar"
+  },
+  {
+    "icao": "ZYTL",
+    "name": "Dalian Zhoushuizi International Airport",
+    "city": "Dalian (Ganjingzi)"
+  },
+  {
+    "icao": "ZYTX",
+    "name": "Shenyang Taoxian International Airport",
+    "city": "Shenyang"
+  }
+]

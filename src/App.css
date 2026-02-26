@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+:root,
+.default,
+.dark,
+[data-theme="dark"] {
+  color-scheme: dark;
+  --accent: #9395D3;
+  --accent-foreground: #ffffff;
+  --primary: #9395D3;
+  --primary-foreground: #ffffff;
+  --background: #0A0C0E;
+  --background-foreground: #ffffff;
+  --card: #060709;
+  --card-foreground: #ffffff;
+  --border: rgba(147, 149, 211, 0.2);
+}
+
+@layer utilities {
+  .bg-accent {
+    background-color: var(--accent);
+  }
+  .bg-primary {
+    background-color: var(--primary);
+  }
+  .bg-background {
+    background-color: var(--background);
+  }
+  .bg-card {
+    background-color: var(--card);
+  }
+  .text-accent-foreground {
+    color: var(--accent-foreground);
+  }
+  .text-primary-foreground {
+    color: var(--primary-foreground);
+  }
+  .text-background-foreground {
+    color: var(--background-foreground);
+  }
+  .text-card-foreground {
+    color: var(--card-foreground);
+  }
+  .border-default {
+    border-color: var(--border);
+  }
+}
