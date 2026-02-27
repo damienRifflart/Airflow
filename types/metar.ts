@@ -5,9 +5,9 @@ export interface Cloud {
 
 export interface Metar {
   icaoId: string;
-  receiptTime: Date;
+  receiptTime: string;
   obsTime: number;
-  reportTime: Date;
+  reportTime: string;
   temp: number;
   dewp: number;
   wdir: number;
@@ -15,19 +15,19 @@ export interface Metar {
   wgst: number;
   visib: number;
   altim: number;
-  slp: number | null;
-  wxString: string | null;
-  presTend: number | null;
-  maxT: number | null;
-  minT: number | null;
-  maxT24: number | null;
-  minT24: number | null;
-  precip: number | null;
-  pcp3hr: number | null;
-  pcp6hr: number | null;
-  pcp24hr: number | null;
-  snow: number | null;
-  vertVis: number | null;
+  slp: number;
+  wxString: string;
+  presTend: number;
+  maxT: number;
+  minT: number;
+  maxT24: number;
+  minT24: number;
+  precip: number;
+  pcp3hr: number;
+  pcp6hr: number;
+  pcp24hr: number;
+  snow: number;
+  vertVis: number;
   metarType: string;
   rawOb: string;
   lat: number;

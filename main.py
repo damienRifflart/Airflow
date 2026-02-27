@@ -17,22 +17,43 @@ app.add_middleware(
 @app.get("/metar/{icao}")
 async def get_metar(icao: str):
     url = f"https://aviationweather.gov/api/data/metar?ids={icao}&format=json"
-
     async with httpx.AsyncClient() as client:
         try:
             response = await client.get(url, timeout=10)
-            response.raise_for_status()  # lève une exception si code != 200
+            response.raise_for_status()
         except httpx.RequestError as e:
-            raise HTTPException(status_code=502, detail=f"Erreur réseau: {e}")
+            raise HTTPException(status_code=502, detail=f"Network error: {e}.")
         except httpx.HTTPStatusError as e:
-            raise HTTPException(status_code=502, detail=f"Erreur HTTP: {e}")
+            raise HTTPException(status_code=502, detail=f"HTTP error: {e}.")
 
     try:
         data = response.json()
     except ValueError:
-        raise HTTPException(status_code=502, detail="Réponse JSON invalide")
+        raise HTTPException(status_code=502, detail="Invalid JSON response.")
 
-    if not data:  # réponse vide
-        raise HTTPException(status_code=404, detail=f"Aucun METAR trouvé pour {icao}")
+    if not data:
+        raise HTTPException(status_code=404, detail=f"No Metar found for {icao}.")
+
+    return data
+
+@app.get("/taf/{icao}")
+async def get_taf(icao: str):
+    url = f"https://aviationweather.gov/api/data/taf?ids={icao}&format=json"
+    async with httpx.AsyncClient() as client:
+        try:
+            response = await client.get(url, timeout=10)
+            response.raise_for_status()
+        except httpx.RequestError as e:
+            raise HTTPException(status_code=502, detail=f"Network error: {e}.")
+        except httpx.HTTPStatusError as e:
+            raise HTTPException(status_code=502, detail=f"HTTP error: {e}.")
+
+    try:
+        data = response.json()
+    except ValueError:
+        raise HTTPException(status_code=502, detail="Invalid JSON response.")
+
+    if not data:
+        raise HTTPException(status_code=404, detail=f"No Taf found for {icao}.")
 
     return data
