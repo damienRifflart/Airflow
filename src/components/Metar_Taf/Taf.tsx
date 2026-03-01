@@ -8,12 +8,14 @@ import type { Airport } from "../../../types/airport";
 import type { Taf } from "../../../types/taf";
 import { useEffect, useState } from "react";
 import { SpecificWidget } from "@/components/Metar_Taf/SpecificWidget";
+import type { Units } from "../../../types/units";
 
 interface TafProps {
   airport: Airport;
+  units: Units;
 }
 
-export function Taf({ airport }: TafProps) {
+export function Taf({ airport, units }: TafProps) {
     const [taf, setTaf] = useState<Taf | null>(null)
 
     useEffect(() => {
@@ -51,13 +53,17 @@ export function Taf({ airport }: TafProps) {
     };
 
     return (
-        <div className="rounded-md bg-[var(--card)] border border-border mb-10 p-6 space-y-6 w-[50%]">
+        <div className="rounded-md bg-card border border-border mb-10 p-6 space-y-2">
 
             <div className="flex justify-between items-center">
                 <h3 className="text-2xl font-semibold tracking-wider">TAF</h3>
+                {airport && (
                 <Chip color="accent" variant="soft" className="rounded-md px-5">
-                    <Chip.Label className="text-lg">{airport?.icao}</Chip.Label>
+                    <Chip.Label className="text-lg">
+                    {airport.icao}
+                    </Chip.Label>
                 </Chip>
+                )}
             </div>
 
             {taf ? (
@@ -70,7 +76,7 @@ export function Taf({ airport }: TafProps) {
                         </div>
                         <h3 className="text-md text-muted-foreground mt-5 mb-2">DECODED FORECAST</h3>
                         {taf?.fcsts?.map((forecast, index) => (
-                            <ForecastWidget key={index} forecast={forecast} />
+                            <ForecastWidget key={index} forecast={forecast} units={units} />
                         ))}
                     
                     </div>

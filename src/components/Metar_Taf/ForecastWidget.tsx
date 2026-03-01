@@ -2,31 +2,34 @@
 
 import { Wind, Eye, Cloud, Thermometer, AlertTriangle, Clock } from 'lucide-react';
 import type { Fcst } from "../../../types/taf";
+import type { Units } from "../../../types/units";
+import { convertTemperature, convertSpeed, convertDistance } from "./unitConversions";
 
 interface ForecastWidgetProps {
   forecast: Fcst;
+  units: Units;
 }
 
-export function ForecastWidget({ forecast }: ForecastWidgetProps) {
+export function ForecastWidget({ forecast, units }: ForecastWidgetProps) {
   const cloudsStr = forecast.clouds
-    ?.map(cloud => `${cloud.cover}${cloud.base ? ` at ${cloud.base}ft` : ""}`).join("\n")
+    ?.map(cloud => `${cloud.cover}${cloud.base ? ` at ${convertDistance(cloud.base, "ft", units.distance)}` : ""}`).join("\n")
   || "None";
 
   const windStr = forecast.wdir && forecast.wspd
     ? (forecast.wdir === "VRB"
-        ? `Variable at ${forecast.wspd} kt${forecast.wgst ? `, gusts to ${forecast.wgst} kt` : ""}`
-        : `${forecast.wdir}° at ${forecast.wspd} kt${forecast.wgst ? `, gusts to ${forecast.wgst} kt` : ""}`
+        ? `Variable at ${convertSpeed(forecast.wspd, "Kt", units.speed)} ${forecast.wgst ? `, gusts to ${convertSpeed(forecast.wgst, "Kt", units.speed)}` : ""}`
+        : `${forecast.wdir}° at ${convertSpeed(forecast.wspd, "Kt", units.speed)} ${forecast.wgst ? `, gusts to ${convertSpeed(forecast.wgst, "Kt", units.speed)}` : ""}`
       )
     : "None";
 
-  const visibStr = forecast.visib ? `${forecast.visib} miles` : "Undefined";
+  const visibStr = forecast.visib ? `${convertDistance(forecast.visib, "mi", units.distance)}` : "Undefined";
 
   const icingTurbStr = forecast.icgTurb?.map(it => 
-      `${it.var} intensity ${it.intensity} from ${it.minAlt}ft to ${it.maxAlt}ft`
+      `${it.var} intensity ${it.intensity} from ${convertDistance(it.minAlt, "ft", units.distance)} to ${convertDistance(it.maxAlt, "ft", units.distance)}`
     ).join(", ") || "None";
 
   const tempStr = forecast.temp?.map(t => 
-      `${t.maxOrMin}: ${t.sfcTemp}°C at ${new Date(t.validTime * 1000).toUTCString()}`
+      `${t.maxOrMin}: ${convertTemperature(t.sfcTemp, "°C", units.temperature)} at ${new Date(t.validTime * 1000).toUTCString()}`
     ).join(", ") || "None";
 
   return (

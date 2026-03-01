@@ -3,7 +3,7 @@
 export function AirflowLogo({ className = "w-8 h-8" }: { className?: string }) {
   return (
     <svg
-      viewBox="0 5 40 40"
+      viewBox="0 2 40 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}

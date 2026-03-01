@@ -1,19 +1,41 @@
 import './App.css';
-import { Navbar } from "@/components/Navbar/Navbar";
+import { AirflowLogo } from "@/components/Navbar/Logo"
+import SelectAirport from "@/components/Navbar/SelectAirport"
 import { AppTab } from "@/components/Tab/AppTab";
 import { Metar } from "@/components/Metar_Taf/Metar";
 import { Taf } from "@/components/Metar_Taf/Taf";
+import { UnitsWidget } from "@/components/Metar_Taf/UnitsWidget";
 import { ChartColumn, Map, ChartArea } from 'lucide-react';
 import { Tabs } from "@heroui/react";
 import { useState } from 'react';
 import type { Airport } from "../types/airport";
+import type { Units } from "../types/units"
 
 export default function App() {
   const [airport, setAirport] = useState<Airport>();
+  const [units, setUnits] = useState<Units>({
+    temperature: "F",
+    speed: "Kt",
+    distance: "ft"
+  });
 
   return (
     <>
-      <Navbar airport={airport} setAirport={setAirport} />
+      <header className="flex flex-row justify-between p-10 w-full h-[6rem] bg-[var(--card)] border border-border items-center mb-10">
+            <div className="flex flex-row gap-3 justify-center items-center">
+                <div className="w-11 h-11 bg-[rgba(147,149,211,0.1)] rounded-lg flex items-center justify-center">
+                    <AirflowLogo />
+                </div>
+                <div>
+                    <h1 className="text-2xl font-bold">Airflow</h1>
+                    <p className="text-sm text-muted-foreground">
+                    Real-time METAR, TAF & TEMSI Analysis
+                    </p>
+                </div>
+            </div>
+
+            <SelectAirport airport={airport} setAirport={setAirport} />
+        </header>
 
       <Tabs className="max-w-full pl-10 pr-10">
         <Tabs.ListContainer>
@@ -24,9 +46,13 @@ export default function App() {
           </Tabs.List>
         </Tabs.ListContainer>
 
-        <Tabs.Panel className="flex flex-row gap-3 mt-5" id="metar_taf">
-          <Metar airport={airport} />
-          <Taf airport={airport} />
+        <Tabs.Panel className="mt-5" id="metar_taf">
+          <div className="grid grid-rows-2 grid-cols-4 gap-3">
+            <div className="col-span-4"><UnitsWidget units={units} setUnits={setUnits} /></div>
+            <div className="col-span-2 row-start-2"><Metar airport={airport} units={units} /></div>
+            <div className="col-span-2 row-start-2 col-start-3"><Taf airport={airport} units={units} /></div>
+          </div>
+
         </Tabs.Panel>
 
         <Tabs.Panel className="pt-4" id="temsi">

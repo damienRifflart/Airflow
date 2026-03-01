@@ -7,12 +7,15 @@ import { Clock, Wind, Eye, Thermometer, Gauge, Cloud, ReceiptText } from 'lucide
 import type { Airport } from "../../../types/airport";
 import type { Metar } from "../../../types/metar";
 import { useEffect, useState } from "react";
+import type { Units } from "../../../types/units";
+import { convertTemperature, convertSpeed, convertDistance } from "./unitConversions";
 
 interface MetarProps {
-  airport: Airport;
+    airport: Airport;
+    units: Units;
 }
 
-export function Metar({airport}: MetarProps) {
+export function Metar({ airport, units }: MetarProps) {
     const [metar, setMetar] = useState<Metar | null>(null)
 
     useEffect(() => {
@@ -42,14 +45,14 @@ export function Metar({airport}: MetarProps) {
     };
 
     return (
-        <div className="rounded-md bg-[var(--card)] border border-border mb-10 p-6 space-y-6 w-[50%]">
+        <div className="rounded-md bg-card border border-border p-6 space-y-2">
 
             <div className="flex justify-between items-center">
                 <h3 className="text-2xl font-semibold tracking-wider">METAR</h3>
                 {airport && (
                 <Chip color="accent" variant="soft" className="rounded-md px-5">
                     <Chip.Label className="text-lg">
-                    {metar?.icaoId}
+                    {airport.icao}
                     </Chip.Label>
                 </Chip>
                 )}
@@ -59,14 +62,14 @@ export function Metar({airport}: MetarProps) {
                     <div className="grid grid-cols-3 gap-3">
                         <RawWidget title="RAW" description={metar?.rawOb} />
                         <SpecificWidget icon={Clock} title="ISSUED AT" description={metar ? `${getDate(metar)[0]}` : "Undefined"} detail={metar ? `${getDate(metar)[1]}` : "Undefined"} />
-                        <SpecificWidget icon={Wind} title="WIND" description={`${metar?.wdir}° at ${metar?.wspd} kt`}
-                                    detail={metar?.wgst != null ? `Gusts to ${metar.wgst} kt` : ""} />
-                        <SpecificWidget icon={Eye} title="VISIBILITY" description={`${metar?.visib} miles`} detail="" />
-                        <SpecificWidget icon={Thermometer} title="TEMPERATURE" description={`${metar?.temp}°C`} detail={`Dewpoint: ${metar?.dewp}°C`} />
+                        <SpecificWidget icon={Wind} title="WIND" description={`${metar?.wdir}° at ${convertSpeed(metar?.wspd, "Kt", units.speed)}`}
+                                    detail={metar?.wgst != null ? `Gusts to ${convertSpeed(metar.wgst, "Kt", units.speed)}` : ""} />
+                        <SpecificWidget icon={Eye} title="VISIBILITY" description={`${convertDistance(metar?.visib, "mi", units.distance)}`} detail="" />
+                        <SpecificWidget icon={Thermometer} title="TEMPERATURE" description={`${convertTemperature(metar?.temp, "°C", units.temperature)}`} detail={`Dewpoint: ${convertTemperature(metar?.dewp, "°C", units.temperature)}`} />
                         <SpecificWidget icon={Gauge} title="PRESSURE" description={`${metar?.altim} hpa`} detail="" />
                         <SpecificWidget icon={Cloud} title="CLOUD" detail="" description={
                             metar?.clouds?.length
-                                ? metar.clouds.map(c => `${c.cover} at ${c.base} ft`).join("\n")
+                                ? metar.clouds.map(c => `${c.cover} at ${convertDistance(c.base, "ft", units.distance)}`).join("\n")
                                 : "No clouds"
                             }
                         />
