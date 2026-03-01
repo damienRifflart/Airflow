@@ -6,11 +6,10 @@ import airportData from "@/assets/large_airports_list/large_airports";
 import type { Airport } from "../../../types/airport";
 
 interface SelectAirportProps {
-  airport: Airport;
   setAirport: (airport: Airport) => void;
 }
 
-export default function SelectAirport({ airport, setAirport}: SelectAirportProps) {
+export default function SelectAirport({ setAirport}: SelectAirportProps) {
   const [query, setQuery] = useState("");
 
   const filteredAirports = useMemo(() => {
@@ -41,38 +40,38 @@ export default function SelectAirport({ airport, setAirport}: SelectAirportProps
     return (
       <TagGroup size="lg">
         <TagGroup.List>
-          <Tag className="rounded-md">{airport.name}</Tag>
+          <Tag className="rounded-md bg-background text-foreground">{airport.name}</Tag>
         </TagGroup.List>
       </TagGroup>
     );
   };
 
   return (
-    <div className="w-[420px]">
+    <div className="w-[360px]">
       <Autocomplete 
         className="w-full" 
         placeholder="Search airport, city or ICAO" 
         selectionMode="single" 
       >
-        <Autocomplete.Trigger className="rounded-md">
+        <Autocomplete.Trigger className="rounded-md bg-background">
           <Autocomplete.Value>
             {renderSelectedValue}
           </Autocomplete.Value>
           <Autocomplete.Indicator />
         </Autocomplete.Trigger>
 
-        <Autocomplete.Popover className="rounded-md">
-          <Autocomplete.Filter filter={() => true}>
+        <Autocomplete.Popover className="rounded-md bg-background border border-border">
+          <Autocomplete.Filter filter={() => true} >
             
-            <SearchField autoFocus name="search" variant="secondary">
-              <SearchField.Group className="rounded-md">
+            <SearchField autoFocus name="search" >
+              <SearchField.Group className="rounded-md bg-background">
                 <SearchField.SearchIcon />
                 <SearchField.Input
                   placeholder="Type city, airport name or ICAO"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                 />
-                <SearchField.ClearButton onClick={() => setQuery("")} />
+                <SearchField.ClearButton className="bg-background" onClick={() => setQuery("")} />
               </SearchField.Group>
             </SearchField>
 
@@ -84,7 +83,7 @@ export default function SelectAirport({ airport, setAirport}: SelectAirportProps
                   key={airport.icao}
                   id={airport.icao}
                   textValue={`${airport.name} ${airport.city} ${airport.icao}`}
-                  className="rounded-md"
+                  className="rounded-md bg-background"
                 >
                   <div className="flex flex-col">
                     <span className="font-medium">{airport.name} ({airport.icao})</span>

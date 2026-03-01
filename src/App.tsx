@@ -5,10 +5,11 @@ import { AppTab } from "@/components/Tab/AppTab";
 import { Metar } from "@/components/Metar_Taf/Metar";
 import { Taf } from "@/components/Metar_Taf/Taf";
 import { UnitsWidget } from "@/components/Metar_Taf/UnitsWidget";
-import { ChartColumn, Map, ChartArea } from 'lucide-react';
-import { Tabs } from "@heroui/react";
+import { ChartColumn, Map, ChartArea, Moon, Sun } from 'lucide-react';
+import { Button, ButtonGroup, Tabs } from "@heroui/react";
 import { useState } from 'react';
 import type { Airport } from "../types/airport";
+import { useTheme } from "@/components/ThemeProvider";
 import type { Units } from "../types/units"
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
     speed: "Kt",
     distance: "ft"
   });
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <>
@@ -34,25 +36,30 @@ export default function App() {
                 </div>
             </div>
 
-            <SelectAirport airport={airport} setAirport={setAirport} />
+            <div className="flex flex-row gap-3">
+                <SelectAirport setAirport={setAirport} />
+                <ButtonGroup className="[&>button:first-child]:rounded-l-md [&>button:last-child]:rounded-r-md">
+                    <Button onPress={toggleTheme} className="bg-card border-l border-b border-t border-border" isIconOnly><Moon className='text-foreground' /></Button>
+                    <Button onPress={toggleTheme} className="bg-card border-r border-b border-t border-border" isIconOnly><Sun className='text-foreground'/></Button>
+                </ButtonGroup>
+            </div>
         </header>
 
       <Tabs className="max-w-full pl-10 pr-10">
         <Tabs.ListContainer>
-          <Tabs.List aria-label="Options" className="rounded-md border border-border bg-background flex flew-row gap-3">
-            <AppTab id="metar_taf" icon={ChartColumn}>Metar & Taf</AppTab>
-            <AppTab id="temsi" icon={Map}>TEMSI Maps</AppTab>
-            <AppTab id="charts" icon={ChartArea}>Charts</AppTab>
-          </Tabs.List>
+            <Tabs.List aria-label="Options" className="rounded-md border border-border bg-background gap-3 [&>[data-selected=true]]:text-white">
+                <AppTab id="metar_taf" icon={ChartColumn}>Metar & Taf</AppTab>
+                <AppTab id="temsi" icon={Map}>TEMSI Maps</AppTab>
+                <AppTab id="charts" icon={ChartArea}>Charts</AppTab>
+            </Tabs.List>
         </Tabs.ListContainer>
 
         <Tabs.Panel className="mt-5" id="metar_taf">
-          <div className="grid grid-rows-2 grid-cols-4 gap-3">
-            <div className="col-span-4"><UnitsWidget units={units} setUnits={setUnits} /></div>
-            <div className="col-span-2 row-start-2"><Metar airport={airport} units={units} /></div>
-            <div className="col-span-2 row-start-2 col-start-3"><Taf airport={airport} units={units} /></div>
-          </div>
-
+            <div className="grid grid-rows-2 grid-cols-4 gap-3">
+                <div className="col-span-4"><UnitsWidget units={units} setUnits={setUnits} /></div>
+                <div className="col-span-2 row-start-2"><Metar airport={airport} units={units} /></div>
+                <div className="col-span-2 row-start-2 col-start-3"><Taf airport={airport} units={units} /></div>
+            </div>
         </Tabs.Panel>
 
         <Tabs.Panel className="pt-4" id="temsi">

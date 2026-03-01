@@ -3,6 +3,7 @@
 
 :root,
 .default,
+.light,
 .dark,
 [data-theme="dark"] {
   color-scheme: dark;
@@ -14,6 +15,18 @@
   --card-foreground: #ffffff;
   --border: rgba(147, 149, 211, 0.2);
   --muted-foreground: #9ca3af;
+}
+[data-theme="light"] {
+  color-scheme: light;
+  --accent: #7577c7;
+  --accent-foreground: #ffffff;
+  --background: #f8f9fa;
+  --background-foreground: #040316;
+  --card: #ffffff;
+  --card-foreground: #ffffff;
+  --border: rgba(147, 149, 211, 0.2);
+  --foreground: #1a1c1f;
+  --muted-foreground: #040316;
 }
 
 @layer utilities {

@@ -11,8 +11,8 @@ interface SettingsProps {
 export function UnitsWidget({units, setUnits}: SettingsProps) {
   function changeUnits<K extends keyof Units>(measure: K, newUnit: Units[K]) {
     setUnits({
-      ...units,
-      [measure] : newUnit
+        ...units,
+        [measure] : newUnit
     });
   }
 
@@ -23,17 +23,17 @@ export function UnitsWidget({units, setUnits}: SettingsProps) {
         <Select className="w-[256px]" placeholder="Select a unit" value={units["temperature"]}
           onChange={(value) => value !== null && changeUnits("temperature", value as Units["temperature"])}>
           <Label className="text-lg">Temperature</Label>
-          <Select.Trigger className="rounded-md">
+          <Select.Trigger className="rounded-md bg-background border border-border">
             <Select.Value />
             <Select.Indicator />
           </Select.Trigger>
-          <Select.Popover className="rounded-md">
+          <Select.Popover className="rounded-md bg-background border border-border">
             <ListBox>
-              <ListBox.Item id="°C" textValue="°C" className="rounded-md">
+              <ListBox.Item id="°C" textValue="°C" className="rounded-md bg-background">
                 Celsius
               </ListBox.Item>
 
-              <ListBox.Item id="F" textValue="F" className="rounded-md">
+              <ListBox.Item id="F" textValue="F" className="rounded-md bg-background">
                 Fahrenheit
               </ListBox.Item>
             </ListBox>
@@ -43,21 +43,21 @@ export function UnitsWidget({units, setUnits}: SettingsProps) {
         <Select className="w-[256px]" placeholder="Select a unit" value={units["speed"]}
           onChange={(value) => value !== null && changeUnits("speed", value as Units["speed"])}>
           <Label className="text-lg">Speed</Label>
-          <Select.Trigger className="rounded-md">
+          <Select.Trigger className="rounded-md bg-background border border-border">
             <Select.Value />
             <Select.Indicator />
           </Select.Trigger>
-          <Select.Popover className="rounded-md">
+          <Select.Popover className="rounded-md bg-background border border-border">
             <ListBox>
-              <ListBox.Item id="km/h" textValue="km/h" className="rounded-md">
+              <ListBox.Item id="km/h" textValue="km/h" className="rounded-md bg-background">
                 km/h
               </ListBox.Item>
 
-              <ListBox.Item id="Kt" textValue="Kt" className="rounded-md">
+              <ListBox.Item id="Kt" textValue="Kt" className="rounded-md bg-background">
                 Knots
               </ListBox.Item>
 
-              <ListBox.Item id="m/s" textValue="m/s" className="rounded-md">
+              <ListBox.Item id="m/s" textValue="m/s" className="rounded-md bg-background">
                 m/s
               </ListBox.Item>
             </ListBox>
@@ -67,21 +67,21 @@ export function UnitsWidget({units, setUnits}: SettingsProps) {
         <Select className="w-[256px]" placeholder="Select a unit" value={units["distance"]}
           onChange={(value) => value !== null && changeUnits("distance", value as Units["distance"])}>
           <Label className="text-lg">Distance</Label>
-          <Select.Trigger className="rounded-md">
+          <Select.Trigger className="rounded-md bg-background border border-border">
             <Select.Value />
             <Select.Indicator />
           </Select.Trigger>
-          <Select.Popover className="rounded-md">
+          <Select.Popover className="rounded-md bg-background border border-border">
             <ListBox>
-              <ListBox.Item id="m" textValue="m" className="rounded-md">
+              <ListBox.Item id="m" textValue="m" className="rounded-md bg-background">
                 Meters
               </ListBox.Item>
 
-              <ListBox.Item id="ft" textValue="ft" className="rounded-md">
+              <ListBox.Item id="ft" textValue="ft" className="rounded-md bg-background">
                 Feet
               </ListBox.Item>
 
-              <ListBox.Item id="mi" textValue="mi" className="rounded-md">
+              <ListBox.Item id="mi" textValue="mi" className="rounded-md bg-background">
                 Miles
               </ListBox.Item>
             </ListBox>
