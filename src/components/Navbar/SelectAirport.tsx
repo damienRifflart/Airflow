@@ -53,7 +53,7 @@ export default function SelectAirport({ setAirport}: SelectAirportProps) {
         placeholder="Search airport, city or ICAO" 
         selectionMode="single" 
       >
-        <Autocomplete.Trigger className="rounded-md bg-background">
+        <Autocomplete.Trigger className="rounded-md bg-background border border-border">
           <Autocomplete.Value>
             {renderSelectedValue}
           </Autocomplete.Value>
@@ -83,7 +83,7 @@ export default function SelectAirport({ setAirport}: SelectAirportProps) {
                   key={airport.icao}
                   id={airport.icao}
                   textValue={`${airport.name} ${airport.city} ${airport.icao}`}
-                  className="rounded-md bg-background"
+                  className="rounded-md bg-background hover:bg-border"
                 >
                   <div className="flex flex-col">
                     <span className="font-medium">{airport.name} ({airport.icao})</span>

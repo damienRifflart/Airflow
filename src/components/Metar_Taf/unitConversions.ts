@@ -28,13 +28,13 @@ export const convertSpeed = (value: number, from: Units["speed"], to: Units["spe
     if (converted) return `${Math.round(converted*10)/10} ${to}`;
 }
 
-export const convertDistance = (value: number, from: Units["distance"], to: Units["distance"]) => {
-    if (from === to) return `${Math.round(value*10)/10} ${to}`;
+export const convertDistance = (value: number | string, from: Units["distance"], to: Units["distance"]) => {
+    if (from === to) return `${Math.round(Number(value)*10)/10} ${to}`;
     let valueInM;
     let converted;
-    if (from === "ft") valueInM = value / 3.281;
-    if (from ==="mi") valueInM = value*1852;
-    if (from ==="m") valueInM = value;
+    if (from === "ft") valueInM = Number(value) / 3.281;
+    if (from ==="mi") valueInM = Number(value)*1852;
+    if (from ==="m") valueInM = Number(value);
 
     if (to ==="ft" && valueInM) converted = valueInM * 3.281;
     if (to === "mi" && valueInM) converted = valueInM/1852;

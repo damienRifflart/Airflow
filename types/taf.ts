@@ -23,7 +23,7 @@ export interface Fcst {
   wshearHgt?: number;
   wshearDir?: number;
   wshearSpd?: number;
-  visib: number;
+  visib: string;
   altim: number;
   vertVis?: number;
   wxString: string;

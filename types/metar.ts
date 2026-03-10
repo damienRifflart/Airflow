@@ -13,7 +13,7 @@ export interface Metar {
   wdir: number;
   wspd: number;
   wgst: number;
-  visib: number;
+  visib: string;
   altim: number;
   slp: number;
   wxString: string;

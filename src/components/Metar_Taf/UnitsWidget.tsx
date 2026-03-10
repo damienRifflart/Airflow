@@ -27,13 +27,13 @@ export function UnitsWidget({units, setUnits}: SettingsProps) {
             <Select.Value />
             <Select.Indicator />
           </Select.Trigger>
-          <Select.Popover className="rounded-md bg-background border border-border">
+          <Select.Popover className="rounded-md bg-background">
             <ListBox>
-              <ListBox.Item id="°C" textValue="°C" className="rounded-md bg-background">
+              <ListBox.Item id="°C" textValue="°C" className="rounded-md bg-background hover:bg-border">
                 Celsius
               </ListBox.Item>
 
-              <ListBox.Item id="F" textValue="F" className="rounded-md bg-background">
+              <ListBox.Item id="F" textValue="F" className="rounded-md bg-background hover:bg-border">
                 Fahrenheit
               </ListBox.Item>
             </ListBox>
@@ -47,17 +47,17 @@ export function UnitsWidget({units, setUnits}: SettingsProps) {
             <Select.Value />
             <Select.Indicator />
           </Select.Trigger>
-          <Select.Popover className="rounded-md bg-background border border-border">
+          <Select.Popover className="rounded-md bg-background">
             <ListBox>
-              <ListBox.Item id="km/h" textValue="km/h" className="rounded-md bg-background">
+              <ListBox.Item id="km/h" textValue="km/h" className="rounded-md bg-background hover:bg-border">
                 km/h
               </ListBox.Item>
 
-              <ListBox.Item id="Kt" textValue="Kt" className="rounded-md bg-background">
+              <ListBox.Item id="Kt" textValue="Kt" className="rounded-md bg-background hover:bg-border">
                 Knots
               </ListBox.Item>
 
-              <ListBox.Item id="m/s" textValue="m/s" className="rounded-md bg-background">
+              <ListBox.Item id="m/s" textValue="m/s" className="rounded-md bg-background hover:bg-border">
                 m/s
               </ListBox.Item>
             </ListBox>
@@ -71,17 +71,17 @@ export function UnitsWidget({units, setUnits}: SettingsProps) {
             <Select.Value />
             <Select.Indicator />
           </Select.Trigger>
-          <Select.Popover className="rounded-md bg-background border border-border">
+          <Select.Popover className="rounded-md bg-background">
             <ListBox>
-              <ListBox.Item id="m" textValue="m" className="rounded-md bg-background">
+              <ListBox.Item id="m" textValue="m" className="rounded-md bg-background hover:bg-border">
                 Meters
               </ListBox.Item>
 
-              <ListBox.Item id="ft" textValue="ft" className="rounded-md bg-background">
+              <ListBox.Item id="ft" textValue="ft" className="rounded-md bg-background hover:bg-border">
                 Feet
               </ListBox.Item>
 
-              <ListBox.Item id="mi" textValue="mi" className="rounded-md bg-background">
+              <ListBox.Item id="mi" textValue="mi" className="rounded-md bg-background hover:bg-border">
                 Miles
               </ListBox.Item>
             </ListBox>

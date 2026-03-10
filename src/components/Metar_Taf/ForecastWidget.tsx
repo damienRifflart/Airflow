@@ -22,7 +22,7 @@ export function ForecastWidget({ forecast, units }: ForecastWidgetProps) {
       )
     : "None";
 
-  const visibStr = forecast.visib ? `${convertDistance(forecast.visib, "mi", units.distance)}` : "Undefined";
+  const visibStr = forecast.visib ? `${ forecast?.visib === "6+" ? `${convertDistance(10000, "m", units.distance)} +` : `${convertDistance(forecast?.visib, "mi", units.distance)}`}` : "Not specified";
 
   const icingTurbStr = forecast.icgTurb?.map(it => 
       `${it.var} intensity ${it.intensity} from ${convertDistance(it.minAlt, "ft", units.distance)} to ${convertDistance(it.maxAlt, "ft", units.distance)}`

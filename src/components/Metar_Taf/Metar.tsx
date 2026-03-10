@@ -64,7 +64,8 @@ export function Metar({ airport, units }: MetarProps) {
                         <SpecificWidget icon={Clock} title="ISSUED AT" description={metar ? `${getDate(metar)[0]}` : "Undefined"} detail={metar ? `${getDate(metar)[1]}` : "Undefined"} />
                         <SpecificWidget icon={Wind} title="WIND" description={`${metar?.wdir}° at ${convertSpeed(metar?.wspd, "Kt", units.speed)}`}
                                     detail={metar?.wgst != null ? `Gusts to ${convertSpeed(metar.wgst, "Kt", units.speed)}` : ""} />
-                        <SpecificWidget icon={Eye} title="VISIBILITY" description={`${convertDistance(metar?.visib, "mi", units.distance)}`} detail="" />
+                        <SpecificWidget icon={Eye} title="VISIBILITY"
+                            description={`${ metar?.visib === "6+" ? `${convertDistance(10000, "m", units.distance)} +` : `${convertDistance(metar?.visib, "mi", units.distance)}`}`} detail="" />
                         <SpecificWidget icon={Thermometer} title="TEMPERATURE" description={`${convertTemperature(metar?.temp, "°C", units.temperature)}`} detail={`Dewpoint: ${convertTemperature(metar?.dewp, "°C", units.temperature)}`} />
                         <SpecificWidget icon={Gauge} title="PRESSURE" description={`${metar?.altim} hpa`} detail="" />
                         <SpecificWidget icon={Cloud} title="CLOUD" detail="" description={

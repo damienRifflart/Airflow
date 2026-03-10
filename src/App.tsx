@@ -11,6 +11,7 @@ import { useState } from 'react';
 import type { Airport } from "../types/airport";
 import { useTheme } from "@/components/ThemeProvider";
 import type { Units } from "../types/units"
+import {Footer} from "@/components/Footer" 
 
 export default function App() {
   const [airport, setAirport] = useState<Airport>();
@@ -22,11 +23,11 @@ export default function App() {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <>
-      <header className="flex flex-row justify-between p-10 w-full h-[6rem] bg-[var(--card)] border border-border items-center mb-10">
+    <div className="flex flex-col min-h-screen">
+      <header className="flex flex-row justify-between p-10 w-full h-[6rem] bg-card border border-border items-center mb-10">
             <div className="flex flex-row gap-3 justify-center items-center">
                 <div className="w-11 h-11 bg-[rgba(147,149,211,0.1)] rounded-lg flex items-center justify-center">
-                    <AirflowLogo />
+                    <AirflowLogo theme={theme} />
                 </div>
                 <div>
                     <h1 className="text-2xl font-bold">Airflow</h1>
@@ -39,8 +40,8 @@ export default function App() {
             <div className="flex flex-row gap-3">
                 <SelectAirport setAirport={setAirport} />
                 <ButtonGroup className="[&>button:first-child]:rounded-l-md [&>button:last-child]:rounded-r-md">
-                    <Button onPress={toggleTheme} className="bg-card border-l border-b border-t border-border" isIconOnly><Moon className='text-foreground' /></Button>
-                    <Button onPress={toggleTheme} className="bg-card border-r border-b border-t border-border" isIconOnly><Sun className='text-foreground'/></Button>
+                    <Button onPress={toggleTheme} className={`border-l border-b border-t border-border ${theme === "light" ? "bg-card" : "bg-accent"}`} isIconOnly><Moon className='text-foreground' /></Button>
+                    <Button onPress={toggleTheme} className={`border-l border-b border-t border-border ${theme === "light" ? "bg-accent" : "bg-card"}`} isIconOnly><Sun className='text-white'/></Button>
                 </ButtonGroup>
             </div>
         </header>
@@ -55,10 +56,12 @@ export default function App() {
         </Tabs.ListContainer>
 
         <Tabs.Panel className="mt-5" id="metar_taf">
-            <div className="grid grid-rows-2 grid-cols-4 gap-3">
-                <div className="col-span-4"><UnitsWidget units={units} setUnits={setUnits} /></div>
-                <div className="col-span-2 row-start-2"><Metar airport={airport} units={units} /></div>
-                <div className="col-span-2 row-start-2 col-start-3"><Taf airport={airport} units={units} /></div>
+            <div className="flex flex-col gap-3">
+                <UnitsWidget units={units} setUnits={setUnits} />
+                <div className="flex flex-col md:flex-row gap-3">
+                    <div className="flex-1"><Metar airport={airport} units={units} /></div>
+                    <div className="flex-1"><Taf airport={airport} units={units} /></div>
+                </div>
             </div>
         </Tabs.Panel>
 
@@ -71,7 +74,8 @@ export default function App() {
         </Tabs.Panel>
       </Tabs>
 
-    </>
+        <Footer />
+    </div>
   )
 }
 
