@@ -26,7 +26,6 @@ export function Taf({ airport, units }: TafProps) {
                 )
                 const data: Taf[] = await response.json()
                 setTaf(data[0])
-                console.log(data[0])
             } catch (error) {
                 console.error("Error when fetching Taf", error)
             }
