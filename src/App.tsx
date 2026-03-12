@@ -12,12 +12,13 @@ import type { Airport } from "../types/airport";
 import { useTheme } from "@/components/ThemeProvider";
 import type { Units } from "../types/units";
 import { Footer } from "@/components/Footer";
-import { Temsi } from "@/components/Temsi"
+import { Maps } from "@/components/Maps"
 
 export default function App() {
     const [airport, setAirport] = useState<Airport>();
     const [temsiLocation, setTemsiLocation] = useState<string>("france");
     const [temsiHour, setTemsiHour] = useState<string>("00");
+    const [frontsHour, setFrontsHour] = useState<string>("00");
     const [units, setUnits] = useState<Units>({
         temperature: "F",
         speed: "Kt",
@@ -49,11 +50,11 @@ export default function App() {
                 </div>
             </header>
 
-            <Tabs className="max-w-full pl-10 pr-10">
+            <Tabs className="max-w-full pl-10 pr-10 pb-10">
                 <Tabs.ListContainer>
                     <Tabs.List aria-label="Options" className="rounded-md border border-border bg-background gap-3 [&>[data-selected=true]]:text-white">
                         <AppTab id="metar_taf" icon={ChartColumn}>Metar & Taf</AppTab>
-                        <AppTab id="temsi" icon={Map}>TEMSI Maps</AppTab>
+                        <AppTab id="maps" icon={Map}>Maps</AppTab>
                         <AppTab id="charts" icon={ChartArea}>Charts</AppTab>
                     </Tabs.List>
                 </Tabs.ListContainer>
@@ -68,12 +69,12 @@ export default function App() {
                     </div>
                 </Tabs.Panel>
 
-                <Tabs.Panel className="pt-4" id="temsi">
-                    <Temsi temsiLocation={temsiLocation} temsiHour={temsiHour} setTemsiLocation={setTemsiLocation} setTemsiHour={setTemsiHour} />
+                <Tabs.Panel className="mt-5" id="maps">
+                    <Maps temsiLocation={temsiLocation} temsiHour={temsiHour} frontsHour={frontsHour} setTemsiLocation={setTemsiLocation} setTemsiHour={setTemsiHour} setFrontsHour={setFrontsHour} />
                 </Tabs.Panel>
 
-                <Tabs.Panel className="pt-4" id="charts">
-                <p>Charts</p>
+                <Tabs.Panel className="mt-5" id="charts">
+                    <p>Charts</p>
                 </Tabs.Panel>
             </Tabs>
 

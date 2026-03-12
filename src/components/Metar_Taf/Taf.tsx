@@ -52,7 +52,7 @@ export function Taf({ airport, units }: TafProps) {
     };
 
     return (
-        <div className="rounded-md bg-card border border-border mb-10 p-6 space-y-2">
+        <div className="rounded-md bg-card border border-border p-6 space-y-2">
 
             <div className="flex justify-between items-center">
                 <h3 className="text-2xl font-semibold tracking-wider">TAF</h3>
