@@ -33,7 +33,7 @@ export function UnitsWidget({units, setUnits}: SettingsProps) {
                 Celsius
               </ListBox.Item>
 
-              <ListBox.Item id="F" textValue="F" className="rounded-md bg-background hover:bg-border">
+              <ListBox.Item id="°F" textValue="°F" className="rounded-md bg-background hover:bg-border">
                 Fahrenheit
               </ListBox.Item>
             </ListBox>

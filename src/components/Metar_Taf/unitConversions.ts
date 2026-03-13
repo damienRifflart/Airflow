@@ -5,16 +5,16 @@ export const convertTemperature = (value: number, from: Units["temperature"], to
     let valueInF;
     let converted;
     if (from === "°C") valueInF = value*9/5 + 32;
-    if (from ==="F") valueInF = value;
+    if (from ==="°F") valueInF = value;
 
     if (to ==="°C" && valueInF) converted = (valueInF - 32)*5/9;
-    if (to === "F" && valueInF) converted = valueInF;
+    if (to === "°F" && valueInF) converted = valueInF;
 
-    if (converted) return `${Math.round(converted*10)/10} ${to}`;
+    if (converted) return `${Math.round(converted*10)/10}`;
 }
 
 export const convertSpeed = (value: number, from: Units["speed"], to: Units["speed"]) => {
-    if (from === to) return `${Math.round(value*10)/10} ${to}`;
+    if (from === to) return `${Math.round(value*10)/10}`;
     let valueInMs;
     let converted;
     if (from === "Kt") valueInMs = value*0.514444;
@@ -25,7 +25,7 @@ export const convertSpeed = (value: number, from: Units["speed"], to: Units["spe
     if (to === "km/h" && valueInMs) converted = valueInMs*3.6;
     if (to === "m/s") converted = valueInMs;
 
-    if (converted) return `${Math.round(converted*10)/10} ${to}`;
+    if (converted) return `${Math.round(converted*10)/10}`;
 }
 
 export const convertDistance = (value: number | string, from: Units["distance"], to: Units["distance"]) => {
@@ -40,5 +40,5 @@ export const convertDistance = (value: number | string, from: Units["distance"],
     if (to === "mi" && valueInM) converted = valueInM/1852;
     if (to === "m") converted = valueInM;
 
-    if (converted) return `${Math.round(converted*10)/10} ${to}`;
+    if (converted) return `${Math.round(converted*10)/10}`;
 }

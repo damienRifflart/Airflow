@@ -12,7 +12,8 @@ import type { Airport } from "../types/airport";
 import { useTheme } from "@/components/ThemeProvider";
 import type { Units } from "../types/units";
 import { Footer } from "@/components/Footer";
-import { Maps } from "@/components/Maps"
+import { Maps } from "@/components/Maps";
+import { Charts } from "@/components/Charts/Charts";
 
 export default function App() {
     const [airport, setAirport] = useState<Airport>();
@@ -20,7 +21,7 @@ export default function App() {
     const [temsiHour, setTemsiHour] = useState<string>("00");
     const [frontsHour, setFrontsHour] = useState<string>("00");
     const [units, setUnits] = useState<Units>({
-        temperature: "F",
+        temperature: "°F",
         speed: "Kt",
         distance: "ft"
     });
@@ -36,7 +37,7 @@ export default function App() {
                     <div>
                         <h1 className="text-2xl font-bold">Airflow</h1>
                         <p className="text-sm text-muted-foreground">
-                        Real-time METAR, TAF & TEMSI Analysis
+                            Real-time METAR, TAF & TEMSI Analysis
                         </p>
                     </div>
                 </div>
@@ -52,7 +53,7 @@ export default function App() {
 
             <Tabs className="max-w-full pl-10 pr-10 pb-10">
                 <Tabs.ListContainer>
-                    <Tabs.List aria-label="Options" className="rounded-md border border-border bg-background gap-3 [&>[data-selected=true]]:text-white">
+                    <Tabs.List aria-label="Options" className="rounded-md border border-border bg-card gap-3 [&>[data-selected=true]]:text-white">
                         <AppTab id="metar_taf" icon={ChartColumn}>Metar & Taf</AppTab>
                         <AppTab id="maps" icon={Map}>Maps</AppTab>
                         <AppTab id="charts" icon={ChartArea}>Charts</AppTab>
@@ -74,7 +75,7 @@ export default function App() {
                 </Tabs.Panel>
 
                 <Tabs.Panel className="mt-5" id="charts">
-                    <p>Charts</p>
+                    <Charts airport={airport} units={units} />
                 </Tabs.Panel>
             </Tabs>
 

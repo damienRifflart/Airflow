@@ -14,7 +14,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/metar/{icao}")
+@app.get("/api/metar/{icao}")
 async def get_metar(icao: str):
     url = f"https://aviationweather.gov/api/data/metar?ids={icao}&format=json"
     async with httpx.AsyncClient() as client:
@@ -36,7 +36,29 @@ async def get_metar(icao: str):
 
     return data
 
-@app.get("/taf/{icao}")
+@app.get("/api/metarhistory/{icao}")
+async def get_metarhistory(icao: str):
+    url = f"https://aviationweather.gov/api/data/metar?ids={icao}&hours=168&format=json"
+    async with httpx.AsyncClient() as client:
+        try:
+            response = await client.get(url, timeout=10)
+            response.raise_for_status()
+        except httpx.RequestError as e:
+            raise HTTPException(status_code=502, detail=f"Network error: {e}.")
+        except httpx.HTTPStatusError as e:
+            raise HTTPException(status_code=502, detail=f"HTTP error: {e}.")
+
+    try:
+        data = response.json()
+    except ValueError:
+        raise HTTPException(status_code=502, detail="Invalid JSON response.")
+
+    if not data:
+        raise HTTPException(status_code=404, detail=f"No Metar History found for {icao}.")
+
+    return data
+
+@app.get("/api/taf/{icao}")
 async def get_taf(icao: str):
     url = f"https://aviationweather.gov/api/data/taf?ids={icao}&format=json"
     async with httpx.AsyncClient() as client:

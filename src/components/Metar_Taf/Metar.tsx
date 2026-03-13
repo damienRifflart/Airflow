@@ -22,7 +22,7 @@ export function Metar({ airport, units }: MetarProps) {
         async function fetchMetar() {
             try {
                 const response = await fetch(
-                    `http://localhost:8000/metar/${airport.icao}`
+                    `http://localhost:8000/api/metar/${airport.icao}`
                 )
                 const data: Metar[] = await response.json()
                 setMetar(data[0])
@@ -52,7 +52,7 @@ export function Metar({ airport, units }: MetarProps) {
                 {airport && (
                 <Chip color="accent" variant="soft" className="rounded-md px-5">
                     <Chip.Label className="text-lg">
-                    {airport.icao}
+                        {airport.icao}
                     </Chip.Label>
                 </Chip>
                 )}
