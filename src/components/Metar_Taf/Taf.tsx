@@ -70,7 +70,7 @@ export function Taf({ airport, units }: TafProps) {
                             <Skeleton className="h-4 w-3/4 rounded-md" />
                         </div>
 
-                        <div className="flex flex-row gap-3">
+                        <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
                             {Array.from({ length: 3 }).map((_, i) => (
                                 <div key={i} className="flex-1 bg-background flex flex-col gap-3 border border-border rounded-md p-6">
                                     <div className="flex flex-row gap-3 items-center">
@@ -112,10 +112,10 @@ export function Taf({ airport, units }: TafProps) {
                 ) : (
                     <div className="flex flex-col gap-3">
                         <RawWidget title={"RAW"} description={taf?.rawTAF}/>
-                        <div className="flex flex-row gap-3">
-                            <div className="flex-1"><SpecificWidget icon={Clock} title="ISSUED AT" description={getDate(new Date(taf?.issueTime))[0]} detail={getDate(new Date(taf?.issueTime))[1]} /></div>
-                            <div className="flex-1"><SpecificWidget icon={Clock} title="VALID FROM" description={getDateFromUnix(taf?.validTimeFrom)[0]} detail={getDateFromUnix(taf?.validTimeFrom)[1]} /></div>
-                            <div className="flex-1"><SpecificWidget icon={Clock} title="VALID TO" description={getDateFromUnix(taf?.validTimeTo)[0]} detail={getDateFromUnix(taf?.validTimeTo)[1]} /></div>
+                        <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+                            <div><SpecificWidget icon={Clock} title="ISSUED AT" description={getDate(new Date(taf?.issueTime))[0]} detail={getDate(new Date(taf?.issueTime))[1]} /></div>
+                            <div><SpecificWidget icon={Clock} title="VALID FROM" description={getDateFromUnix(taf?.validTimeFrom)[0]} detail={getDateFromUnix(taf?.validTimeFrom)[1]} /></div>
+                            <div><SpecificWidget icon={Clock} title="VALID TO" description={getDateFromUnix(taf?.validTimeTo)[0]} detail={getDateFromUnix(taf?.validTimeTo)[1]} /></div>
                         </div>
                         <h3 className="text-md text-muted-foreground mt-5 mb-2">DECODED FORECAST</h3>
                         {taf?.fcsts?.map((forecast, index) => (

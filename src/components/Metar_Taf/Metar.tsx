@@ -74,7 +74,7 @@ export function Metar({ airport, units }: MetarProps) {
             </div>
 
             {isLoading ? (
-                <div className="grid grid-cols-3 gap-3">
+                <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
                     <div className="bg-background col-span-3 flex flex-col gap-3 border border-border rounded-md p-6">
                         <Skeleton className="h-4 w-16 rounded-md" />
                         <Skeleton className="h-4 w-full rounded-md" />
@@ -97,7 +97,7 @@ export function Metar({ airport, units }: MetarProps) {
             ) : !metar ? (
                 <h3 className="text-lg">No Metar found for {airport.icao}.</h3>
             ) : (
-                <div className="grid grid-cols-3 gap-3">
+                <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
                     <RawWidget title="RAW" description={metar?.rawOb} />
                     <SpecificWidget icon={Clock} title="ISSUED AT" description={getDate(new Date(metar.reportTime))[0]} detail={getDate(new Date(metar.reportTime))[1]} />
                     <SpecificWidget icon={Wind} title="WIND" description={windStr} detail={gustsStr} />

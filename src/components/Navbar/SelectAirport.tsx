@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import { Autocomplete, EmptyState, ListBox, SearchField, Tag, TagGroup } from "@heroui/react";
 import airportData from "@/assets/large_airports_list/large_airports";
 import type { Airport } from "../../../types/airport";
@@ -23,7 +23,11 @@ export default function SelectAirport({ setAirport}: SelectAirportProps) {
         ).slice(0, 8);
     }, [query]);
 
-    const renderSelectedValue = ({ defaultChildren, isPlaceholder, state }: any) => {
+    const renderSelectedValue = ({ defaultChildren, isPlaceholder, state }: {
+        defaultChildren: ReactNode;
+        isPlaceholder: boolean;
+        state: { selectedItems?: Array<{ key: string }> };
+    }) => {
         if (isPlaceholder || !state.selectedItems?.length) return defaultChildren;
 
         const icao = state.selectedItems[0].key;
@@ -41,7 +45,7 @@ export default function SelectAirport({ setAirport}: SelectAirportProps) {
     };
 
     return (
-        <div className="w-[360px]">
+        <div className="w-full sm:w-[360px]">
             <Autocomplete className="w-full" placeholder="Search airport, city or ICAO" selectionMode="single">
                 <Autocomplete.Trigger className="rounded-md bg-background border border-border">
                     <Autocomplete.Value>

@@ -28,32 +28,32 @@ export default function App() {
     const { theme, toggleTheme } = useTheme();
 
     return (
-        <div className="flex flex-col min-h-screen">
-            <header className="flex flex-row justify-between p-10 w-full h-[6rem] bg-card border border-border items-center mb-10">
-                <div className="flex flex-row gap-3 justify-center items-center">
+        <div className="flex min-h-screen flex-col overflow-x-hidden bg-background">
+            <header className="mb-6 flex w-full flex-col gap-4 border border-border bg-card px-4 py-5 sm:mb-8 sm:px-6 lg:mb-10 lg:flex-row lg:items-center lg:justify-between lg:px-10">
+                <div className="flex min-w-0 flex-row items-center gap-3">
                     <div className="w-11 h-11 bg-[rgba(147,149,211,0.1)] rounded-lg flex items-center justify-center">
                         <AirflowLogo theme={theme} />
                     </div>
-                    <div>
-                        <h1 className="text-2xl font-bold">Airflow</h1>
-                        <p className="text-sm text-muted-foreground">
+                    <div className="min-w-0">
+                        <h1 className="text-xl font-bold sm:text-2xl">Airflow</h1>
+                        <p className="text-xs text-muted-foreground sm:text-sm">
                             Real-time METAR, TAF & TEMSI Analysis
                         </p>
                     </div>
                 </div>
 
-                <div className="flex flex-row gap-3">
+                <div className="flex w-full flex-col gap-3 sm:flex-row sm:items-center lg:w-auto">
                     <SelectAirport setAirport={setAirport} />
-                    <ButtonGroup className="[&>button:first-child]:rounded-l-md [&>button:last-child]:rounded-r-md">
+                    <ButtonGroup className="self-end sm:self-auto [&>button:first-child]:rounded-l-md [&>button:last-child]:rounded-r-md">
                         <Button onPress={toggleTheme} className={`border-l border-b border-t border-border ${theme === "light" ? "bg-card" : "bg-accent"}`} isIconOnly><Moon className='text-foreground' /></Button>
                         <Button onPress={toggleTheme} className={`border-l border-b border-t border-border ${theme === "light" ? "bg-accent" : "bg-card"}`} isIconOnly><Sun className='text-white'/></Button>
                     </ButtonGroup>
                 </div>
             </header>
 
-            <Tabs className="max-w-full pl-10 pr-10 pb-10">
+            <Tabs className="w-full max-w-full px-4 pb-8 sm:px-6 sm:pb-10 lg:px-10">
                 <Tabs.ListContainer>
-                    <Tabs.List aria-label="Options" className="rounded-md border border-border bg-card gap-3 [&>[data-selected=true]]:text-white">
+                    <Tabs.List aria-label="Options" className="grid w-full grid-cols-1 gap-2 rounded-md border border-border bg-card p-1 sm:grid-cols-3 sm:gap-3 [&>[data-selected=true]]:text-white">
                         <AppTab id="metar_taf" icon={ChartColumn}>Metar & Taf</AppTab>
                         <AppTab id="maps" icon={Map}>Maps</AppTab>
                         <AppTab id="charts" icon={ChartArea}>Charts</AppTab>
@@ -83,4 +83,3 @@ export default function App() {
         </div>
     )
 }
-

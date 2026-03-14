@@ -11,7 +11,7 @@ interface AppTabProps {
 
 export function AppTab({ id, icon: Icon, children }: AppTabProps) {
     return (
-        <Tabs.Tab id={id} className="rounded-md text-lg flex gap-2 hover:bg-border">
+        <Tabs.Tab id={id} className="flex w-full items-center justify-center gap-2 rounded-md px-3 py-2 text-sm sm:text-lg hover:bg-border">
             <Icon size={20} />
                 {children}
             <Tabs.Indicator className="rounded-md bg-accent shadow-lg shadow-[rgba(147,149,211,0.2)] transition-all duration-200" />
