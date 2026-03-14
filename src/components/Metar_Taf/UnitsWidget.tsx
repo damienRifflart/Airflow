@@ -19,8 +19,8 @@ export function UnitsWidget({units, setUnits}: SettingsProps) {
     return (
         <div className="rounded-md bg-card border border-border p-6">
             <h3 className="text-2xl font-semibold tracking-wider">UNITS</h3>
-            <div className="flex flex-row gap-10">
-                <Select className="w-[256px]" placeholder="Select a unit" value={units["temperature"]}
+            <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+                <Select className="w-full" placeholder="Select a unit" value={units["temperature"]}
                     onChange={(value) => value !== null && changeUnits("temperature", value as Units["temperature"])}>
                     <Label className="text-lg">Temperature</Label>
                     <Select.Trigger className="rounded-md bg-background border border-border">
@@ -40,7 +40,7 @@ export function UnitsWidget({units, setUnits}: SettingsProps) {
                     </Select.Popover>
                 </Select>
 
-                <Select className="w-[256px]" placeholder="Select a unit" value={units["speed"]}
+                <Select className="w-full" placeholder="Select a unit" value={units["speed"]}
                     onChange={(value) => value !== null && changeUnits("speed", value as Units["speed"])}>
                     <Label className="text-lg">Speed</Label>
                     <Select.Trigger className="rounded-md bg-background border border-border">
@@ -64,7 +64,7 @@ export function UnitsWidget({units, setUnits}: SettingsProps) {
                     </Select.Popover>
                 </Select>
 
-                <Select className="w-[256px]" placeholder="Select a unit" value={units["distance"]}
+                <Select className="w-full" placeholder="Select a unit" value={units["distance"]}
                     onChange={(value) => value !== null && changeUnits("distance", value as Units["distance"])}>
                     <Label className="text-lg">Distance</Label>
                     <Select.Trigger className="rounded-md bg-background border border-border">

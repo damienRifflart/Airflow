@@ -15,7 +15,7 @@ export function Maps({temsiLocation, temsiHour, frontsHour, setTemsiLocation, se
     const getTemsiURL = (): string => {
         const date = new Date();
         let month: string | number = date.getUTCMonth() + 1;
-        if (month < 10) { month = `0${month}` } else { month = month };
+        if (month < 10) { month = `0${month}` };
         const year = date.getUTCFullYear();
         const day = date.getUTCDate();
         const dateString = `${year}${month}${day}${temsiHour}0000`;
@@ -25,7 +25,7 @@ export function Maps({temsiLocation, temsiHour, frontsHour, setTemsiLocation, se
     const getFrontsURL = (): string => {
         const date = new Date();
         let month: string | number = date.getUTCMonth() + 1;
-        if (month < 10) { month = `0${month}` } else { month = month };
+        if (month < 10) { month = `0${month}` };
         const year = date.getUTCFullYear();
         const day = date.getUTCDate();
         const dateString = `${year}${month}${day}${frontsHour}0000`;
@@ -68,9 +68,9 @@ export function Maps({temsiLocation, temsiHour, frontsHour, setTemsiLocation, se
 
             <div className="rounded-md bg-card border border-border p-6">
                 <h3 className='text-2xl font-semibold tracking-wider'>TEMSI</h3>
-                <div className="flex flex-col ml-5 mb-10">
-                    <div className="flex flex-row gap-3 mb-3">
-                        <Select className="w-[256px]" placeholder="Select a location" onChange={(value) => changeLocation(value as string)} value={temsiLocation}>
+                <div className="mb-10 flex flex-col gap-3 md:ml-5">
+                    <div className="mb-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                        <Select className="w-full sm:max-w-[256px]" placeholder="Select a location" onChange={(value) => changeLocation(value as string)} value={temsiLocation}>
                             <Label className="text-lg">Location</Label>
                             <Select.Trigger className="rounded-md bg-background border border-border">
                                 <Select.Value />
@@ -88,7 +88,7 @@ export function Maps({temsiLocation, temsiHour, frontsHour, setTemsiLocation, se
                                 </ListBox>
                             </Select.Popover>
                         </Select>
-                        <Select className="w-[256px]" placeholder="Select a hour" onChange={(value) => changeTemsiHour(value as string)} value={temsiHour}>
+                        <Select className="w-full sm:max-w-[256px]" placeholder="Select a hour" onChange={(value) => changeTemsiHour(value as string)} value={temsiHour}>
                             <Label className="text-lg">Hour</Label>
                             <Select.Trigger className="rounded-md bg-background border border-border">
                                 <Select.Value />
@@ -119,9 +119,9 @@ export function Maps({temsiLocation, temsiHour, frontsHour, setTemsiLocation, se
 
             <div className="rounded-md bg-card border border-border p-6 space-y-2">
                 <h3 className='text-2xl font-semibold tracking-wider'>Fronts Map</h3>
-                <div className="flex flex-col ml-5">
-                    <div className="flex flex-row gap-3 mb-3">
-                        <Select className="w-[256px]" placeholder="Select a hour" onChange={(value) => changeFrontsHour(value as string)} value={frontsHour}>
+                <div className="flex flex-col gap-3 md:ml-5">
+                    <div className="mb-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                        <Select className="w-full sm:max-w-[256px]" placeholder="Select a hour" onChange={(value) => changeFrontsHour(value as string)} value={frontsHour}>
                             <Label className="text-lg">Hour</Label>
                             <Select.Trigger className="rounded-md bg-background border border-border">
                                 <Select.Value />
