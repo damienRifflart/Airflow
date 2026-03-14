@@ -65,7 +65,7 @@ export function Charts({ airport, units}: ChartsProps) {
         }
 
         fetchMetarHistory();
-    }, [airport]);
+    }, [airport?.icao, units.distance, units.speed, units.temperature]);
 
     const ChartSkeleton = () => (
         <div className="bg-card p-6 rounded-md border border-border flex flex-col gap-5">
