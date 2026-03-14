@@ -10,7 +10,7 @@ export interface Metar {
   reportTime: string;
   temp: number;
   dewp: number;
-  wdir: number;
+  wdir: number | string;
   wspd: number;
   wgst: number;
   visib: string;

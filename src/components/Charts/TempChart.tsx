@@ -1,4 +1,5 @@
 "use client";
+
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts";
 import type { Units } from "../../../types/units";
 import type { TempDataPoint } from '../../../types/charts';

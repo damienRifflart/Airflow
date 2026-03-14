@@ -1,4 +1,5 @@
 "use client";
+
 import { XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, AreaChart, Area } from "recharts";
 import type { VisibilityDataPoint } from "../../../types/charts";
 import type { Units } from "../../../types/units"

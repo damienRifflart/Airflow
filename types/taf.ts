@@ -43,8 +43,8 @@ export interface Taf {
   dbPopTime: string;
   bulletinTime: string;
   issueTime: string;
-  validTimeFrom: number;
-  validTimeTo: number;
+  validTimeFrom: string;
+  validTimeTo: string;
   rawTAF: string;
   mostRecent: number;
   remarks?: string;

@@ -1,13 +1,15 @@
+"use client"
+
 import { TempChart } from '@/components/Charts/TempChart';
 import { WindChart } from '@/components/Charts/WindChart';
 import { PressureChart } from '@/components/Charts/PressureChart';
+import { VisibilityChart } from '@/components/Charts/VisibilityChart';
+import { convertTemperature, convertSpeed, convertDistance } from "@/components/unitConversions";
 import { useEffect, useState } from 'react';
 import type { Metar } from "../../../types/metar";
 import type { Airport } from "../../../types/airport";
-import { convertTemperature, convertSpeed, convertDistance } from "@/components/Metar_Taf/unitConversions";
 import type { Units } from '../../../types/units';
 import type { TempDataPoint, WindDataPoint, PressureDataPoint, VisibilityDataPoint } from '../../../types/charts';
-import { VisibilityChart } from './VisibilityChart';
 
 interface ChartsProps {
     airport: Airport;
@@ -64,7 +66,7 @@ export function Charts({ airport, units}: ChartsProps) {
     return (
         <div>
             <h3 className='text-2xl font-semibold tracking-wider mb-1'>Weather Trends</h3>
-            <p className="text-sm text-muted-foreground mb-10">Historical data and forecasted trends</p>
+            <p className="text-sm text-muted-foreground mb-10">Historical data from the past seven days</p>
 
             <div className="flex flex-col gap-5">
                 <div className="bg-card p-6 rounded-md border border-border">

@@ -1,12 +1,13 @@
 "use client";
+
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts";
 import type { Units } from "../../../types/units";
 import type { WindDataPoint } from "../../../types/charts";
 
 interface ChartWidgetProps {
-  data: WindDataPoint[];
-  title?: string;
-  units: Units;
+    data: WindDataPoint[];
+    title?: string;
+    units: Units;
 }
 
 export function WindChart({ data, title, units }: ChartWidgetProps) {
