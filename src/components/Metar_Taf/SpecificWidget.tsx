@@ -11,7 +11,7 @@ interface SpecificWidgetProps {
 
 export function SpecificWidget({ icon: Icon, title, description, detail }: SpecificWidgetProps) {
     return (
-        <div className="bg-background flex flex-col gap-3 border border-border aspect-rectangle rounded-md p-6">
+        <div className="bg-background flex flex-col gap-3 border border-border aspect-rectangle rounded-md p-5">
             <div className="flex flex-row gap-3 items-center">
                 <Icon size={20} className="text-accent" />
                 <p className="text-muted-foreground text-md">{title}</p>

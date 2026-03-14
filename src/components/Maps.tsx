@@ -61,7 +61,7 @@ export function Maps({temsiLocation, temsiHour, frontsHour, setTemsiLocation, se
                             aviation.meteo.fr
                             <Link.Icon />
                         </Link>
-                        &nbsp;every time you want to see the maps
+                        &nbsp;every time you want to see the maps.
                     </Chip.Label>
                 </Chip>
             </div>
@@ -112,7 +112,7 @@ export function Maps({temsiLocation, temsiHour, frontsHour, setTemsiLocation, se
                         <Link href={getTemsiURL()} target="_blank" className="text-lg">
                             Click to see the TEMSI map
                             <Link.Icon />
-                        </Link>
+                        </Link>.
                     </h3>
                 </div>
             </div>
@@ -145,7 +145,7 @@ export function Maps({temsiLocation, temsiHour, frontsHour, setTemsiLocation, se
                         <Link href={getFrontsURL()} target="_blank" className="text-lg">
                             Click to see the fronts map
                             <Link.Icon />
-                        </Link>
+                        </Link>.
                     </h3>
                 </div>
             </div>

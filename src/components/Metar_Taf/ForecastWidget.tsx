@@ -24,7 +24,7 @@ export function ForecastWidget({ forecast, units }: ForecastWidgetProps) {
     const icingTurbStr = forecast.icgTurb?.map(it => `${it.var} intensity ${it.intensity} from ${convertDistance(it.minAlt, "ft", units.distance)} to ${convertDistance(it.maxAlt, "ft", units.distance)} ${units.distance}`).join(", ") || "None";
 
     return (
-        <div className="bg-background flex flex-col gap-3 border border-border rounded-md p-6">
+        <div className="bg-background flex flex-col gap-3 border border-border rounded-md p-5">
             <div className="flex flex-row gap-3 items-center">
                 <Clock size={20} className="text-accent" />
                 <p className="text-muted-foreground text-md">

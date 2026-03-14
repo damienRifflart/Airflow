@@ -6,10 +6,11 @@ import { PressureChart } from '@/components/Charts/PressureChart';
 import { VisibilityChart } from '@/components/Charts/VisibilityChart';
 import { convertTemperature, convertSpeed, convertDistance } from "@/components/unitConversions";
 import { useEffect, useState } from 'react';
-import type { Metar } from "../../../types/metar";
-import type { Airport } from "../../../types/airport";
-import type { Units } from '../../../types/units';
-import type { TempDataPoint, WindDataPoint, PressureDataPoint, VisibilityDataPoint } from '../../../types/charts';
+import type { Metar } from "../../types/metar";
+import type { Airport } from "../../types/airport";
+import type { Units } from '../../types/units';
+import type { TempDataPoint, WindDataPoint, PressureDataPoint, VisibilityDataPoint } from '../../types/charts';
+import { Skeleton } from '@heroui/react';
 
 interface ChartsProps {
     airport: Airport;
@@ -21,11 +22,12 @@ export function Charts({ airport, units}: ChartsProps) {
     const [windList, setWindList] = useState<WindDataPoint[]>([]);
     const [pressureList, setPressureList] = useState<PressureDataPoint[]>([]);
     const [visibilityList, setVisibilityList] = useState<VisibilityDataPoint[]>([]);
+    const [isLoading, setIsLoading] = useState(false);
 
     useEffect(() => {
         async function fetchMetarHistory() {
             if (!airport?.icao) return;
-
+            setIsLoading(true);
             try {
                 const response = await fetch(
                     `http://localhost:8000/api/metarhistory/${airport.icao}`
@@ -57,11 +59,20 @@ export function Charts({ airport, units}: ChartsProps) {
 
             } catch (error) {
                 console.error("Error when fetching Metar history", error);
+            } finally {
+                setIsLoading(false);
             }
         }
 
         fetchMetarHistory();
     }, [airport]);
+
+    const ChartSkeleton = () => (
+        <div className="bg-card p-6 rounded-md border border-border flex flex-col gap-5">
+            <Skeleton className="h-5 w-48 rounded-md" />
+            <Skeleton className="h-64 w-full rounded-md" />
+        </div>
+    );
 
     return (
         <div>
@@ -69,21 +80,26 @@ export function Charts({ airport, units}: ChartsProps) {
             <p className="text-sm text-muted-foreground mb-10">Historical data from the past seven days</p>
 
             <div className="flex flex-col gap-5">
-                <div className="bg-card p-6 rounded-md border border-border">
-                    <TempChart data={tempList} title="Temperature & Dewpoint" units={units} />
-                </div>
-
-                <div className="bg-card p-6 rounded-md border border-border">
-                    <PressureChart data={pressureList} title="Atmospheric pressure" />
-                </div>
-
-                <div className="bg-card p-6 rounded-md border border-border">
-                    <WindChart data={windList} title="Wind Speed & Gusts" units={units} />
-                </div>
-
-                <div className="bg-card p-6 rounded-md border border-border">
-                    <VisibilityChart data={visibilityList} title="Visibility" units={units} />
-                </div>
+                {isLoading ? (
+                    Array.from({ length: 4 }).map((_, i) => <ChartSkeleton key={i} />)
+                ) : !airport?.icao ? (
+                    <h3 className="text-lg">No airport selected.</h3>
+                ) : (
+                    <>
+                        <div className="bg-card p-6 rounded-md border border-border">
+                            <TempChart data={tempList} title="Temperature & Dewpoint" units={units} />
+                        </div>
+                        <div className="bg-card p-6 rounded-md border border-border">
+                            <PressureChart data={pressureList} title="Atmospheric pressure" />
+                        </div>
+                        <div className="bg-card p-6 rounded-md border border-border">
+                            <WindChart data={windList} title="Wind Speed & Gusts" units={units} />
+                        </div>
+                        <div className="bg-card p-6 rounded-md border border-border">
+                            <VisibilityChart data={visibilityList} title="Visibility" units={units} />
+                        </div>
+                    </>
+                )}
             </div>
         </div>
     )

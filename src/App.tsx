@@ -13,7 +13,7 @@ import { useTheme } from "@/components/ThemeProvider";
 import type { Units } from "../types/units";
 import { Footer } from "@/components/Footer";
 import { Maps } from "@/components/Maps";
-import { Charts } from "@/components/Charts/Charts";
+import { Charts } from "@/components/Charts";
 
 export default function App() {
     const [airport, setAirport] = useState<Airport>();
