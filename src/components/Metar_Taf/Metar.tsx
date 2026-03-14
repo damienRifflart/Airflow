@@ -41,7 +41,7 @@ export function Metar({ airport, units }: MetarProps) {
 
     const windStr = metar?.wdir && metar?.wspd
         ? (metar?.wdir === "VRB"
-            ? `Variable at ${convertSpeed(metar?.wspd, "Kt", units.speed)} ${units.speed}}`
+            ? `Variable at ${convertSpeed(metar?.wspd, "Kt", units.speed)} ${units.speed}`
             : `${metar?.wdir}° at ${convertSpeed(metar?.wspd, "Kt", units.speed)} ${units.speed}`
         )
         : "None";
