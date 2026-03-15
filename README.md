@@ -1,4 +1,7 @@
-# ![Airflow logo](public/airflow-logo.svg) Airflow
+<p align="center">
+  <img src="public/airflow-logo.svg" alt="Airflow logo" width="130">
+   <h1>Airflow</h1>
+</p>
 
 Welcome to **Airflow**, your aviation weather dashboard to quickly access **METAR**, **TAF**, **TEMSI/fronts maps** and **charts** for the past 7-days. Built **by** an aviation lover and **for** aviation lovers ! ✈️
 
