@@ -25,7 +25,7 @@ export function Metar({ airport, units }: MetarProps) {
             setIsLoading(true);
             try {
                 const response = await fetch(
-                    `http://localhost:8000/api/metar/${airport.icao}`
+                    `/api/metar/${airport.icao}`
                 )
                 const data: Metar[] = await response.json()
                 setMetar(data[0])

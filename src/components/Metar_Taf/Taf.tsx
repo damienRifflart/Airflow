@@ -26,7 +26,7 @@ export function Taf({ airport, units }: TafProps) {
             setIsLoading(true);
             try {
                 const response = await fetch(
-                    `http://localhost:8000/api/taf/${airport.icao}`
+                    `/api/taf/${airport.icao}`
                 )
                 const data: Taf[] = await response.json()
                 setTaf(data[0])

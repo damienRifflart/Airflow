@@ -37,7 +37,7 @@ export default function App() {
                     <div className="min-w-0">
                         <h1 className="text-xl font-bold sm:text-2xl">Airflow</h1>
                         <p className="text-xs text-muted-foreground sm:text-sm">
-                            Real-time METAR, TAF & TEMSI Analysis
+                            Real-time METAR, TAF & Maps Analysis
                         </p>
                     </div>
                 </div>

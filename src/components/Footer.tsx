@@ -11,7 +11,7 @@ export function Footer() {
                         onClick={() => window.open("https://github.com/damienRifflart/Airflow", "_blank")}
                     />
                 </div>
-                <p className="text-foreground">© 2026 Airflow. All rights reserved.</p>
+                <p className="text-foreground">© 2026 Airflow. Licensed under MIT.</p>
             </div>
         </footer>
     )

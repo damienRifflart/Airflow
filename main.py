@@ -4,7 +4,7 @@ import httpx
 
 app = FastAPI()
 
-origins = ["http://localhost:3000", "http://localhost:5173"]
+origins = ["http://localhost:3000", "http://localhost:5173","https://airflow.rifflartdamien.me"]
 
 app.add_middleware(
     CORSMiddleware,

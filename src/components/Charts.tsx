@@ -30,7 +30,7 @@ export function Charts({ airport, units}: ChartsProps) {
             setIsLoading(true);
             try {
                 const response = await fetch(
-                    `http://localhost:8000/api/metarhistory/${airport.icao}`
+                    `/api/metarhistory/${airport.icao}`
                 );
                 const data: Metar[] = (await response.json()).reverse();
 
