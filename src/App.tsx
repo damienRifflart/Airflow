@@ -5,15 +5,15 @@ import { AppTab } from "@/components/Tab/AppTab";
 import { Metar } from "@/components/Metar_Taf/Metar";
 import { Taf } from "@/components/Metar_Taf/Taf";
 import { UnitsWidget } from "@/components/Metar_Taf/UnitsWidget";
-import { ChartColumn, Map, ChartArea, Moon, Sun } from 'lucide-react';
-import { Button, ButtonGroup, Tabs } from "@heroui/react";
-import { useState } from 'react';
-import type { Airport } from "../types/airport";
-import { useTheme } from "@/components/ThemeProvider";
-import type { Units } from "../types/units";
 import { Footer } from "@/components/Footer";
 import { Maps } from "@/components/Maps";
 import { Charts } from "@/components/Charts";
+import { useTheme } from "@/components/ThemeProvider";
+import type { Airport } from "../types/airport";
+import type { Units } from "../types/units";
+import { ChartColumn, Map, ChartArea, Moon, Sun } from 'lucide-react';
+import { Button, ButtonGroup, Tabs } from "@heroui/react";
+import { useState } from 'react';
 
 export default function App() {
     const [airport, setAirport] = useState<Airport>();
