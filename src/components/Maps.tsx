@@ -47,7 +47,7 @@ export function Maps({temsiLocation, temsiHour, frontsHour, setTemsiLocation, se
         <div className="flex flex-col gap-3">
             <div className="rounded-md bg-card border border-border p-6 space-y-2">
                 <h3 className='text-2xl font-semibold tracking-wider'>CREATE AN ACCOUNT</h3>
-                <h3 className="text-lg">In order to see the maps, you must create a free account at &nbsp;
+                <h3 className="text-lg">In order to see the maps, you must create a free account at&nbsp;
                     <Link href={'https://aviation.meteo.fr/'} target="_blank" className="text-lg">
                         aviation.meteo.fr
                         <Link.Icon />
