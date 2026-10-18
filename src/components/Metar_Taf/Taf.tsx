@@ -10,7 +10,7 @@ import type { Units } from "../../../types/units";
 import { useEffect, useState } from "react";
 import { Clock } from 'lucide-react';
 import { Chip, Skeleton } from "@heroui/react";
-export const API_BASE_URL = import.meta.env.VITE_API_URL ?? "";
+import { API_BASE_URL } from "../../config";
 
 interface TafProps {
   airport: Airport;
