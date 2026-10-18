@@ -123,4 +123,3 @@ export default function SelectAirport({ setAirport }: SelectAirportProps) {
         </div>
     );
 }
-```
