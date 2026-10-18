@@ -11,96 +11,97 @@ import type { Airport } from "../../types/airport";
 import type { Units } from '../../types/units';
 import type { TempDataPoint, WindDataPoint, PressureDataPoint, VisibilityDataPoint } from '../../types/charts';
 import { Skeleton } from '@heroui/react';
+export const API_BASE_URL = import.meta.env.VITE_API_URL ?? "";
 
 interface ChartsProps {
-    airport: Airport;
-    units: Units;
+  airport: Airport;
+  units: Units;
 }
 
-export function Charts({ airport, units}: ChartsProps) {
-    const [tempList, setTempList] = useState<TempDataPoint[]>([]);
-    const [windList, setWindList] = useState<WindDataPoint[]>([]);
-    const [pressureList, setPressureList] = useState<PressureDataPoint[]>([]);
-    const [visibilityList, setVisibilityList] = useState<VisibilityDataPoint[]>([]);
-    const [isLoading, setIsLoading] = useState(false);
+export function Charts({ airport, units }: ChartsProps) {
+  const [tempList, setTempList] = useState<TempDataPoint[]>([]);
+  const [windList, setWindList] = useState<WindDataPoint[]>([]);
+  const [pressureList, setPressureList] = useState<PressureDataPoint[]>([]);
+  const [visibilityList, setVisibilityList] = useState<VisibilityDataPoint[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
 
-    useEffect(() => {
-        async function fetchMetarHistory() {
-            if (!airport?.icao) return;
-            setIsLoading(true);
-            try {
-                const response = await fetch(
-                    `/api/metarhistory/${airport.icao}`
-                );
-                const data: Metar[] = (await response.json()).reverse();
+  useEffect(() => {
+    async function fetchMetarHistory() {
+      if (!airport?.icao) return;
+      setIsLoading(true);
+      try {
+        const response = await fetch(
+          `${API_BASE_URL}/api/metarhistory/${airport.icao}`
+        );
+        const data: Metar[] = (await response.json()).reverse();
 
-                const tempData = data.map(m => ({
-                    reportTime: new Date(m.reportTime),
-                    temperature: parseFloat(convertTemperature(m.temp, "°C", units.temperature) as string),
-                    dewpoint: parseFloat(convertTemperature(m.dewp, "°C", units.temperature) as string)
-                }));
-                setTempList(tempData);
-                const windData = data.map(m => ({
-                    reportTime: new Date(m.reportTime),
-                    windspeed: parseFloat(convertSpeed(m.wspd, "Kt", units.speed) as string),
-                    gusts: m.wgst ? parseFloat(convertSpeed(m.wgst, "Kt", units.speed) as string) : 0
-                }));
-                setWindList(windData.filter((d) => new Date(d.reportTime).getHours() % 6 === 0));
-                const pressureData = data.map(m => ({
-                    reportTime: new Date(m.reportTime),
-                    pressure: m.altim
-                }));
-                setPressureList(pressureData);
-                const visibilityData = data.map(m => ({
-                    reportTime: new Date(m.reportTime),
-                    visibility: m.visib === "6+" ? convertDistance("6", "mi", units.distance) : convertDistance(m.visib, "mi", units.distance)
-                }))
-                setVisibilityList(visibilityData);
+        const tempData = data.map(m => ({
+          reportTime: new Date(m.reportTime),
+          temperature: parseFloat(convertTemperature(m.temp, "°C", units.temperature) as string),
+          dewpoint: parseFloat(convertTemperature(m.dewp, "°C", units.temperature) as string)
+        }));
+        setTempList(tempData);
+        const windData = data.map(m => ({
+          reportTime: new Date(m.reportTime),
+          windspeed: parseFloat(convertSpeed(m.wspd, "Kt", units.speed) as string),
+          gusts: m.wgst ? parseFloat(convertSpeed(m.wgst, "Kt", units.speed) as string) : 0
+        }));
+        setWindList(windData.filter((d) => new Date(d.reportTime).getHours() % 6 === 0));
+        const pressureData = data.map(m => ({
+          reportTime: new Date(m.reportTime),
+          pressure: m.altim
+        }));
+        setPressureList(pressureData);
+        const visibilityData = data.map(m => ({
+          reportTime: new Date(m.reportTime),
+          visibility: m.visib === "6+" ? convertDistance("6", "mi", units.distance) : convertDistance(m.visib, "mi", units.distance)
+        }))
+        setVisibilityList(visibilityData);
 
-            } catch (error) {
-                console.error("Error when fetching Metar history", error);
-            } finally {
-                setIsLoading(false);
-            }
-        }
+      } catch (error) {
+        console.error("Error when fetching Metar history", error);
+      } finally {
+        setIsLoading(false);
+      }
+    }
 
-        fetchMetarHistory();
-    }, [airport?.icao, units.distance, units.speed, units.temperature]);
+    fetchMetarHistory();
+  }, [airport?.icao, units.distance, units.speed, units.temperature]);
 
-    const ChartSkeleton = () => (
-        <div className="bg-card p-6 rounded-md border border-border flex flex-col gap-5">
-            <Skeleton className="h-5 w-48 rounded-md" />
-            <Skeleton className="h-64 w-full rounded-md" />
-        </div>
-    );
+  const ChartSkeleton = () => (
+    <div className="bg-card p-6 rounded-md border border-border flex flex-col gap-5">
+      <Skeleton className="h-5 w-48 rounded-md" />
+      <Skeleton className="h-64 w-full rounded-md" />
+    </div>
+  );
 
-    return (
-        <div>
-            <h3 className='text-2xl font-semibold tracking-wider mb-1'>Weather Trends</h3>
-            <p className="text-sm text-muted-foreground mb-10">Historical data from the past seven days</p>
+  return (
+    <div>
+      <h3 className='text-2xl font-semibold tracking-wider mb-1'>Weather Trends</h3>
+      <p className="text-sm text-muted-foreground mb-10">Historical data from the past seven days</p>
 
-            <div className="flex flex-col gap-5">
-                {isLoading ? (
-                    Array.from({ length: 4 }).map((_, i) => <ChartSkeleton key={i} />)
-                ) : !airport?.icao ? (
-                    <h3 className="text-lg">No airport selected.</h3>
-                ) : (
-                    <>
-                        <div className="bg-card p-6 rounded-md border border-border">
-                            <TempChart data={tempList} title="Temperature & Dewpoint" units={units} />
-                        </div>
-                        <div className="bg-card p-6 rounded-md border border-border">
-                            <PressureChart data={pressureList} title="Atmospheric pressure" />
-                        </div>
-                        <div className="bg-card p-6 rounded-md border border-border">
-                            <WindChart data={windList} title="Wind Speed & Gusts" units={units} />
-                        </div>
-                        <div className="bg-card p-6 rounded-md border border-border">
-                            <VisibilityChart data={visibilityList} title="Visibility" units={units} />
-                        </div>
-                    </>
-                )}
+      <div className="flex flex-col gap-5">
+        {isLoading ? (
+          Array.from({ length: 4 }).map((_, i) => <ChartSkeleton key={i} />)
+        ) : !airport?.icao ? (
+          <h3 className="text-lg">No airport selected.</h3>
+        ) : (
+          <>
+            <div className="bg-card p-6 rounded-md border border-border">
+              <TempChart data={tempList} title="Temperature & Dewpoint" units={units} />
             </div>
-        </div>
-    )
+            <div className="bg-card p-6 rounded-md border border-border">
+              <PressureChart data={pressureList} title="Atmospheric pressure" />
+            </div>
+            <div className="bg-card p-6 rounded-md border border-border">
+              <WindChart data={windList} title="Wind Speed & Gusts" units={units} />
+            </div>
+            <div className="bg-card p-6 rounded-md border border-border">
+              <VisibilityChart data={visibilityList} title="Visibility" units={units} />
+            </div>
+          </>
+        )}
+      </div>
+    </div>
+  )
 }

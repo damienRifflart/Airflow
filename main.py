@@ -4,7 +4,12 @@ import httpx
 
 app = FastAPI()
 
-origins = ["http://localhost:3000", "http://localhost:5173","https://airflow.rifflartdamien.me"]
+origins = [
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "https://airflow.rifflartdamien.me",
+    "https://damienrifflart.github.io",
+]
 
 app.add_middleware(
     CORSMiddleware,
@@ -13,6 +18,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 @app.get("/api/metar/{icao}")
 async def get_metar(icao: str):
@@ -36,6 +42,7 @@ async def get_metar(icao: str):
 
     return data
 
+
 @app.get("/api/metarhistory/{icao}")
 async def get_metarhistory(icao: str):
     url = f"https://aviationweather.gov/api/data/metar?ids={icao}&hours=168&format=json"
@@ -54,9 +61,12 @@ async def get_metarhistory(icao: str):
         raise HTTPException(status_code=502, detail="Invalid JSON response.")
 
     if not data:
-        raise HTTPException(status_code=404, detail=f"No Metar History found for {icao}.")
+        raise HTTPException(
+            status_code=404, detail=f"No Metar History found for {icao}."
+        )
 
     return data
+
 
 @app.get("/api/taf/{icao}")
 async def get_taf(icao: str):
@@ -79,3 +89,4 @@ async def get_taf(icao: str):
         raise HTTPException(status_code=404, detail=f"No Taf found for {icao}.")
 
     return data
+
