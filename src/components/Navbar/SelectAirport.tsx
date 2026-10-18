@@ -84,7 +84,7 @@ export default function SelectAirport({ setAirport }: SelectAirportProps) {
                                 <SearchField.Input
                                     placeholder="Type city, airport name or ICAO"
                                     value={query}
-                                    onChange={setQuery}
+                                    onChange={(e) => setQuery(e.target.value)}
                                 />
                                 <SearchField.ClearButton
                                     className="bg-background"
